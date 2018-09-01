@@ -189,7 +189,7 @@ The below sections explain the process to for creating an XBridge and wallet con
 
 
 ### Creating an XBridge File
-In this explanation, Blocknet wallet [v3.9.22](https://github.com/BlocknetDX/BlockDX/releases/tag/v3.9.22) will be used as an example throughout the process of creating an XBridge configuration file. The name this file is saved as should be the same as the `ver_id` of the original `manifest.json` version group it was created for. Blocknet example: `"ver_id": "blocknet--v3.9.16"` yields `blocknet--v3.9.16.conf`;
+In this explanation, Blocknet wallet [v3.9.22](https://github.com/BlocknetDX/BlockDX/releases/tag/v3.9.22) will be used as an example throughout the process of creating an XBridge configuration file. The name this file is saved as should be the same as the `ver_id` of the original `manifest.json` version group it was created for. Blocknet example: `"ver_id": "blocknetdx--v3.9.16"` yields `blocknetdx--v3.9.16.conf`;
 
 Setting                         | Procedure
 --------------------------------|----------------
