@@ -217,7 +217,7 @@ Confirmations=0                 | Confirmations is the minimum amount of transac
 
 
 ### Creating a Wallet File
-In this explanation, Blocknet wallet [v3.9.22](https://github.com/BlocknetDX/BlockDX/releases/tag/v3.9.22) will be used as an example throughout the process of creating an wallet configuration file. The name this files is save as should be the same as the `ver_id` of the original `manifest.json` version group it was created for. Blocknet example: `"ver_id": "blocknet--v3.9.16"` yields `blocknet--v3.9.16.conf`;
+In this explanation, Blocknet wallet [v3.9.22](https://github.com/BlocknetDX/BlockDX/releases/tag/v3.9.22) will be used as an example throughout the process of creating an wallet configuration file. The name this files is save as should be the same as the `ver_id` of the original `manifest.json` version group it was created for. Blocknet example: `"ver_id": "blocknetdx--v3.9.16"` yields `blocknetdx--v3.9.16.conf`;
 
 Setting                         | Procedure
 --------------------------------|----------------
