@@ -127,7 +127,7 @@ Confirmations=0                 # Number of confirmations to complete exchange;
 ```
 **Example XBridge File**
 
-*File Name*: `blocknet--v3.9.16.conf`
+*File Name*: `blocknetdx--v3.9.16.conf`
 ```
 [BLOCK]
 Title=Blocknet
@@ -169,7 +169,7 @@ changetype=legacy               # Remove if not a Segwit supported blockchain;
 ```
 **Example Wallet File**
 
-*File Name*: `blocknet--v3.9.16.conf`
+*File Name*: `blocknetdx--v3.9.16.conf`
 ```
 listen=1
 server=1
