@@ -39,9 +39,10 @@ Table of contents
 
 Configuration File Overview
 --------------------------------------
-The data structure of the configuration files is designed to accommodate for versioning. There are 4 data sets as follows:
+The data structure of the configuration files is designed to accommodate for versioning. There are 5 data sets as follows:
 
-* `manifest-latest.json` - Contains the latest master data and versioning reference of each blockchain.
+* `manifest-latest.json` - Contains the latest official master data and versioning reference of each blockchain.
+* `manifest.json` - Contains the staged updated master data and versioning reference of each blockchain.
 * `manifests` - Contains immutable manifest versions that align with Blocknet wallet releases.
 * `xbridge-confs` - Contains the versioned XBridge configuration files for each blockchain.
 * `wallet-confs` - Contains the versioned wallet configuration files for each blockchain.
