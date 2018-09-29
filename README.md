@@ -56,6 +56,7 @@ The `manifest.json` contains an array of objects with each object containing ver
     "ticker": "",
     "ver_id": "",
     "ver_name": "",
+    "conf_name": "",
     "dir_name_linux": "",
     "dir_name_mac": "",
     "dir_name_win": "",
@@ -70,8 +71,9 @@ Key               | Description
 ------------------|------------------
 blockchain      | The name of the blockchain: *Blocknet, Dogecoin, Syscoin, etc*. This is user-facing, case-sensitive, and should remain consistent across all version groups for this blockchain.
 ticker          | The abbreviation used to represent this blockchain on exchanges: *BLOCK, DOGE, SYS, etc*. Use all uppercase letters.
-ver_id          | This ID must be unique, not change, and is case-sensitive. The format used is the wallet's configuration file name(without the extension), followed by a double-hyphen, then the initial wallet version added to this compatibility versioning group: *blocknetdx--v3.9.16, dogecoin--v1.10.0-dogeparty, syscoin--3.0.5.0, etc*.
+ver_id          | This ID must be unique, not change, and is case-sensitive. The format used is the wallet's configuration file name (without the extension), followed by a double-hyphen, then the initial wallet version added to this compatibility versioning group: *blocknetdx--v3.9.16, dogecoin--v1.10.0-dogeparty, syscoin--3.0.5.0, etc*.
 ver_name        | User viewable and user friendly name for the blockchain version group. This can be changed/renamed and is used to indicate the blockchain versioning group. For example, Blocknet's current `ver_name` is *Blocknet v3.9.16+*. If a new version group was created for the next waller version release, the `ver_name` could be changed to *Blocknet v3.9.16-v3.9.22*.
+conf_name       | The name of the wallet's configuration file (with the extension): *blocknetdx.conf, dogecoin.conf, syscoin.conf, etc*. This is case-sensitive and should be written exactly as it is in the file name.
 dir_name_linux  | This is the name of the blockchain's folder in the data directory: *blocknetdx, dogecoin, syscoincore, etc*. This is case-sensitive and should be written exactly as it is in the folder name.
 dir_name_mac    | This is the name of the blockchain's folder in the data directory: *BlocknetDX, Dogecoin, SyscoinCore, etc*. This is case-sensitive and should be written exactly as it is in the folder name.
 dir_name_win    | This is the name of the blockchain's folder in the data directory: *BlocknetDX, Dogecoin, SyscoinCore, etc*. This is case-sensitive and should be written exactly as it is in the folder name.
@@ -87,6 +89,7 @@ wallet_conf     | This is the name of the wallet configuration file within the `
     "ticker": "BLOCK",
     "ver_id": "blocknetdx--v3.9.16",
     "ver_name": "Blocknet v3.9.16+",
+    "conf_name": "blocknetdx.conf",
     "dir_name_linux": "blocknetdx",
     "dir_name_mac": "BlocknetDX",
     "dir_name_win": "BlocknetDX",
