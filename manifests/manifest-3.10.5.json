@@ -135,6 +135,22 @@
     "wallet_conf": "bitcoingreen--1.1.0.conf"
   },
   {
+    "blockchain": "BitcoinZero",
+    "ticker": "BZX",
+    "ver_id": "bitcoinzero--5.0.0.5",
+    "ver_name": "BitcoinZero 5.0.0.5",
+    "conf_name": "bitcoinzero.conf",
+    "dir_name_linux": "bitcoinzero",
+    "dir_name_mac": "bitcoinzero",
+    "dir_name_win": "bitcoinzero",
+    "repo_url": "https://github.com/BitcoinZeroOfficial/bitcoinzero",
+    "versions": [
+      "5.0.0.5"
+    ],
+    "xbridge_conf": "bitcoinzero--5.0.0.5.conf",
+    "wallet_conf": "bitcoinzero--5.0.0.5.conf"
+  },
+  {
     "blockchain": "BLAST",
     "ticker": "BLAST",
     "ver_id": "blast--v1.2.0.2",
