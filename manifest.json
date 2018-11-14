@@ -76,8 +76,7 @@
     "dir_name_win": "BanqCore",
     "repo_url": "https://github.com/banq-platform/banq",
     "versions": [
-      "v1.0",
-      "v0.12.1.3"
+      "v1.0"
     ],
     "xbridge_conf": "banq--v1.0.conf",
     "wallet_conf": "banq--v1.0.conf"
