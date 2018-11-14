@@ -939,7 +939,10 @@
     "dir_name_win": "Myriadcoin",
     "repo_url": "https://github.com/myriadteam/myriadcoin",
     "versions": [
-      "v0.14.2.5"
+      "v0.14.2.5",
+      "v0.14.3.0",
+      "v0.14.4.0",
+      "v0.14.4.1"
     ],
     "xbridge_conf": "myriadcoin--v0.14.2.5.conf",
     "wallet_conf": "myriadcoin--v0.14.2.5.conf"
