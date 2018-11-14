@@ -432,7 +432,7 @@
   {
     "blockchain": "Dogecoin",
     "ticker": "DOGE",
-    "ver_id": "dogecoin--v1.10.0-dogeparty",
+    "ver_id": "dogecoin--v1.10.0",
     "ver_name": "Dogecoin",
     "conf_name": "dogecoin.conf",
     "dir_name_linux": "dogecoin",
@@ -440,10 +440,11 @@
     "dir_name_win": "Dogecoin",
     "repo_url": "https://github.com/dogecoin/dogecoin",
     "versions": [
+      "v1.10.0",
       "v1.10.0-dogeparty"
     ],
-    "xbridge_conf": "dogecoin--v1.10.0-dogeparty.conf",
-    "wallet_conf": "dogecoin--v1.10.0-dogeparty.conf"
+    "xbridge_conf": "dogecoin--v1.10.0.conf",
+    "wallet_conf": "dogecoin--v1.10.0.conf"
   },
   {
     "blockchain": "Einsteinium",
