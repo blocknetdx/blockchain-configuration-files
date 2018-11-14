@@ -505,7 +505,8 @@
     "dir_name_win": "faircoin2",
     "repo_url": "https://github.com/faircoin/faircoin",
     "versions": [
-      "v2.0.0"
+      "v2.0.0",
+      "v2.0.1"
     ],
     "xbridge_conf": "faircoin--v2.0.0.conf",
     "wallet_conf": "faircoin--v2.0.0.conf"
