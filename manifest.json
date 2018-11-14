@@ -723,7 +723,8 @@
     "dir_name_win": "kreds",
     "repo_url": "https://github.com/KredsBlockchain/kreds-core",
     "versions": [
-      "v1.0.0.5.1"
+      "v1.0.0.5.1",
+      "v1.0.0.6"
     ],
     "xbridge_conf": "kreds--v1.0.0.5.1.conf",
     "wallet_conf": "kreds--v1.0.0.5.1.conf"
