@@ -751,18 +751,20 @@
   {
     "blockchain": "Litecoin",
     "ticker": "LTC",
-    "ver_id": "litecoin--v0.16.3",
-    "ver_name": "Litecoin v0.16.3+",
+    "ver_id": "litecoin--v0.16.0",
+    "ver_name": "Litecoin v0.16.0+",
     "conf_name": "litecoin.conf",
     "dir_name_linux": "litecoin",
     "dir_name_mac": "Litecoin",
     "dir_name_win": "Litecoin",
     "repo_url": "https://github.com/litecoin-project/litecoin",
     "versions": [
+      "v0.16.0",
+      "v0.16.2",
       "v0.16.3"
     ],
     "xbridge_conf": "litecoin--v0.15.1.conf",
-    "wallet_conf": "litecoin--v0.16.3.conf"
+    "wallet_conf": "litecoin--v0.16.0.conf"
   },
   {
     "blockchain": "Lynx",
