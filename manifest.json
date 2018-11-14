@@ -556,6 +556,22 @@
     "wallet_conf": "gobyte--v0.12.2.4.conf"
   },
   {
+    "blockchain": "GravityCoin",
+    "ticker": "GXX",
+    "ver_id": "GravityCoin--4.0.5.0",
+    "ver_name": "GravityCoin",
+    "conf_name": "GravityCoin.conf",
+    "dir_name_linux": "GravityCoin",
+    "dir_name_mac": "GravityCoin",
+    "dir_name_win": "GravityCoin",
+    "repo_url": "https://github.com/GravityCoinOfficial/GravityCoin",
+    "versions": [
+      "4.0.5.0"
+    ],
+    "xbridge_conf": "GravityCoin--4.0.5.0.conf",
+    "wallet_conf": "GravityCoin--4.0.5.0.conf"
+  },
+  {
     "blockchain": "HexxCoin",
     "ticker": "HXX",
     "ver_id": "hexxcoin--4.0.3.8",
