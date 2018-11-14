@@ -1550,7 +1550,7 @@
     "blockchain": "Viacoin",
     "ticker": "VIA",
     "ver_id": "viacoin--v0.15.1",
-    "ver_name": "Viacoin v0.15.1+",
+    "ver_name": "Viacoin",
     "conf_name": "viacoin.conf",
     "dir_name_linux": "viacoin",
     "dir_name_mac": "Viacoin",
@@ -1641,7 +1641,8 @@
     "repo_url": "https://github.com/wagerr/wagerr",
     "versions": [
       "1.5.0",
-      "v2.0.0"
+      "v2.0.0",
+      "v2.0.1"
     ],
     "xbridge_conf": "wagerr--1.5.0.conf",
     "wallet_conf": "wagerr--1.5.0.conf"
