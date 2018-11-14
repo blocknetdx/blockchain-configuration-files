@@ -502,7 +502,8 @@
     "dir_name_win": "Fujicoin",
     "repo_url": "https://github.com/fujicoin/fujicoin",
     "versions": [
-      "fujicoin-v0.16.1"
+      "fujicoin-v0.16.1",
+      "fujicoin-v0.16.3"
     ],
     "xbridge_conf": "fujicoin--fujicoin-v0.16.1.conf",
     "wallet_conf": "fujicoin--fujicoin-v0.16.1.conf"
