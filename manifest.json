@@ -573,22 +573,6 @@
     "wallet_conf": "GravityCoin--4.0.5.0.conf"
   },
   {
-    "blockchain": "HexxCoin",
-    "ticker": "HXX",
-    "ver_id": "hexxcoin--4.0.3.8",
-    "ver_name": "HexxCoin",
-    "conf_name": "hexxcoin.conf",
-    "dir_name_linux": "hexxcoin",
-    "dir_name_mac": "hexxcoin",
-    "dir_name_win": "hexxcoin",
-    "repo_url": "https://github.com/hexxcointakeover/hexxcoin",
-    "versions": [
-      "4.0.3.8"
-    ],
-    "xbridge_conf": "hexxcoin--4.0.3.8.conf",
-    "wallet_conf": "hexxcoin--4.0.3.8.conf"
-  },
-  {
     "blockchain": "HTMLCoin",
     "ticker": "HTML",
     "ver_id": "htmlcoin--v2.0.3.0",
@@ -1637,20 +1621,4 @@
     "xbridge_conf": "zcoin--v0.13.6.4.conf",
     "wallet_conf": "zcoin--v0.13.6.4.conf"
   },
-  {
-    "blockchain": "Zoin",
-    "ticker": "ZOI",
-    "ver_id": "zoin--v0.13.1.6",
-    "ver_name": "Zoin",
-    "conf_name": "zoin.conf",
-    "dir_name_linux": "zoin",
-    "dir_name_mac": "zoin",
-    "dir_name_win": "zoin",
-    "repo_url": "https://github.com/zoinofficial/zoin",
-    "versions": [
-      "v0.13.1.6"
-    ],
-    "xbridge_conf": "zoin--v0.13.1.6.conf",
-    "wallet_conf": "zoin--v0.13.1.6.conf"
-  }
 ]
