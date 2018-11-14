@@ -232,7 +232,8 @@
     "dir_name_win": "CarebitCoin",
     "repo_url": "https://github.com/carebitcoin/carebitcoin",
     "versions": [
-      "v3.0.0.0"
+      "v3.0.0.0",
+      "v4.0.0.0"
     ],
     "xbridge_conf": "carebitcoin--v3.0.0.0.conf",
     "wallet_conf": "carebitcoin--v3.0.0.0.conf"
