@@ -656,7 +656,10 @@
     "dir_name_win": "IoP",
     "repo_url": "https://github.com/Internet-of-People/iop-core",
     "versions": [
-      "v6.1.0"
+      "v6.1.0",
+      "v6.2.1",
+      "v6.2.2",
+      "v6.2.3"
     ],
     "xbridge_conf": "iop--v6.1.0.conf",
     "wallet_conf": "iop--v6.1.0.conf"
