@@ -1150,7 +1150,8 @@
     "dir_name_win": "Pura",
     "repo_url": "https://github.com/puracore/pura",
     "versions": [
-      "v1.0.0.0"
+      "v1.0.0.0",
+      "v1.3.7"
     ],
     "xbridge_conf": "pura--v1.0.0.0.conf",
     "wallet_conf": "pura--v1.0.0.0.conf"
