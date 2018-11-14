@@ -113,11 +113,27 @@
       "v0.16.0",
       "v0.16.1",
       "v0.16.2",
-      "v0.16.3",
-      "v0.17.0"
+      "v0.16.3"
     ],
     "xbridge_conf": "bitcoin--v0.15.1.conf",
     "wallet_conf": "bitcoin--v0.16.0.conf"
+  },
+  {
+    "blockchain": "Bitcoin",
+    "ticker": "BTC",
+    "ver_id": "bitcoin--v0.17.0",
+    "ver_name": "Bitcoin v0.17.0+",
+    "conf_name": "bitcoin.conf",
+    "dir_name_linux": "bitcoin",
+    "dir_name_mac": "Bitcoin",
+    "dir_name_win": "Bitcoin",
+    "repo_url": "https://github.com/bitcoin/bitcoin",
+    "versions": [
+      "v0.17.0",
+      "v0.17.0.1"
+    ],
+    "xbridge_conf": "bitcoin--v0.15.1.conf",
+    "wallet_conf": "bitcoin--v0.17.0.conf"
   },
   {
     "blockchain": "Bitcoin Green",
