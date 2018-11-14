@@ -1127,7 +1127,14 @@
     "dir_name_win": "PolisCore",
     "repo_url": "https://github.com/polispay/polis",
     "versions": [
-      "v1.3.1"
+      "v1.3.1",
+      "v1.4.0",
+      "v1.4.1",
+      "v1.4.2",
+      "v1.4.3",
+      "v1.4.4",
+      "v1.4.5",
+      "v1.4.6"
     ],
     "xbridge_conf": "polis--v1.3.1.conf",
     "wallet_conf": "polis--v1.3.1.conf"
