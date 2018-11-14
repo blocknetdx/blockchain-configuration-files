@@ -1402,7 +1402,7 @@
     "blockchain": "Uniform Fiscal Object",
     "ticker": "UFO",
     "ver_id": "ufocoin--v0.16.1",
-    "ver_name": "Uniform Fiscal Object",
+    "ver_name": "Uniform Fiscal Object v0.16.1+",
     "conf_name": "ufocoin.conf",
     "dir_name_linux": "ufo",
     "dir_name_mac": "UFO",
@@ -1413,6 +1413,22 @@
     ],
     "xbridge_conf": "ufocoin--v0.16.1.conf",
     "wallet_conf": "ufocoin--v0.16.1.conf"
+  },
+  {
+    "blockchain": "Uniform Fiscal Object",
+    "ticker": "UFO",
+    "ver_id": "ufocoin--v0.17.0",
+    "ver_name": "Uniform Fiscal Object v0.17.0+",
+    "conf_name": "ufocoin.conf",
+    "dir_name_linux": "ufo",
+    "dir_name_mac": "UFO",
+    "dir_name_win": "UFO",
+    "repo_url": "https://github.com/fiscalobject/ufo",
+    "versions": [
+      "v0.17.0"
+    ],
+    "xbridge_conf": "ufocoin--v0.17.0.conf",
+    "wallet_conf": "ufocoin--v0.17.0.conf"
   },
   {
     "blockchain": "United Crypto Community",
