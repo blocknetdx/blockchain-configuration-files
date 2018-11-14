@@ -621,7 +621,10 @@
     "dir_name_win": "HTMLCOIN",
     "repo_url": "https://github.com/HTMLCOIN/HTMLCOIN",
     "versions": [
-      "v2.0.3.0"
+      "v2.0.3.0",
+      "v2.1.0.0",
+      "v2.1.1.0",
+      "v2.1.2"
     ],
     "xbridge_conf": "htmlcoin--v2.0.3.0.conf",
     "wallet_conf": "htmlcoin--v2.0.3.0.conf"
