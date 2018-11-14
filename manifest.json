@@ -1183,7 +1183,10 @@
     "dir_name_win": "Qtum",
     "repo_url": "https://github.com/qtumproject/qtum",
     "versions": [
-      "mainnet-ignition-v0.15.2"
+      "mainnet-ignition-v0.15.2",
+      "mainnet-ignition-v0.15.3",
+      "mainnet-ignition-v0.16.0",
+      "mainnet-ignition-v0.16.1"
     ],
     "xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
     "wallet_conf": "qtum--mainnet-ignition-v0.15.2.conf"
