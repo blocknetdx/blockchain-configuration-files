@@ -179,7 +179,8 @@
     "dir_name_win": "BLAST",
     "repo_url": "https://github.com/blastdev/blast-core",
     "versions": [
-      "v1.2.0.2"
+      "v1.2.0.2",
+      "v1.3.0.0"
     ],
     "xbridge_conf": "blast--v1.2.0.2.conf",
     "wallet_conf": "blast--v1.2.0.2.conf"
