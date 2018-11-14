@@ -1274,7 +1274,8 @@
     "dir_name_win": "Solaris",
     "repo_url": "https://github.com/Solaris-Project/Solaris",
     "versions": [
-      "v2.8.0.0"
+      "v2.8.0.0",
+      "v2.8.1.0"
     ],
     "xbridge_conf": "solaris--v2.8.0.0.conf",
     "wallet_conf": "solaris--v2.8.0.0.conf"
