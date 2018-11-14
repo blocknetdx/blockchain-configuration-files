@@ -1283,18 +1283,18 @@
   {
     "blockchain": "Sparks",
     "ticker": "SPK",
-    "ver_id": "sparks--0.12.1.3",
+    "ver_id": "sparks--v0.12.3.2",
     "ver_name": "Sparks",
     "conf_name": "sparks.conf",
-    "dir_name_linux": "Sparks",
-    "dir_name_mac": "Sparks",
-    "dir_name_win": "Sparks",
-    "repo_url": "https://github.com/sparkscrypto/Sparks",
+    "dir_name_linux": "sparkscore",
+    "dir_name_mac": "SparksCore",
+    "dir_name_win": "SparksCore",
+    "repo_url": "https://github.com/SparksReborn/sparkspay",
     "versions": [
-      "0.12.1.3"
+      "v0.12.3.2"
     ],
-    "xbridge_conf": "sparks--0.12.1.3.conf",
-    "wallet_conf": "sparks--0.12.1.3.conf"
+    "xbridge_conf": "sparks--v0.12.3.2.conf",
+    "wallet_conf": "sparks--v0.12.3.2.conf"
   },
   {
     "blockchain": "Stakenet",
