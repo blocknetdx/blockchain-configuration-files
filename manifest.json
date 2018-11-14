@@ -1505,7 +1505,8 @@
     "dir_name_win": "Unobtanium",
     "repo_url": "https://github.com/unobtanium-official/Unobtanium",
     "versions": [
-      "v0.10.1.1"
+      "v0.10.1.1",
+      "v0.10.4.0"
     ],
     "xbridge_conf": "unobtanium--v0.10.1.1.conf",
     "wallet_conf": "unobtanium--v0.10.1.1.conf"
