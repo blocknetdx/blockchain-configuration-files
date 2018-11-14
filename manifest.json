@@ -1022,7 +1022,7 @@
   },
   {
     "blockchain": "Ohmcoin",
-    "ticker": "OHM",
+    "ticker": "OHMC",
     "ver_id": "ohmc--v2.3.0.0-gcbcb549",
     "ver_name": "Ohmcoin",
     "conf_name": "ohmc.conf",
@@ -1032,7 +1032,8 @@
     "repo_url": "https://github.com/theohmproject/OhmCoin",
     "versions": [
       "v2.3.0.0-gcbcb549",
-      "2.3.1"
+      "2.3.1",
+      "2.3.2"
     ],
     "xbridge_conf": "ohmc--v2.3.0.0-gcbcb549.conf",
     "wallet_conf": "ohmc--v2.3.0.0-gcbcb549.conf"
