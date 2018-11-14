@@ -147,7 +147,8 @@
     "repo_url": "https://github.com/bitcoingreen/bitcoingreen",
     "versions": [
       "1.1.0",
-      "1.2.2"
+      "1.2.2",
+      "v1.3.0"
     ],
     "xbridge_conf": "bitcoingreen--1.1.0.conf",
     "wallet_conf": "bitcoingreen--1.1.0.conf"
