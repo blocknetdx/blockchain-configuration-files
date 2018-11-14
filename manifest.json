@@ -447,6 +447,22 @@
     "wallet_conf": "dogecoin--v1.10.0.conf"
   },
   {
+    "blockchain": "Dynamic",
+    "ticker": "DYN",
+    "ver_id": "dynamic--v2.3.5.0",
+    "ver_name": "Dynamic",
+    "conf_name": "dynamic.conf",
+    "dir_name_linux": "dynamic",
+    "dir_name_mac": "Dynamic",
+    "dir_name_win": "Dynamic",
+    "repo_url": "https://github.com/duality-solutions/Dynamic",
+    "versions": [
+      "v2.3.5.0"
+    ],
+    "xbridge_conf": "dynamic--v2.3.5.0",
+    "wallet_conf": "dynamic--v2.3.5.0"
+  },
+  {
     "blockchain": "Einsteinium",
     "ticker": "EMC2",
     "ver_id": "einsteinium--v0.13.48.0",
