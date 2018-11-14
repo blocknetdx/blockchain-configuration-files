@@ -213,7 +213,10 @@
     "dir_name_win": "Bulwark",
     "repo_url": "https://github.com/bulwark-crypto/Bulwark",
     "versions": [
-      "1.2.4"
+      "1.2.4",
+      "1.3.0",
+      "1.3.1",
+      "2.0.0"
     ],
     "xbridge_conf": "bulwark--1.2.4.conf",
     "wallet_conf": "bulwark--1.2.4.conf"
