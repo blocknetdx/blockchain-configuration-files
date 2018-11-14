@@ -1417,9 +1417,9 @@
   {
     "blockchain": "United Crypto Community",
     "ticker": "UCOM",
-    "ver_id": "unitedcryptocommunity--v0.1.8.1",
+    "ver_id": "ucom--v0.1.8.1",
     "ver_name": "United Crypto Community",
-    "conf_name": "unitedcryptocommunity.conf",
+    "conf_name": "ucom.conf",
     "dir_name_linux": "ucom",
     "dir_name_mac": "UCOM",
     "dir_name_win": "UCOM",
@@ -1428,8 +1428,8 @@
       "v0.1.8.1",
       "v0.1.8.3"
     ],
-    "xbridge_conf": "unitedcryptocommunity--v0.1.8.1.conf",
-    "wallet_conf": "unitedcryptocommunity--v0.1.8.1.conf"
+    "xbridge_conf": "ucom--v0.1.8.1.conf",
+    "wallet_conf": "ucom--v0.1.8.1.conf"
   },
   {
     "blockchain": "Unobtanium",
