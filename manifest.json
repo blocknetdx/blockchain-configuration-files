@@ -1110,7 +1110,8 @@
     "dir_name_win": "PIVX",
     "repo_url": "https://github.com/PIVX-Project/PIVX",
     "versions": [
-      "v3.1.0.2"
+      "v3.1.0.2",
+      "v3.1.1"
     ],
     "xbridge_conf": "pivx--v3.1.0.2.conf",
     "wallet_conf": "pivx--v3.1.0.2.conf"
