@@ -1471,7 +1471,7 @@
     "versions": [
       "v0.17.0"
     ],
-    "xbridge_conf": "ufocoin--v0.17.0.conf",
+    "xbridge_conf": "ufocoin--v0.16.1.conf",
     "wallet_conf": "ufocoin--v0.17.0.conf"
   },
   {
