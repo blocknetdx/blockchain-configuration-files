@@ -370,7 +370,8 @@
     "dir_name_win": "DMDV3",
     "repo_url": "https://github.com/DMDcoin/Diamond",
     "versions": [
-      "v3.0.1.1"
+      "v3.0.1.1",
+      "v3.0.1.2"
     ],
     "xbridge_conf": "diamond--v3.0.1.1.conf",
     "wallet_conf": "diamond--v3.0.1.1.conf"
