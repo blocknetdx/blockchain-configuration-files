@@ -740,7 +740,10 @@
     "dir_name_win": "lbrycrd",
     "repo_url": "https://github.com/lbryio/lbrycrd",
     "versions": [
-      "v0.12.2.1"
+      "v0.12.2.1",
+      "v0.12.2.2",
+      "v0.12.2.3"
+      "
     ],
     "xbridge_conf": "lbrycrd--v0.12.2.1.conf",
     "wallet_conf": "lbrycrd--v0.12.2.1.conf"
