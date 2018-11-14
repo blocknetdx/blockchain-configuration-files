@@ -653,19 +653,19 @@
   },
   {
     "blockchain": "Jiyo",
-    "ticker": "JIYO",
-    "ver_id": "jiyo--2.1",
+    "ticker": "JIYOX",
+    "ver_id": "jiyo--v.2.1",
     "ver_name": "Jiyo",
     "conf_name": "jiyo.conf",
     "dir_name_linux": "jiyo",
     "dir_name_mac": "Jiyo",
     "dir_name_win": "Jiyo",
-    "repo_url": "https://github.com/jiyocoin/jiyo",
+    "repo_url": "https://github.com/jiyocoin/jiyox",
     "versions": [
-      "2.1"
+      "v.2.1"
     ],
-    "xbridge_conf": "jiyo--2.1.conf",
-    "wallet_conf": "jiyo--2.1.conf"
+    "xbridge_conf": "jiyo--v.2.1.conf",
+    "wallet_conf": "jiyo--v.2.1.conf"
   },
   {
     "blockchain": "Kalkulus",
