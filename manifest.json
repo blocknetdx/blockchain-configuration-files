@@ -1064,7 +1064,7 @@
   {
     "blockchain": "Ohmcoin",
     "ticker": "OHMC",
-    "ver_id": "ohmc--v2.3.1",
+    "ver_id": "ohmc--2.3.1",
     "ver_name": "Ohmcoin",
     "conf_name": "ohmc.conf",
     "dir_name_linux": "ohmc",
@@ -1075,8 +1075,8 @@
       "2.3.1",
       "2.3.2"
     ],
-    "xbridge_conf": "ohmc--v2.3.1.conf",
-    "wallet_conf": "ohmc--v2.3.1.conf"
+    "xbridge_conf": "ohmc--2.3.1.conf",
+    "wallet_conf": "ohmc--2.3.1.conf"
   },
   {
     "blockchain": "Phore",
