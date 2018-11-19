@@ -1061,6 +1061,22 @@
     "wallet_conf": "nyx--v2.0.0.0.conf"
   },
   {
+    "blockchain": "Odin",
+    "ticker": "ODIN",
+    "ver_id": "odin--v1.4.2",
+    "ver_name": "Odin",
+    "conf_name": "odin.conf",
+    "dir_name_linux": "odin",
+    "dir_name_mac": "ODIN",
+    "dir_name_win": "ODIN",
+    "repo_url": "https://github.com/odinblockchain/Odin",
+    "versions": [
+      "v1.4.2"
+    ],
+    "xbridge_conf": "odin--v1.4.2.conf",
+    "wallet_conf": "odin--v1.4.2.conf"
+  },
+  {
     "blockchain": "Ohmcoin",
     "ticker": "OHMC",
     "ver_id": "ohmc--2.3.1",
