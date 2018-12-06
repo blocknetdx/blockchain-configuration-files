@@ -737,6 +737,22 @@
     "wallet_conf": "kreds--v1.0.0.5.1.conf"
   },
   {
+    "blockchain": "KZCash",
+    "ticker": "KZC",
+    "ver_id": "kzcash--v0.1.9.1",
+    "ver_name": "KZCash",
+    "conf_name": "kzcash.conf",
+    "dir_name_linux": "kzcash",
+    "dir_name_mac": "KZCash",
+    "dir_name_win": "KZCash",
+    "repo_url": "https://github.com/kzcashteam/kzcash",
+    "versions": [
+      "v0.1.9.1"
+    ],
+    "xbridge_conf": "kzcash--v0.1.9.1.conf",
+    "wallet_conf": "kzcash--v0.1.9.1.conf"
+  },
+  {
     "blockchain": "LBRY Credits",
     "ticker": "LBC",
     "ver_id": "lbrycrd--v0.12.2.1",
@@ -1501,23 +1517,6 @@
     ],
     "xbridge_conf": "ufocoin--v0.16.1.conf",
     "wallet_conf": "ufocoin--v0.17.0.conf"
-  },
-  {
-    "blockchain": "United Crypto Community",
-    "ticker": "UCOM",
-    "ver_id": "ucom--v0.1.8.1",
-    "ver_name": "United Crypto Community",
-    "conf_name": "ucom.conf",
-    "dir_name_linux": "ucom",
-    "dir_name_mac": "UCOM",
-    "dir_name_win": "UCOM",
-    "repo_url": "https://github.com/unitedcryptocommunity/ucom",
-    "versions": [
-      "v0.1.8.1",
-      "v0.1.8.3"
-    ],
-    "xbridge_conf": "ucom--v0.1.8.1.conf",
-    "wallet_conf": "ucom--v0.1.8.1.conf"
   },
   {
     "blockchain": "Unobtanium",
