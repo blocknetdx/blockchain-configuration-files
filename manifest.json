@@ -672,8 +672,8 @@
       "v6.2.2",
       "v6.2.3"
     ],
-    "xbridge_conf": "iop--v6.1.0.conf",
-    "wallet_conf": "iop--v6.1.0.conf"
+    "xbridge_conf": "iop--v6.2.3.conf",
+    "wallet_conf": "iop--v6.2.3.conf"
   },
   {
     "blockchain": "Ixcoin",
