@@ -989,6 +989,22 @@
     "wallet_conf": "myriadcoin--v0.14.2.5.conf"
   },
   {
+    "blockchain": "Myriad",
+    "ticker": "XMY",
+    "ver_id": "myriadcoin--v0.16.3.0",
+    "ver_name": "Myriad v0.16.3.x",
+    "conf_name": "myriadcoin.conf",
+    "dir_name_linux": "myriadcoin",
+    "dir_name_mac": "Myriadcoin",
+    "dir_name_win": "Myriadcoin",
+    "repo_url": "https://github.com/myriadteam/myriadcoin",
+    "versions": [
+      "v0.16.3.0"
+    ],
+    "xbridge_conf": "myriadcoin--v0.16.3.0.conf",
+    "wallet_conf": "myriadcoin--v0.16.3.0.conf"
+  },
+  {
     "blockchain": "Namecoin",
     "ticker": "NMC",
     "ver_id": "namecoin--nc0.13.99-name-tab-beta1",
