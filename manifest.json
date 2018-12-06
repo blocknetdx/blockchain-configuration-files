@@ -1257,7 +1257,8 @@
     "repo_url": "https://github.com/ivansib/sibcoin",
     "versions": [
       "v0.16.1.3",
-      "v0.16.2.0"
+      "v0.16.2.0",
+      "v0.16.3.0"
     ],
     "xbridge_conf": "sibcoin--v0.16.1.3.conf",
     "wallet_conf": "sibcoin--v0.16.1.3.conf"
