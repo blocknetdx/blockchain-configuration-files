@@ -166,8 +166,8 @@
     "versions": [
       "5.0.1.0"
     ],
-    "xbridge_conf": "bitcoinzero--5.0.1.0.conf",
-    "wallet_conf": "bitcoinzero--5.0.1.0.conf"
+    "xbridge_conf": "bitcoinzero--5.0.0.5.conf",
+    "wallet_conf": "bitcoinzero--5.0.0.5.conf"
   },
   {
     "blockchain": "BLAST",
@@ -1005,7 +1005,7 @@
     "versions": [
       "v0.16.3.0"
     ],
-    "xbridge_conf": "myriadcoin--v0.16.3.0.conf",
+    "xbridge_conf": "myriadcoin--v0.14.2.5.conf",
     "wallet_conf": "myriadcoin--v0.16.3.0.conf"
   },
   {
