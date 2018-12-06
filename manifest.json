@@ -156,18 +156,18 @@
   {
     "blockchain": "BitcoinZero",
     "ticker": "BZX",
-    "ver_id": "bitcoinzero--5.0.0.5",
-    "ver_name": "BitcoinZero 5.0.0.5",
+    "ver_id": "bitcoinzero--5.0.1.0",
+    "ver_name": "BitcoinZero 5.0.1.0",
     "conf_name": "bitcoinzero.conf",
     "dir_name_linux": "bitcoinzero",
     "dir_name_mac": "bitcoinzero",
     "dir_name_win": "bitcoinzero",
     "repo_url": "https://github.com/BitcoinZeroOfficial/bitcoinzero",
     "versions": [
-      "5.0.0.5"
+      "5.0.1.0"
     ],
-    "xbridge_conf": "bitcoinzero--5.0.0.5.conf",
-    "wallet_conf": "bitcoinzero--5.0.0.5.conf"
+    "xbridge_conf": "bitcoinzero--5.0.1.0.conf",
+    "wallet_conf": "bitcoinzero--5.0.1.0.conf"
   },
   {
     "blockchain": "BLAST",
