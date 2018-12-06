@@ -315,7 +315,8 @@
     "repo_url": "https://github.com/Crowndev/crown-core",
     "versions": [
       "v0.12.4.1",
-      "v0.12.5.1"
+      "v0.12.5.1",
+      "v0.12.5.2"
     ],
     "xbridge_conf": "crown--v0.12.4.1.conf",
     "wallet_conf": "crown--v0.12.4.1.conf"
