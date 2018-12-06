@@ -1599,7 +1599,8 @@
     "versions": [
       "v4.1.0.1",
       "4.2.0",
-      "Vitae-4.2.1"
+      "Vitae-4.2.1",
+      "4.3.0"
     ],
     "xbridge_conf": "vitae--v4.1.0.1.conf",
     "wallet_conf": "vitae--v4.1.0.1.conf"
