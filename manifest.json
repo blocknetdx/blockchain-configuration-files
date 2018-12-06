@@ -441,7 +441,8 @@
     "repo_url": "https://github.com/dogecoin/dogecoin",
     "versions": [
       "v1.10.0",
-      "v1.10.0-dogeparty"
+      "v1.10.0-dogeparty",
+      "v1.14-beta-1"
     ],
     "xbridge_conf": "dogecoin--v1.10.0.conf",
     "wallet_conf": "dogecoin--v1.10.0.conf"
