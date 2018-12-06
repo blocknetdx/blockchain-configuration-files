@@ -467,8 +467,8 @@
     "versions": [
       "v2.3.5.0"
     ],
-    "xbridge_conf": "dynamic--v2.3.5.0",
-    "wallet_conf": "dynamic--v2.3.5.0"
+    "xbridge_conf": "dynamic--v2.3.5.0.conf",
+    "wallet_conf": "dynamic--v2.3.5.0.conf"
   },
   {
     "blockchain": "Einsteinium",
