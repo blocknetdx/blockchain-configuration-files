@@ -1614,7 +1614,8 @@
     "dir_name_win": "VivoCore",
     "repo_url": "https://github.com/vivocoin/vivo",
     "versions": [
-      "v0.12.1.8"
+      "v0.12.1.8",
+      "v0.12.1.9"
     ],
     "xbridge_conf": "vivo--v0.12.1.8.conf",
     "wallet_conf": "vivo--v0.12.1.8.conf"
