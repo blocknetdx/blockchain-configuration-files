@@ -42,14 +42,14 @@ Configuration File Overview
 The data structure of the configuration files is designed to accommodate for versioning. There are 5 data sets as follows:
 
 * `manifest-latest.json` - Contains the latest official master data and versioning reference of each blockchain.
-* `manifest.json` - Contains the staged updated master data and versioning reference of each blockchain.
-* `manifests` - Contains immutable manifest versions that align with Blocknet wallet releases.
+* `manifest.json` - Contains the work-in-progress master data and versioning reference of each blockchain.
+* `manifests` - Contains archived manifest versions that align with Blocknet wallet releases.
 * `xbridge-confs` - Contains the versioned XBridge configuration files for each blockchain.
 * `wallet-confs` - Contains the versioned wallet configuration files for each blockchain.
 
 
 ### Manifest File
-The `manifest.json` contains an array of objects with each object containing versioning information for each supported blockchain. The format of each object is as follows:
+The `manifest-latest.json` contains an array of objects with each object containing versioning information for each supported blockchain. The format of each object is as follows:
 ```
 {
     "blockchain": "",
@@ -106,7 +106,7 @@ wallet_conf     | This is the name of the wallet configuration file within the `
 
 
 ### XBridge Configuration Files
-The XBridge configuration files are versioned for each blockchain using the `manifest.json` file as a key. The format of each file is as follows:
+The XBridge configuration files are versioned for each blockchain using the `manifest` file as a key. The format of each file is as follows:
 ```
 [TICKER]                        # Ticker used to represent the blockchain on exchanges;
 Title=                          # Name of the blockchain with spaces removed;
@@ -156,11 +156,11 @@ BlockTime=60
 FeePerByte=20
 Confirmations=0
 ```
-The file name should match the value of the `manifest.json` file `xbridge_conf` key for the version group that these XBridge values pertain to.
+The file name should match the value of the `manifest` file's `xbridge_conf` key for the version group that these XBridge values pertain to.
 
 
 ### Wallet Configuration Files
-The wallet configuration files are versioned for each blockchain using the `manifest.json` file as a key. The format of each file is as follows:
+The wallet configuration files are versioned for each blockchain using the `manifest-latest.json` file as a key. The format of each file is as follows:
 ```
 server=1                        # Enable/disable command line and JSON-RPC commands;
 listen=1                        # Enable/disable peer connections;
@@ -184,7 +184,7 @@ rpcpassword=fa506e4a01a7
 port=41412
 rpcport=41414
 ```
-The file name should match the value of the `manifest.json` file `wallet_conf` key for the version group that these XBridge values pertain to.
+The file name should match the value of the `manifest` file's `wallet_conf` key for the version group that these XBridge values pertain to.
 
 
 
@@ -194,7 +194,7 @@ The below sections explain the process to for creating an XBridge and wallet con
 
 
 ### Creating an XBridge File
-In this explanation, Blocknet wallet [v3.9.22](https://github.com/BlocknetDX/BlockDX/releases/tag/v3.9.22) will be used as an example throughout the process of creating an XBridge configuration file. The name this file is saved as should be the same as the `ver_id` of the original `manifest.json` version group it was created for. Blocknet example: `"ver_id": "blocknetdx--v3.9.16"` yields `blocknetdx--v3.9.16.conf`;
+In this explanation, Blocknet wallet [v3.9.22](https://github.com/BlocknetDX/BlockDX/releases/tag/v3.9.22) will be used as an example throughout the process of creating an XBridge configuration file. The name this file is saved as should be the same as the `ver_id` of the original `manifest` version group it was created for. Blocknet example: `"ver_id": "blocknetdx--v3.9.16"` yields `blocknetdx--v3.9.16.conf`;
 
 Setting                         | Procedure
 --------------------------------|----------------
@@ -222,7 +222,7 @@ Confirmations=0                 | Confirmations is the minimum amount of transac
 
 
 ### Creating a Wallet File
-In this explanation, Blocknet wallet [v3.9.22](https://github.com/BlocknetDX/BlockDX/releases/tag/v3.9.22) will be used as an example throughout the process of creating an wallet configuration file. The name this file is saved as should be the same as the `ver_id` of the original `manifest.json` version group it was created for. Blocknet example: `"ver_id": "blocknetdx--v3.9.16"` yields `blocknetdx--v3.9.16.conf`;
+In this explanation, Blocknet wallet [v3.9.22](https://github.com/BlocknetDX/BlockDX/releases/tag/v3.9.22) will be used as an example throughout the process of creating an wallet configuration file. The name this file is saved as should be the same as the `ver_id` of the original `manifest` version group it was created for. Blocknet example: `"ver_id": "blocknetdx--v3.9.16"` yields `blocknetdx--v3.9.16.conf`;
 
 Setting                         | Procedure
 --------------------------------|----------------
@@ -321,7 +321,7 @@ ExchangeWallets=
 ExchangeWallets=BTC,SYS,BLOCK,DGB,QTUM,DASH,XZC,BITG,LTC,DOGE,PIVX,XSN,MONA,ZOI,VIA,LBC
 ```
 
-After the heading, the contents of the individual XBridge configuration files of the blockchains listed under `ExchangeWallets` are listed. To find the proper XBridge settings for each blockchain, first find the version group in the `manifest.json` file for each blockchain that has the wallet version to be used listed in the `"versions"` array (if a version is not listed then it is not yet supported). Copy the contents of each file and paste it into the `xbridge.conf` file. For an example of what a complete and properly formatted `xbridge.conf` file looks like, take a look at the `example-xbridge.conf` file in this repo.
+After the heading, the contents of the individual XBridge configuration files of the blockchains listed under `ExchangeWallets` are listed. To find the proper XBridge settings for each blockchain, first find the version group in the `manifest` file for each blockchain that has the wallet version to be used listed in the `"versions"` array (if a version is not listed then it is not yet supported). Copy the contents of each file and paste it into the `xbridge.conf` file. For an example of what a complete and properly formatted `xbridge.conf` file looks like, take a look at the `example-xbridge.conf` file in this repo.
 
 Make sure to update the following for each configuration entry:
 
@@ -333,7 +333,7 @@ Password=fa506e4a01a7           | The password is made up and the value must be 
 
 
 ### Setup Wallet Files
-Each blockchain wallet installation has a configuration file; for Blocknet it is `blocknetdx.conf`. These contents are to be replaced by the contents of the wallet configuration file referenced in the respective `manifest.json` version group. To find the proper wallet configuration for each blockchain, first find the version group in the `manifest.json` file for each blockchain that has the wallet version to be used listed in the `"versions"` array (if a version is not listed then it is not yet supported). Copy the contents of each referenced wallet configuration file and paste it into the configuration file of the downloaded wallet.
+Each blockchain wallet installation has a configuration file; for Blocknet it is `blocknetdx.conf`. These contents are to be replaced by the contents of the wallet configuration file referenced in the respective `manifest-latest.json` version group. To find the proper wallet configuration for each blockchain, first find the version group in the `manifest-latest.json` file for each blockchain that has the wallet version to be used listed in the `"versions"` array (if a version is not listed then it is not yet supported). Copy the contents of each referenced wallet configuration file and paste it into the configuration file of the downloaded wallet.
 
 Make sure to update the following for each configuration entry:
 
@@ -357,19 +357,19 @@ Once the test environment is ready, create an order and conduct a loop exchange 
 
 
 ### Successful Exchange
-If the exchange is successful, a commit should be made to the respective configuration files. There are a few variations of
+If the exchange is successful, a commit should be made to the respective configuration files. There are a few variations of scenarios:
 
 *New wallet version, existing blockchain, existing configurations, existing version group:*<br>
-If a successful exchange was confirmed for a new wallet version using the same `xbridge_conf` and `wallet_conf` listed under a single existing `manifest.json` version group, then all that is needed is to update that version group `versions` array with the new wallet version as is listed in the tag of the Github release.
+If a successful exchange was confirmed for a new wallet version using the same `xbridge_conf` and `wallet_conf` listed under a single existing `manifest` version group, then all that is needed is to update that version group `versions` array with the new wallet version as is listed in the tag of the Github release.
 
 *New wallet version, existing blockchain, existing configurations, new version group:*<br>
-If a new wallet version is successful using `xbridge_conf` and `wallet_conf` from two different `manifest.json` version groups, then a new version group must be created. This new version group would have this new wallet as the only version listed under `versions`, as is listed in the tag of the Github release, with a new `ver_id`, the respective XBridge and wallet configuration files used listed for `xbridge_conf` and `wallet_conf`, and any other changes that may be required.
+If a new wallet version is successful using `xbridge_conf` and `wallet_conf` from two different `manifest` version groups, then a new version group must be created. This new version group would have this new wallet as the only version listed under `versions`, as is listed in the tag of the Github release, with a new `ver_id`, the respective XBridge and wallet configuration files used listed for `xbridge_conf` and `wallet_conf`, and any other changes that may be required.
 
 *New wallet version, existing blockchain, new configurations, new version group:*<br>
-If a new wallet version is successful using a newly generated XBridge or wallet configuration file, then a new `manifest.json` version group must be created as well as the new configuration file. This new version group would have this new wallet as the only version listed under `versions`, as is listed in the tag of the Github release, with a new `ver_id`, the respective XBridge and wallet configuration files used listed for `xbridge_conf` and `wallet_conf`, and any other changes that may be required. 
+If a new wallet version is successful using a newly generated XBridge or wallet configuration file, then a new `manifest` version group must be created as well as the new configuration file. This new version group would have this new wallet as the only version listed under `versions`, as is listed in the tag of the Github release, with a new `ver_id`, the respective XBridge and wallet configuration files used listed for `xbridge_conf` and `wallet_conf`, and any other changes that may be required. 
 
 *New blockchain, new configurations, new version group:*<br>
-If a successful exchange was confirmed for a new blockchain, then a new `manifest.json` version group must be created as well as the new configuration files.
+If a successful exchange was confirmed for a new blockchain, then a new `manifest` version group must be created as well as the new configuration files.
 
 
 
