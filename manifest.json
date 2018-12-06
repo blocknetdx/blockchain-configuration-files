@@ -477,7 +477,8 @@
     "dir_name_win": "Einsteinium",
     "repo_url": "https://github.com/emc2foundation/einsteinium",
     "versions": [
-      "v0.13.48.0"
+      "v0.13.48.0",
+      "v0.13.5.0"
     ],
     "xbridge_conf": "einsteinium--v0.13.48.0.conf",
     "wallet_conf": "einsteinium--v0.13.48.0.conf"
