@@ -1200,7 +1200,8 @@
       "mainnet-ignition-v0.15.2",
       "mainnet-ignition-v0.15.3",
       "mainnet-ignition-v0.16.0",
-      "mainnet-ignition-v0.16.1"
+      "mainnet-ignition-v0.16.1",
+      "mainnet-ignition-v0.16.2"
     ],
     "xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
     "wallet_conf": "qtum--mainnet-ignition-v0.15.2.conf"
