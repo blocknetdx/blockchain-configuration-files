@@ -831,7 +831,8 @@
     "repo_url": "https://github.com/machinecoin-project/machinecoin-core",
     "versions": [
       "v0.16.1.4",
-      "v0.16.2.1"
+      "v0.16.2.1",
+      "v0.16.3"
     ],
     "xbridge_conf": "machinecoin--v0.16.1.4.conf",
     "wallet_conf": "machinecoin--v0.16.1.4.conf"
