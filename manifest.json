@@ -1032,7 +1032,8 @@
     "repo_url": "https://github.com/NixPlatform/NixCore",
     "versions": [
       "v2.0.3",
-      "v2.1.0"
+      "v2.1.0",
+      "v2.1.1"
     ],
     "xbridge_conf": "nix--v2.0.3.conf",
     "wallet_conf": "nix--v2.0.3.conf"
