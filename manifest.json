@@ -1373,7 +1373,8 @@
     "dir_name_win": "Syndicate",
     "repo_url": "https://github.com/SyndicateLtd/SyndicateQT",
     "versions": [
-      "v2.0.0"
+      "v2.0.0",
+      "x2.1.0"
     ],
     "xbridge_conf": "syndicate--v2.0.0.conf",
     "wallet_conf": "syndicate--v2.0.0.conf"
