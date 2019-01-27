@@ -273,7 +273,8 @@
     "repo_url": "https://github.com/ColossusCoinXT/ColossusCoinXT",
     "versions": [
       "v1.0.5",
-      "v1.1.1"
+      "v1.1.1",
+      "v1.2.0"
     ],
     "xbridge_conf": "colossusXT--v1.0.5.conf",
     "wallet_conf": "colossusXT--v1.0.5.conf"
