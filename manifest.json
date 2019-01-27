@@ -1338,7 +1338,8 @@
     "repo_url": "https://github.com/SocialSend/SocialSend",
     "versions": [
       "v1.1.0.0",
-      "V1.2.0.1"
+      "V1.2.0.1",
+      "v1.2.0.0"
     ],
     "xbridge_conf": "send--v1.1.0.0.conf",
     "wallet_conf": "send--v1.1.0.0.conf"
