@@ -62,7 +62,8 @@
       "v1.0",
       "v2.0",
       "V2.1",
-      "V2.2"
+      "V2.2",
+      "V3.0"
     ],
     "xbridge_conf": "aprcoin--v1.0.conf",
     "wallet_conf": "aprcoin--v1.0.conf"
