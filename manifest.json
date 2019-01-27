@@ -1037,17 +1037,14 @@
   {
     "blockchain": "Nix",
     "ticker": "NIX",
-    "ver_id": "nix--v2.0.3",
-    "ver_name": "Nix v2.0.3",
+    "ver_id": "nix--v2.2.0",
+    "ver_name": "Nix",
     "conf_name": "nix.conf",
     "dir_name_linux": "nix",
     "dir_name_mac": "nix",
     "dir_name_win": "nix",
     "repo_url": "https://github.com/NixPlatform/NixCore",
     "versions": [
-      "v2.0.3",
-      "v2.1.0",
-      "v2.1.1",
       "v2.2.0",
       "v2.2.0.1"
     ],
