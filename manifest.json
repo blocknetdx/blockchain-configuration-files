@@ -10,7 +10,8 @@
     "dir_name_win": "AeriumX",
     "repo_url": "https://github.com/aeriumcoin/AeriumX",
     "versions": [
-      "v2.0"
+      "v2.0",
+      "v2.1"
     ],
     "xbridge_conf": "aeriumx--v2.0.conf",
     "wallet_conf": "aeriumx--v2.0.conf"
