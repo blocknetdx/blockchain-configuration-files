@@ -299,18 +299,19 @@
   {
     "blockchain": "CrowdCoin",
     "ticker": "CRC",
-    "ver_id": "crowdcoin--1.1.0",
+    "ver_id": "crowdcoin--2.0.0",
     "ver_name": "CrowdCoin",
     "conf_name": "crowdcoin.conf",
-    "dir_name_linux": "crowdcoincore",
-    "dir_name_mac": "CrowdcoinCore",
-    "dir_name_win": "CrowdcoinCore",
+    "dir_name_linux": "crowdcoinbrain",
+    "dir_name_mac": "CrowdcoinBrain",
+    "dir_name_win": "CrowdcoinBrain",
     "repo_url": "https://github.com/crowdcoinChain/Crowdcoin",
     "versions": [
-      "1.1.0"
+      "2.0.0",
+      "2.0.1"
     ],
-    "xbridge_conf": "crowdcoin--1.1.0.conf",
-    "wallet_conf": "crowdcoin--1.1.0.conf"
+    "xbridge_conf": "crowdcoin--1.0.0.conf",
+    "wallet_conf": "crowdcoin--1.0.0.conf"
   },
   {
     "blockchain": "Crown",
