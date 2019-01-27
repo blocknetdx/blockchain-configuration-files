@@ -132,7 +132,8 @@
     "repo_url": "https://github.com/bitcoin/bitcoin",
     "versions": [
       "v0.17.0",
-      "v0.17.0.1"
+      "v0.17.0.1",
+      "v0.17.1"
     ],
     "xbridge_conf": "bitcoin--v0.15.1.conf",
     "wallet_conf": "bitcoin--v0.17.0.conf"
