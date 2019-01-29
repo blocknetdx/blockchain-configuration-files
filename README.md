@@ -6,8 +6,8 @@ This repository contains:
  * Directions on how to setup configuration files for use of the Blocknet Protocol;
  * Directions on how to test a blockchain for compatibility with XBridge;
 
-[Website](https://blocknet.co) | [API Documentation](https://api.blocknet.co) | [Discord](https://discord.gg/2e6s7H8)
--------------------------------|----------------------------------------------|--------------------------------------
+[Website](https://blocknet.co) | [API](https://api.blocknet.co) | [Documentation](https://docs.blocknet.co) | [Discord](https://discord.gg/2e6s7H8)
+-------------------------------|----------------------------------------------|--------------------------------------|--------------------------------------
 
 
 Table of contents
