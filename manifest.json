@@ -420,7 +420,8 @@
     "repo_url": "https://github.com/digiwage/digiwage",
     "versions": [
       "v1.1.0",
-      "1.2.0"
+      "1.2.0",
+      "1.2.1"
     ],
     "xbridge_conf": "digiwage--v1.1.0.conf",
     "wallet_conf": "digiwage--v1.1.0.conf"
