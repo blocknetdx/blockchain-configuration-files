@@ -154,6 +154,22 @@
     "wallet_conf": "bitcoingreen--1.1.0.conf"
   },
   {
+    "blockchain": "BitCore",
+    "ticker": "BTX",
+    "ver_id": "bitcore--0.15.2.0.0",
+    "ver_name": "BitCore",
+    "conf_name": "bitcore.conf",
+    "dir_name_linux": "bitcore",
+    "dir_name_mac": "BitCore",
+    "dir_name_win": "BitCore",
+    "repo_url": "https://github.com/LIMXTEC/BitCore",
+    "versions": [
+      "0.15.2.0.0"
+    ],
+    "xbridge_conf": "bitcore--0.15.2.0.0.conf",
+    "wallet_conf": "bitcore--0.15.2.0.0.conf"
+  },
+  {
     "blockchain": "BitcoinZero",
     "ticker": "BZX",
     "ver_id": "bitcoinzero--5.0.1.0",
