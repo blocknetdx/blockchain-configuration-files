@@ -1098,7 +1098,8 @@
     "versions": [
       "1.0.0",
       "2.2.0",
-      "2.3.0"
+      "2.3.0",
+      "2.4.0"
     ],
     "xbridge_conf": "northern--1.0.0.conf",
     "wallet_conf": "northern--1.0.0.conf"
