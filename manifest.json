@@ -151,7 +151,7 @@
     "xbridge_conf": "bitcoingreen--1.1.0.conf",
     "wallet_conf": "bitcoingreen--1.1.0.conf"
   },
-    {
+  {
     "blockchain": "BitCore",
     "ticker": "BTX",
     "ver_id": "bitcore--0.15.2.0.0",
