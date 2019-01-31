@@ -1257,7 +1257,7 @@
     "blockchain": "Qtum",
     "ticker": "QTUM",
     "ver_id": "qtum--mainnet-ignition-v0.15.2",
-    "ver_name": "Qtum",
+    "ver_name": "Qtum v0.15.x - v0.16.x",
     "conf_name": "qtum.conf",
     "dir_name_linux": "qtum",
     "dir_name_mac": "Qtum",
@@ -1272,6 +1272,22 @@
     ],
     "xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
     "wallet_conf": "qtum--mainnet-ignition-v0.15.2.conf"
+  },
+  {
+    "blockchain": "Qtum",
+    "ticker": "QTUM",
+    "ver_id": "qtum--mainnet-ignition-v0.17.1",
+    "ver_name": "Qtum v0.17.x",
+    "conf_name": "qtum.conf",
+    "dir_name_linux": "qtum",
+    "dir_name_mac": "Qtum",
+    "dir_name_win": "Qtum",
+    "repo_url": "https://github.com/qtumproject/qtum",
+    "versions": [
+      "mainnet-ignition-v0.17.1"
+    ],
+    "xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
+    "wallet_conf": "qtum--mainnet-ignition-v0.17.1.conf"
   },
   {
     "blockchain": "Ravencoin",
