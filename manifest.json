@@ -151,6 +151,22 @@
     "xbridge_conf": "bitcoingreen--1.1.0.conf",
     "wallet_conf": "bitcoingreen--1.1.0.conf"
   },
+    {
+    "blockchain": "BitCore",
+    "ticker": "BTX",
+    "ver_id": "bitcore--0.15.2.0.0",
+    "ver_name": "BitCore",
+    "conf_name": "bitcore.conf",
+    "dir_name_linux": "bitcore",
+    "dir_name_mac": "BitCore",
+    "dir_name_win": "BitCore",
+    "repo_url": "https://github.com/LIMXTEC/BitCore",
+    "versions": [
+      "0.15.2.0.0"
+    ],
+    "xbridge_conf": "bitcore--0.15.2.0.0.conf",
+    "wallet_conf": "bitcore--0.15.2.0.0.conf"
+  },
   {
     "blockchain": "BitcoinZero",
     "ticker": "BZX",
@@ -166,22 +182,6 @@
     ],
     "xbridge_conf": "bitcoinzero--5.0.0.5.conf",
     "wallet_conf": "bitcoinzero--5.0.0.5.conf"
-  },
-    {
-    "blockchain": "Bitcore",
-    "ticker": "BTX",
-    "ver_id": "bitcore--v0.15.2.0",
-    "ver_name": "Bitcore v0.15.x",
-    "conf_name": "bitcore.conf",
-    "dir_name_linux": "bitcore",
-    "dir_name_mac": "Bitcore",
-    "dir_name_win": "Bitcore",
-    "repo_url": "https://github.com/LIMXTEC/BitCore",
-    "versions": [
-      "0.15.2.0"
-    ],
-    "xbridge_conf": "bitcore--v0.15.2.0.conf",
-    "wallet_conf": "bitcore--v0.15.2.0.conf"
   },
   {
     "blockchain": "BLAST",
