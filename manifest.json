@@ -797,7 +797,8 @@
     "repo_url": "https://github.com/lpcproject/LightPayCoin",
     "versions": [
       "v1.0.0.0",
-      "v1.0.0.1"
+      "v1.0.0.1",
+      "v1.0.1.0"
     ],
     "xbridge_conf": "lightpaycoin--v1.0.0.0.conf",
     "wallet_conf": "lightpaycoin--v1.0.0.0.conf"
