@@ -71,6 +71,22 @@
     "wallet_conf": "aprcoin--v1.0.conf"
   },
   {
+    "blockchain": "AustraliaCash",
+    "ticker": "AUS",
+    "ver_id": "australiacash--v0.17.4.0",
+    "ver_name": "AustraliaCash",
+    "conf_name": "australiacash.conf",
+    "dir_name_linux": "australiacash",
+    "dir_name_mac": "Australiacash",
+    "dir_name_win": "Australiacash",
+    "repo_url": "https://github.com/AustraliaCash/AustraliaCash-Core",
+    "versions": [
+      "v0.17.4.0"
+    ],
+    "xbridge_conf": "australiacash--v0.17.4.0.conf",
+    "wallet_conf": "australiacash--v0.17.4.0.conf"
+  },
+  {
     "blockchain": "Banq",
     "ticker": "BANQ",
     "ver_id": "banq--v1.0",
