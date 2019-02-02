@@ -1206,6 +1206,22 @@
     "wallet_conf": "ohmc--2.3.1.conf"
   },
   {
+    "blockchain": "PACcoin",
+    "ticker": "$PAC",
+    "ver_id": "paccoin--v0.12.5.1",
+    "ver_name": "PACcoin",
+    "conf_name": "paccoin.conf",
+    "dir_name_linux": "paccoincore",
+    "dir_name_mac": "PaccoinCore",
+    "dir_name_win": "PaccoinCore",
+    "repo_url": "https://github.com/PACCommunity/PAC",
+    "versions": [
+      "v0.12.5.1"
+    ],
+    "xbridge_conf": "paccoin--v0.12.5.1.conf",
+    "wallet_conf": "paccoin--v0.12.5.1.conf"
+  },
+  {
     "blockchain": "Phore",
     "ticker": "PHR",
     "ver_id": "phore--v1.3.3.1",
