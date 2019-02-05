@@ -235,8 +235,8 @@
     "dir_name_win": "BlocknetDX",
     "repo_url": "https://github.com/BlocknetDX/BlockDX",
     "versions": [
-      "v3.11.0",
-      "v3.11.0-redesign"
+      "v3.12.1",
+      "v3.12.1-classic"
     ],
     "xbridge_conf": "blocknetdx--v3.9.16.conf",
     "wallet_conf": "blocknetdx--v3.9.16.conf"
