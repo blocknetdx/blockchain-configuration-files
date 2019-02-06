@@ -17,5 +17,5 @@ GetNewKeySupported=false
 ImportWithNoScanSupported=false
 MinTxFee=20000
 BlockTime=128
-FeePerByte=0
+FeePerByte=20
 Confirmations=0
