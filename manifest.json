@@ -233,7 +233,7 @@
     "dir_name_linux": "blocknetdx",
     "dir_name_mac": "BlocknetDX",
     "dir_name_win": "BlocknetDX",
-    "repo_url": "https://github.com/BlocknetDX/BlockDX",
+    "repo_url": "https://github.com/BlocknetDX/blocknet",
     "versions": [
       "v3.12.1",
       "v3.12.1-classic"
