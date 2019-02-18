@@ -492,6 +492,22 @@
     "wallet_conf": "dinero--v1.0.1.1.conf"
   },
   {
+    "blockchain": "Divi",
+    "ticker": "DIVI",
+    "ver_id": "divi--DESK-1.2.2",
+    "ver_name": "Divi",
+    "conf_name": "divi.conf",
+    "dir_name_linux": "divi",
+    "dir_name_mac": "DIVI",
+    "dir_name_win": "DIVI",
+    "repo_url": "https://github.com/Divicoin/Divi",
+    "versions": [
+      "DESK-1.2.2"
+    ],
+    "xbridge_conf": "divi--DESK-1.2.2.conf",
+    "wallet_conf": "divi--DESK-1.2.2.conf"
+  },
+  {
     "blockchain": "Dogecoin",
     "ticker": "DOGE",
     "ver_id": "dogecoin--v1.10.0",
