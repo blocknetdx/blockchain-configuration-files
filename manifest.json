@@ -1463,7 +1463,7 @@
     "wallet_conf": "solaris--v2.8.0.0.conf"
   },
   {
-    "blockchain": "Sparks",
+    "blockchain": "SparksPay",
     "ticker": "SPK",
     "ver_id": "sparks--v0.12.3.2",
     "ver_name": "Sparks",
