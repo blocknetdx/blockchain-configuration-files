@@ -1394,6 +1394,22 @@
     "wallet_conf": "raven--v0.15.99.0.conf"
   },
   {
+    "blockchain": "Secure Cloud Net",
+    "ticker": "SCN",
+    "ver_id": "securecloud--v2.4.3",
+    "ver_name": "Secure Cloud Net",
+    "conf_name": "securecloud.conf",
+    "dir_name_linux": "securecloud",
+    "dir_name_mac": "SecureCloud",
+    "dir_name_win": "SecureCloud",
+    "repo_url": "https://github.com/securecloudnet/SecureCloud",
+    "versions": [
+      "v2.4.3"
+    ],
+    "xbridge_conf": "securecloud--v2.4.3.conf",
+    "wallet_conf": "securecloud--v2.4.3.conf"
+  },
+  {
     "blockchain": "Shekel",
     "ticker": "JEW",
     "ver_id": "shekel--1.4.0",
@@ -1463,7 +1479,7 @@
     "wallet_conf": "solaris--v2.8.0.0.conf"
   },
   {
-    "blockchain": "Sparks",
+    "blockchain": "SparksPay",
     "ticker": "SPK",
     "ver_id": "sparks--v0.12.3.2",
     "ver_name": "Sparks",
