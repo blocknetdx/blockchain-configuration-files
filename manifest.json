@@ -1410,6 +1410,22 @@
     "wallet_conf": "securecloud--v2.4.3.conf"
   },
   {
+    "blockchain": "Sequence",
+    "ticker": "SEQ",
+    "ver_id": "sequence--v1.3.0.0",
+    "ver_name": "Sequence",
+    "conf_name": "sequence.conf",
+    "dir_name_linux": "sequence",
+    "dir_name_mac": "sequence",
+    "dir_name_win": "sequence",
+    "repo_url": "https://github.com/duality-solutions/Sequence",
+    "versions": [
+      "v1.3.0.0"
+    ],
+    "xbridge_conf": "sequence--v1.3.0.0.conf",
+    "wallet_conf": "sequence--v1.3.0.0.conf"
+  },
+  {
     "blockchain": "Shekel",
     "ticker": "JEW",
     "ver_id": "shekel--1.4.0",
