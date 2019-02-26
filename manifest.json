@@ -791,7 +791,8 @@
     "repo_url": "https://github.com/kalkulusteam/klks",
     "versions": [
       "v2.6.0",
-      "2.7.0"
+      "2.7.0",
+      "v2.8.0"
     ],
     "xbridge_conf": "klks--v2.6.0.conf",
     "wallet_conf": "klks--v2.6.0.conf"
