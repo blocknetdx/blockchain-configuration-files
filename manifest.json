@@ -644,6 +644,22 @@
     "wallet_conf": "galactrum--v1.1.6.conf"
   },
   {
+    "blockchain": "Galilel",
+    "ticker": "GALI",
+    "ver_id": "galilel--v3.2.0",
+    "ver_name": "Galilel",
+    "conf_name": "galilel.conf",
+    "dir_name_linux": "galilel",
+    "dir_name_mac": "Galilel",
+    "dir_name_win": "Galilel",
+    "repo_url": "https://github.com/Galilel-Project/galilel",
+    "versions": [
+      "v3.2.0"
+    ],
+    "xbridge_conf": "galilel--v3.2.0.conf",
+    "wallet_conf": "galilel--v3.2.0.conf"
+  },
+  {
     "blockchain": "GINcoin",
     "ticker": "GIN",
     "ver_id": "gincoin--1.1.0.0",
@@ -690,6 +706,22 @@
     ],
     "xbridge_conf": "GravityCoin--4.0.5.0.conf",
     "wallet_conf": "GravityCoin--4.0.5.0.conf"
+  },
+  {
+    "blockchain": "HASH",
+    "ticker": "HASH",
+    "ver_id": "hash--v1.4.0",
+    "ver_name": "HASH",
+    "conf_name": "hash.conf",
+    "dir_name_linux": "hash",
+    "dir_name_mac": "Hash",
+    "dir_name_win": "Hash",
+    "repo_url": "https://github.com/hashplatform/hash/",
+    "versions": [
+      "v1.4.0"
+    ],
+    "xbridge_conf": "hash--v1.4.0.conf",
+    "wallet_conf": "hash--v1.4.0.conf"
   },
   {
     "blockchain": "HTMLCoin",
