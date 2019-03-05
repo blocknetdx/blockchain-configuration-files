@@ -1249,7 +1249,8 @@
     "versions": [
       "2.3.1",
       "2.3.2",
-      "2.3.2.1"
+      "2.3.2.1",
+      "2.4.0.0"
     ],
     "xbridge_conf": "ohmc--2.3.1.conf",
     "wallet_conf": "ohmc--2.3.1.conf"
