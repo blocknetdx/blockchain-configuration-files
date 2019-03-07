@@ -298,9 +298,9 @@
   {
     "blockchain": "ColossusXT",
     "ticker": "COLX",
-    "ver_id": "colossusXT--v1.0.5",
+    "ver_id": "ColossusXT--v1.0.5",
     "ver_name": "ColossusXT",
-    "conf_name": "colossusXT.conf",
+    "conf_name": "ColossusXT.conf",
     "dir_name_linux": "ColossusXT",
     "dir_name_mac": "ColossusCoinXT",
     "dir_name_win": "ColossusCoinXT",
@@ -310,8 +310,8 @@
       "v1.1.1",
       "v1.2.0"
     ],
-    "xbridge_conf": "colossusXT--v1.0.5.conf",
-    "wallet_conf": "colossusXT--v1.0.5.conf"
+    "xbridge_conf": "ColossusXT--v1.0.5.conf",
+    "wallet_conf": "ColossusXT--v1.0.5.conf"
   },
   {
     "blockchain": "Crave",
@@ -1249,7 +1249,8 @@
     "versions": [
       "2.3.1",
       "2.3.2",
-      "2.3.2.1"
+      "2.3.2.1",
+      "2.4.0.0"
     ],
     "xbridge_conf": "ohmc--2.3.1.conf",
     "wallet_conf": "ohmc--2.3.1.conf"
