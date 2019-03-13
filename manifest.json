@@ -559,6 +559,23 @@
     "wallet_conf": "einsteinium--v0.13.48.0.conf"
   },
   {
+    "blockchain": "Electra",
+    "ticker": "ECA",
+    "ver_id": "Electra--2.0.2",
+    "ver_name": "Electra",
+    "conf_name": "Electra.conf",
+    "dir_name_linux": "electra",
+    "dir_name_mac": "Electra",
+    "dir_name_win": "Electra",
+    "repo_url": "https://github.com/Electra-project/electra-core",
+    "versions": [
+      "2.0.2",
+      "2.0.3"
+    ],
+    "xbridge_conf": "Electra--2.0.2.conf",
+    "wallet_conf": "Electra--2.0.2.conf"
+  },
+  {
     "blockchain": "Eternity",
     "ticker": "ENT",
     "ver_id": "eternity--v0.12.1.7",
@@ -1403,6 +1420,22 @@
     ],
     "xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
     "wallet_conf": "qtum--mainnet-ignition-v0.17.1.conf"
+  },
+  {
+    "blockchain": "Rapids",
+    "ticker": "RPD",
+    "ver_id": "rapids--v1.0.0.1",
+    "ver_name": "Rapids",
+    "conf_name": "rapids.conf",
+    "dir_name_linux": "rapids",
+    "dir_name_mac": "Rapids",
+    "dir_name_win": "Rapids",
+    "repo_url": "https://github.com/RapidsOfficial/Rapids",
+    "versions": [
+      "v1.0.0.1"
+    ],
+    "xbridge_conf": "rapids--v1.0.0.1.conf",
+    "wallet_conf": "rapids--v1.0.0.1.conf"
   },
   {
     "blockchain": "Ravencoin",
