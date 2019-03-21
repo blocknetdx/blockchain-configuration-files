@@ -847,6 +847,22 @@
     "wallet_conf": "klks--v2.6.0.conf"
   },
   {
+    "blockchain": "Know Your Developer",
+    "ticker": "KYD",
+    "ver_id": "kyd--v3.2.0.3",
+    "ver_name": "Know Your Developer",
+    "conf_name": "kyd.conf",
+    "dir_name_linux": "kydcore",
+    "dir_name_mac": "KYDcore",
+    "dir_name_win": "KYDcore",
+    "repo_url": "https://github.com/kydcoin/KYD3",
+    "versions": [
+      "v3.2.0.3"
+    ],
+    "xbridge_conf": "kyd--v3.2.0.3.conf",
+    "wallet_conf": "kyd--v3.2.0.3.conf"
+  },
+  {
     "blockchain": "Kreds",
     "ticker": "KREDS",
     "ver_id": "kreds--v1.0.0.5.1",
