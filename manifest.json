@@ -508,6 +508,22 @@
     "wallet_conf": "divi--DESK-1.2.2.conf"
   },
   {
+    "blockchain": "DogeCash",
+    "ticker": "DOGEC",
+    "ver_id": "dogecash--3.0.0",
+    "ver_name": "DogeCash",
+    "conf_name": "dogecash.conf",
+    "dir_name_linux": "dogecash",
+    "dir_name_mac": "DogeCashCore",
+    "dir_name_win": "DogeCashCore",
+    "repo_url": "https://github.com/dogecash/dogecash",
+    "versions": [
+      "3.0.0"
+    ],
+    "xbridge_conf": "dogecash--3.0.0.conf",
+    "wallet_conf": "dogecash--3.0.0.conf"
+  },
+  {
     "blockchain": "Dogecoin",
     "ticker": "DOGE",
     "ver_id": "dogecoin--v1.10.0",
@@ -1017,6 +1033,22 @@
     ],
     "xbridge_conf": "mgn--v1.0.0.conf",
     "wallet_conf": "mgn--v1.0.0.conf"
+  },
+  {
+    "blockchain": "MNPCoin",
+    "ticker": "MNP",
+    "ver_id": "mnpcoin--v1.2.5",
+    "ver_name": "MNPCoin",
+    "conf_name": "mnpcoin.conf",
+    "dir_name_linux": "mnpcoin",
+    "dir_name_mac": "MNPCOIN",
+    "dir_name_win": "MNPCOIN",
+    "repo_url": "https://github.com/MasterNodesPro/MNPCoin",
+    "versions": [
+      "v1.2.5"
+    ],
+    "xbridge_conf": "mnpcoin--v1.2.5.conf",
+    "wallet_conf": "mnpcoin--v1.2.5.conf"
   },
   {
     "blockchain": "MinexCoin",
