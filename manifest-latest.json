@@ -209,6 +209,22 @@
     "wallet_conf": "bitcoinzero--5.0.0.5.conf"
   },
   {
+    "blockchain": "BitSend",
+    "ticker": "BSD",
+    "ver_id": "bitsend--0.14.2.0.1",
+    "ver_name": "BitSend",
+    "conf_name": "bitsend.conf",
+    "dir_name_linux": "bitsend",
+    "dir_name_mac": "bitsend",
+    "dir_name_win": "bitsend",
+    "repo_url": "https://github.com/LIMXTEC/BitSend",
+    "versions": [
+      "0.14.2.0.1"
+    ],
+    "xbridge_conf": "bitsend--0.14.2.0.1.conf",
+    "wallet_conf": "bitsend--0.14.2.0.1.conf"
+  },
+  {
     "blockchain": "BLAST",
     "ticker": "BLAST",
     "ver_id": "blast--v1.2.0.2",
