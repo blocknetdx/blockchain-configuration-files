@@ -2008,5 +2008,21 @@
     ],
     "xbridge_conf": "zcoin--v0.13.6.4.conf",
     "wallet_conf": "zcoin--v0.13.6.4.conf"
+  },
+  {
+    "blockchain": "ZEST",
+    "ticker": "ZEST",
+    "ver_id": "zest--v1.0.3",
+    "ver_name": "ZEST",
+    "conf_name": "zest.conf",
+    "dir_name_linux": "zest",
+    "dir_name_mac": "Zest",
+    "dir_name_win": "Zest",
+    "repo_url": "https://github.com/zestfoundation/ZestCoin",
+    "versions": [
+      "v1.0.3"
+    ],
+    "xbridge_conf": "zest--v1.0.3.conf",
+    "wallet_conf": "zest--v1.0.3.conf"
   }
 ]
