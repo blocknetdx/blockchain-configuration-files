@@ -103,6 +103,22 @@
     "wallet_conf": "banq--v1.0.conf"
   },
   {
+    "blockchain": "BiFrost",
+    "ticker": "FROST",
+    "ver_id": "bifrost--v1.2.0",
+    "ver_name": "BiFrost",
+    "conf_name": "bifrost.conf",
+    "dir_name_linux": "bifrost",
+    "dir_name_mac": "Bifrost",
+    "dir_name_win": "Bifrost",
+    "repo_url": "https://github.com/bifrost-actual/bifrost-coin",
+    "versions": [
+      "v1.2.0"
+    ],
+    "xbridge_conf": "bifrost--v1.2.0.conf",
+    "wallet_conf": "bifrost--v1.2.0.conf"
+  },
+  {
     "blockchain": "Bitcoin",
     "ticker": "BTC",
     "ver_id": "bitcoin--v0.15.1",
