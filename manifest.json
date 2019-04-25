@@ -1653,7 +1653,7 @@
     "dir_name_linux": "sparkscore",
     "dir_name_mac": "SparksCore",
     "dir_name_win": "SparksCore",
-    "repo_url": "https://github.com/SparksReborn/sparkspay",
+    "repo_url": "https://github.com/sparkspay/sparks",
     "versions": [
       "v0.12.3.2"
     ],
