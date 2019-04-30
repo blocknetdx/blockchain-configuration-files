@@ -1844,23 +1844,6 @@
     "wallet_conf": "ufocoin--v0.17.0.conf"
   },
   {
-    "blockchain": "Unobtanium",
-    "ticker": "UNO",
-    "ver_id": "unobtanium--v0.10.1.1",
-    "ver_name": "Unobtanium",
-    "conf_name": "unobtanium.conf",
-    "dir_name_linux": "unobtanium",
-    "dir_name_mac": "Unobtanium",
-    "dir_name_win": "Unobtanium",
-    "repo_url": "https://github.com/unobtanium-official/Unobtanium",
-    "versions": [
-      "v0.10.1.1",
-      "v0.10.4.0"
-    ],
-    "xbridge_conf": "unobtanium--v0.10.1.1.conf",
-    "wallet_conf": "unobtanium--v0.10.1.1.conf"
-  },
-  {
     "blockchain": "Vertcoin",
     "ticker": "VTC",
     "ver_id": "vertcoin--0.14.0",
