@@ -418,6 +418,22 @@
     "wallet_conf": "ccbc--v1.2.0.1.conf"
   },
   {
+    "blockchain": "Cryptonodes",
+    "ticker": "CNMC",
+    "ver_id": "cryptonodes--v1.4.3",
+    "ver_name": "Cryptonodes",
+    "conf_name": "cryptonodes.conf",
+    "dir_name_linux": "cryptonodes",
+    "dir_name_mac": "Cryptonodes",
+    "dir_name_win": "Cryptonodes",
+    "repo_url": "https://github.com/cryptonodes-core/cryptonodes-core",
+    "versions": [
+      "v1.4.3"
+    ],
+    "xbridge_conf": "cryptonodes--v1.4.3.conf",
+    "wallet_conf": "cryptonodes--v1.4.3.conf"
+  },
+  {
     "blockchain": "Dash",
     "ticker": "DASH",
     "ver_id": "dash--v0.12.2.3",
@@ -1694,6 +1710,22 @@
     ],
     "xbridge_conf": "straks--1.14.7.3.conf",
     "wallet_conf": "straks--1.14.7.3.conf"
+  },
+  {
+    "blockchain": "SUB1X",
+    "ticker": "SUB1X",
+    "ver_id": "zsub1x--1.4.0",
+    "ver_name": "SUB1X",
+    "conf_name": "zsub1x.conf",
+    "dir_name_linux": "zsub1x",
+    "dir_name_mac": "zSub1x",
+    "dir_name_win": "zSub1x",
+    "repo_url": "https://github.com/SuB1X-Coin/zSub1x",
+    "versions": [
+      "1.4.0"
+    ],
+    "xbridge_conf": "zsub1x--1.4.0.conf",
+    "wallet_conf": "zsub1x--1.4.0.conf"
   },
   {
     "blockchain": "Sucre",
