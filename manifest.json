@@ -343,8 +343,8 @@
       "v1.1.1",
       "v1.2.0"
     ],
-    "xbridge_conf": "ColossusXT--v1.0.5.conf",
-    "wallet_conf": "ColossusXT--v1.0.5.conf"
+    "xbridge_conf": "colossusxt--v1.0.5.conf",
+    "wallet_conf": "colossusxt--v1.0.5.conf"
   },
   {
     "blockchain": "Crave",
