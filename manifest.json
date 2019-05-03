@@ -331,7 +331,7 @@
   {
     "blockchain": "ColossusXT",
     "ticker": "COLX",
-    "ver_id": "ColossusXT--v1.0.5",
+    "ver_id": "ColossusXT--v1.0.5.1",
     "ver_name": "ColossusXT",
     "conf_name": "ColossusXT.conf",
     "dir_name_linux": "ColossusXT",
@@ -343,8 +343,8 @@
       "v1.1.1",
       "v1.2.0"
     ],
-    "xbridge_conf": "colossusxt--v1.0.5.conf",
-    "wallet_conf": "colossusxt--v1.0.5.conf"
+    "xbridge_conf": "colossusxt--v1.0.5.1.conf",
+    "wallet_conf": "colossusxt--v1.0.5.1.conf"
   },
   {
     "blockchain": "Crave",
