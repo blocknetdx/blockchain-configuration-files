@@ -79,8 +79,8 @@ dir_name_mac    | This is the name of the blockchain's folder in the data direct
 dir_name_win    | This is the name of the blockchain's folder in the data directory: *BlocknetDX, Dogecoin, SyscoinCore, etc*. This is case-sensitive and should be written exactly as it is in the folder name.
 repo_url        | This is the URL of the wallet’s Github repository: *[https://github.com/BlocknetDX/BlockDX](https://github.com/BlocknetDX/BlockDX)*, *[https://github.com/dogecoin/dogecoin](https://github.com/dogecoin/dogecoin)*, *[https://github.com/syscoin/syscoin](https://github.com/syscoin/syscoin), etc*. Do not include trailing slashes.
 versions        | This is an array of wallet versions compatible with the referenced `xbridge_conf` and `wallet_conf` configuration files. The versioning used is case-sensitive and must be exactly the same as tagged in the Github repo for each release: *[v3.9.16](https://github.com/BlocknetDX/BlockDX/releases/tag/v3.9.16) (Blocknet), [v1.10.0-dogeparty](https://github.com/dogecoin/dogecoin/releases/tag/v1.10.0-dogeparty) (Dogecoin), [3.0.5.0](https://github.com/syscoin/syscoin/releases/tag/3.0.5.0) (Syscoin), etc*.
-xbridge_conf    | This is the name of the XBridge configuration file within the `xbridge-confs` folder. The title of this file should be the same as the `ver_id`.
-wallet_conf     | This is the name of the wallet configuration file within the `wallet-confs` folder. The title of this file should be the same as the `ver_id`.
+xbridge_conf    | This is the name of the XBridge configuration file within the `xbridge-confs` folder. The title of this file should be the same as the `ver_id` in all lowercase.
+wallet_conf     | This is the name of the wallet configuration file within the `wallet-confs` folder. The title of this file should be the same as the `ver_id` in all lowercase.
 
 **Example Manifest Object**
 ```
