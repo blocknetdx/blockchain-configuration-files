@@ -269,7 +269,9 @@
     "repo_url": "https://github.com/BlocknetDX/blocknet",
     "versions": [
       "v3.12.1",
-      "v3.12.1-classic"
+      "v3.12.1-classic",
+      "v3.13.0",
+      "v3.13.1-classic"
     ],
     "xbridge_conf": "blocknetdx--v3.9.16.conf",
     "wallet_conf": "blocknetdx--v3.9.16.conf"
