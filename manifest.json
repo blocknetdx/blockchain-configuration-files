@@ -439,7 +439,7 @@
   {
     "blockchain": "Desire",
     "ticker": "DSR",
-    "ver_id": "desire--Desire-v.0.12.2.2",
+    "ver_id": "desire--Desire-v.0.12.2.2.1",
     "ver_name": "Desire",
     "conf_name": "desire.conf",
     "dir_name_linux": "desirecore",
@@ -527,7 +527,7 @@
   {
     "blockchain": "Divi",
     "ticker": "DIVI",
-    "ver_id": "divi--DESK-1.2.2",
+    "ver_id": "divi--DESK-1.2.2.1",
     "ver_name": "Divi",
     "conf_name": "divi.conf",
     "dir_name_linux": "divi",
@@ -610,7 +610,7 @@
   {
     "blockchain": "Electra",
     "ticker": "ECA",
-    "ver_id": "Electra--2.0.2",
+    "ver_id": "Electra--2.0.2.1",
     "ver_name": "Electra",
     "conf_name": "Electra.conf",
     "dir_name_linux": "electra",
@@ -760,7 +760,7 @@
   {
     "blockchain": "GravityCoin",
     "ticker": "GXX",
-    "ver_id": "GravityCoin--4.0.5.0",
+    "ver_id": "GravityCoin--4.0.5.0.1",
     "ver_name": "GravityCoin",
     "conf_name": "GravityCoin.conf",
     "dir_name_linux": "GravityCoin",
