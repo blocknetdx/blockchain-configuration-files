@@ -1572,7 +1572,8 @@
     "dir_name_win": "SecureCloud",
     "repo_url": "https://github.com/securecloudnet/SecureCloud",
     "versions": [
-      "v2.4.3"
+      "v2.4.3",
+      "v2.5.1.1"
     ],
     "xbridge_conf": "securecloud--v2.4.3.conf",
     "wallet_conf": "securecloud--v2.4.3.conf"
