@@ -656,9 +656,7 @@
     "dir_name_win": "FLO",
     "repo_url": "https://github.com/floblockchain/flo",
     "versions": [
-      "v0.15.0.3",
-      "v0.15.1.0",
-      "v0.15.1.1"
+      "v0.15.2.0"
     ],
     "xbridge_conf": "flo--v0.15.0.3.conf",
     "wallet_conf": "flo--v0.15.0.3.conf"
