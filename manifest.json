@@ -1732,7 +1732,7 @@
     "dir_name_win": "tribe",
     "repo_url": "https://github.com/TribeCrypto/tribe",
     "versions": [
-      "v1.0.0"
+      "v1.0.1"
     ],
     "xbridge_conf": "tribe--v1.0.0.conf",
     "wallet_conf": "tribe--v1.0.0.conf"
