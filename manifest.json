@@ -769,7 +769,7 @@
     "dir_name_win": "Hash",
     "repo_url": "https://github.com/hashplatform/hash/",
     "versions": [
-      "v1.4.0"
+      "1.1.0"
     ],
     "xbridge_conf": "hash--v1.4.0.conf",
     "wallet_conf": "hash--v1.4.0.conf"
