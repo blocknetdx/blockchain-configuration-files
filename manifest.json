@@ -1336,7 +1336,7 @@
     "dir_name_win": "PaccoinCore",
     "repo_url": "https://github.com/PACCommunity/PAC",
     "versions": [
-      "v0.12.5.1"
+      "v0.12.6.2"
     ],
     "xbridge_conf": "paccoin--v0.12.5.1.conf",
     "wallet_conf": "paccoin--v0.12.5.1.conf"
