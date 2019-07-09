@@ -1067,6 +1067,22 @@
     "wallet_conf": "logiscoin--v2.0.3.0.conf"
   },
   {
+    "blockchain": "Luxcore",
+    "ticker": "LUX",
+    "ver_id": "lux--v5.3.2.1",
+    "ver_name": "Luxcore",
+    "conf_name": "lux.conf",
+    "dir_name_linux": "lux",
+    "dir_name_mac": "LUX",
+    "dir_name_win": "LUX",
+    "repo_url": "https://github.com/LUX-Core/lux",
+    "versions": [
+      "v5.3.2.1"
+    ],
+    "xbridge_conf": "lux--v5.3.2.1.conf",
+    "wallet_conf": "lux--v5.3.2.1.conf"
+  },
+  {
     "blockchain": "Lynx",
     "ticker": "LYNX",
     "ver_id": "lynx--v0.15.1.0",
