@@ -1796,7 +1796,7 @@
     "dir_name_win": "UFO",
     "repo_url": "https://github.com/fiscalobject/ufo",
     "versions": [
-      "v0.17.0"
+      "v0.17.1"
     ],
     "xbridge_conf": "ufocoin--v0.16.1.conf",
     "wallet_conf": "ufocoin--v0.17.0.conf"
