@@ -1417,7 +1417,7 @@
     "dir_name_win": "QbicCore",
     "repo_url": "https://github.com/qbic-platform/qbic",
     "versions": [
-      "v1.0"
+      "v1.0.1.0"
     ],
     "xbridge_conf": "qbic--v1.0.conf",
     "wallet_conf": "qbic--v1.0.conf"
