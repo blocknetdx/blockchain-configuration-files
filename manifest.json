@@ -1004,8 +1004,7 @@
     "dir_name_win": "Lynx",
     "repo_url": "https://github.com/doh9Xiet7weesh9va9th/lynx",
     "versions": [
-      "v0.15.1.0",
-      "v0.16.3.4"
+      "v0.16.3.9"
     ],
     "xbridge_conf": "lynx--v0.15.1.0.conf",
     "wallet_conf": "lynx--v0.15.1.0.conf"
