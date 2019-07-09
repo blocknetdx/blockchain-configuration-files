@@ -429,6 +429,22 @@
     "wallet_conf": "ccbc--v1.2.0.1.conf"
   },
   {
+    "blockchain": "Crypto Dezire Cash",
+    "ticker": "CDZC",
+    "ver_id": "cryptodezirecash--v2.1.1",
+    "ver_name": "Crypto Dezire Cash",
+    "conf_name": "cryptodezirecash.conf",
+    "dir_name_linux": "cryptodezirecash",
+    "dir_name_mac": "CryptoDezireCash",
+    "dir_name_win": "CryptoDezireCash",
+    "repo_url": "https://github.com/cryptodezire/CryptoDezireCash",
+    "versions": [
+      "v2.1.1"
+    ],
+    "xbridge_conf": "cryptodezirecash--v2.1.1.conf",
+    "wallet_conf": "cryptodezirecash--v2.1.1.conf"
+  },
+  {
     "blockchain": "Cryptonodes",
     "ticker": "CNMC",
     "ver_id": "cryptonodes--v1.4.3",
