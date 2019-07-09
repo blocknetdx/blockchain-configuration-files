@@ -113,6 +113,22 @@
     "wallet_conf": "bifrost--v1.2.0.conf"
   },
   {
+    "blockchain": "Bitcloud",
+    "ticker": "BTDX",
+    "ver_id": "bitcloud--2.1.0.1.1",
+    "ver_name": "Bitcloud",
+    "conf_name": "bitcloud.conf",
+    "dir_name_linux": "bitcloud",
+    "dir_name_mac": "Bitcloud",
+    "dir_name_win": "Bitcloud",
+    "repo_url": "https://github.com/LIMXTEC/Bitcloud/",
+    "versions": [
+      "2.1.0.1.1"
+    ],
+    "xbridge_conf": "bitcloud--2.1.0.1.1.conf",
+    "wallet_conf": "bitcloud--2.1.0.1.1.conf"
+  },
+  {
     "blockchain": "Bitcoin",
     "ticker": "BTC",
     "ver_id": "bitcoin--v0.15.1",
