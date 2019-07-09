@@ -883,7 +883,7 @@
     "dir_name_win": "KYDcore",
     "repo_url": "https://github.com/kydcoin/KYD3",
     "versions": [
-      "v3.2.0.3"
+      "3.2.1"
     ],
     "xbridge_conf": "kyd--v3.2.0.3.conf",
     "wallet_conf": "kyd--v3.2.0.3.conf"
