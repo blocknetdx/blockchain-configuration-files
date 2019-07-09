@@ -393,7 +393,7 @@
     "dir_name_win": "CCBC",
     "repo_url": "https://github.com/CryptoCashBack-Hub/CCBC",
     "versions": [
-      "v1.2.0.1"
+      "v1.2.1.1"
     ],
     "xbridge_conf": "ccbc--v1.2.0.1.conf",
     "wallet_conf": "ccbc--v1.2.0.1.conf"
