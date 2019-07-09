@@ -716,7 +716,7 @@
     "dir_name_linux": "gincoincore",
     "dir_name_mac": "GincoinCore",
     "dir_name_win": "GincoinCore",
-    "repo_url": "https://github.com/gincoin-dev/gincoin-core",
+    "repo_url": "https://github.com/GIN-coin/gincoin-core",
     "versions": [
       "v1.3.0.0"
     ],
