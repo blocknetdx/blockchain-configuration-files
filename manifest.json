@@ -1631,8 +1631,7 @@
     "dir_name_win": "straks",
     "repo_url": "https://github.com/straks/straks",
     "versions": [
-      "1.14.7.3",
-      "1.14.7.4"
+      "1.14.7.5"
     ],
     "xbridge_conf": "straks--1.14.7.3.conf",
     "wallet_conf": "straks--1.14.7.3.conf"
