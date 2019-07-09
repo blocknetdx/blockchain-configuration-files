@@ -1845,10 +1845,7 @@
     "dir_name_win": "VITAE",
     "repo_url": "https://github.com/VitaeTeam/Vitae",
     "versions": [
-      "v4.1.0.1",
-      "4.2.0",
-      "Vitae-4.2.1",
-      "4.3.0"
+      "v4.4.0.3"
     ],
     "xbridge_conf": "vitae--v4.1.0.1.conf",
     "wallet_conf": "vitae--v4.1.0.1.conf"
