@@ -1134,6 +1134,22 @@
     "wallet_conf": "monacoin--monacoin-0.16.2.conf"
   },
   {
+    "blockchain": "MonaCoin",
+    "ticker": "MONA",
+    "ver_id": "monacoin--monacoin-0.17.1",
+    "ver_name": "MonaCoin v0.17.x",
+    "conf_name": "monacoin.conf",
+    "dir_name_linux": "monacoin",
+    "dir_name_mac": "Monacoin",
+    "dir_name_win": "Monacoin",
+    "repo_url": "https://github.com/monacoinproject/monacoin",
+    "versions": [
+      "monacoin-0.17.1"
+    ],
+    "xbridge_conf": "monacoin--monacoin-0.15.1.conf",
+    "wallet_conf": "monacoin--monacoin-0.17.1.conf"
+  },
+  {
     "blockchain": "MonetaryUnit",
     "ticker": "MUE",
     "ver_id": "monetaryunit--v2.0.2",
