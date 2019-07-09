@@ -195,7 +195,7 @@
     "dir_name_win": "BitCore",
     "repo_url": "https://github.com/LIMXTEC/BitCore",
     "versions": [
-      "0.15.2.0.0"
+      "0.15.2.2"
     ],
     "xbridge_conf": "bitcore--0.15.2.0.0.conf",
     "wallet_conf": "bitcore--0.15.2.0.0.conf"
