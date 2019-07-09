@@ -1877,7 +1877,7 @@
     "dir_name_win": "Vsync",
     "repo_url": "https://github.com/VsyncCrypto/VSX",
     "versions": [
-      "v3.8.5.0"
+      "v3.8.6.3"
     ],
     "xbridge_conf": "vsync--v3.8.5.0.conf",
     "wallet_conf": "vsync--v3.8.5.0.conf"
