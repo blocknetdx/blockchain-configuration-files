@@ -75,7 +75,7 @@
     "dir_name_win": "Australiacash",
     "repo_url": "https://github.com/AustraliaCash/AustraliaCash-Core",
     "versions": [
-      "v0.17.4.0"
+      "v0.17.4.1"
     ],
     "xbridge_conf": "australiacash--v0.17.4.0.conf",
     "wallet_conf": "australiacash--v0.17.4.0.conf"
