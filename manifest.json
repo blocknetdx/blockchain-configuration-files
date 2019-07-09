@@ -686,11 +686,10 @@
     "dir_name_win": "Galactrum",
     "repo_url": "https://github.com/galactrum/galactrum",
     "versions": [
-      "v1.1.6",
-      "v1.2.1"
+      "v1.4.0"
     ],
     "xbridge_conf": "galactrum--v1.1.6.conf",
-    "wallet_conf": "galactrum--v1.1.6.conf"
+    "wallet_conf": "galactrum--v1.4.0.conf"
   },
   {
     "blockchain": "Galilel",
