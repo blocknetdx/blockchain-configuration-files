@@ -607,8 +607,7 @@
     "dir_name_win": "Electra",
     "repo_url": "https://github.com/Electra-project/electra-core",
     "versions": [
-      "2.0.2",
-      "2.0.3"
+      "2.1.1"
     ],
     "xbridge_conf": "electra--2.0.2.1.conf",
     "wallet_conf": "electra--2.0.2.1.conf"
