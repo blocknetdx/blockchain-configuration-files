@@ -317,12 +317,12 @@
   {
     "blockchain": "ColossusXT",
     "ticker": "COLX",
-    "ver_id": "ColossusXT--v1.0.5.1",
+    "ver_id": "ColossusXT--v1.2.1",
     "ver_name": "ColossusXT",
     "conf_name": "ColossusXT.conf",
     "dir_name_linux": "ColossusXT",
-    "dir_name_mac": "ColossusCoinXT",
-    "dir_name_win": "ColossusCoinXT",
+    "dir_name_mac": "ColossusXT",
+    "dir_name_win": "ColossusXT",
     "repo_url": "https://github.com/ColossusCoinXT/ColossusCoinXT",
     "versions": [
       "v1.2.1"
