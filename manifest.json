@@ -475,11 +475,7 @@
     "dir_name_win": "DigiByte",
     "repo_url": "https://github.com/digibyte/digibyte",
     "versions": [
-      "v6.16.2",
-      "v6.16.3",
-      "v6.16.4",
-      "v6.16.5",
-      "v6.16.5.1"
+      "v7.17.2"
     ],
     "xbridge_conf": "digibyte--v6.16.2.conf",
     "wallet_conf": "digibyte--v6.16.2.conf"
