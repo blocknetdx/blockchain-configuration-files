@@ -377,10 +377,7 @@
     "dir_name_win": "Crown",
     "repo_url": "https://github.com/Crowndev/crown-core",
     "versions": [
-      "v0.12.4.1",
-      "v0.12.5.1",
-      "v0.12.5.2",
-      "v0.12.5.3"
+      "v0.13.4.0"
     ],
     "xbridge_conf": "crown--v0.12.4.1.conf",
     "wallet_conf": "crown--v0.12.4.1.conf"
