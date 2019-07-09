@@ -1534,7 +1534,7 @@
     "dir_name_win": "Shekel",
     "repo_url": "https://github.com/shekeltechnologies/JewNew",
     "versions": [
-      "1.4.0"
+      "1.5.0"
     ],
     "xbridge_conf": "shekel--1.4.0.conf",
     "wallet_conf": "shekel--1.4.0.conf"
