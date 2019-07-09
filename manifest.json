@@ -167,6 +167,22 @@
     "wallet_conf": "bitcoin--v0.17.0.conf"
   },
   {
+    "blockchain": "Bitcoin CZ",
+    "ticker": "BCZ",
+    "ver_id": "bcz--6.0.0.8",
+    "ver_name": "Bitcoin CZ",
+    "conf_name": "bcz.conf",
+    "dir_name_linux": "bcz",
+    "dir_name_mac": "BCZ",
+    "dir_name_win": "BCZ",
+    "repo_url": "https://github.com/BitcoinCZ/bitcoincz",
+    "versions": [
+      "6.0.0.8"
+    ],
+    "xbridge_conf": "bcz--6.0.0.8.conf",
+    "wallet_conf": "bcz--6.0.0.8.conf"
+  },
+  {
     "blockchain": "BitGreen",
     "ticker": "BITG",
     "ver_id": "bitgreen--v1.3.1",
