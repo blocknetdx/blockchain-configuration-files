@@ -801,7 +801,7 @@
     "dir_name_win": "InnovaCore",
     "repo_url": "https://github.com/innovacoin/innova",
     "versions": [
-      "12.1.10"
+      "v12.2.1"
     ],
     "xbridge_conf": "innova--12.1.10.conf",
     "wallet_conf": "innova--12.1.10.conf"
