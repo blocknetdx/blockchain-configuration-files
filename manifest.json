@@ -525,7 +525,8 @@
     "dir_name_win": "DIVI",
     "repo_url": "https://github.com/DiviProject/Divi",
     "versions": [
-      "DESK-1.2.2"
+      "DESK-1.2.2",
+      "v1.0.4-core"
     ],
     "xbridge_conf": "divi--desk-1.2.2.1.conf",
     "wallet_conf": "divi--desk-1.2.2.1.conf"
