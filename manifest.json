@@ -167,19 +167,17 @@
     "wallet_conf": "bitcoin--v0.17.0.conf"
   },
   {
-    "blockchain": "Bitcoin Green",
+    "blockchain": "BitGreen",
     "ticker": "BITG",
-    "ver_id": "bitcoingreen--1.1.0",
-    "ver_name": "Bitcoin Green",
-    "conf_name": "bitcoingreen.conf",
-    "dir_name_linux": "bitcoingreen",
-    "dir_name_mac": "BitcoinGreen",
-    "dir_name_win": "BitcoinGreen",
-    "repo_url": "https://github.com/bitcoingreen/bitcoingreen",
+    "ver_id": "bitgreen--v1.3.1",
+    "ver_name": "BitGreen",
+    "conf_name": "bitgreen.conf",
+    "dir_name_linux": "bitgreen",
+    "dir_name_mac": "BitGreen",
+    "dir_name_win": "BitGreen",
+    "repo_url": "https://github.com/bitgreen/bitgreen",
     "versions": [
-      "1.1.0",
-      "1.2.2",
-      "v1.3.0"
+      "v1.3.1"
     ],
     "xbridge_conf": "bitcoingreen--1.1.0.conf",
     "wallet_conf": "bitcoingreen--1.1.0.conf"
