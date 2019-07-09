@@ -1846,7 +1846,7 @@
     "blockchain": "Viacoin",
     "ticker": "VIA",
     "ver_id": "viacoin--v0.15.1",
-    "ver_name": "Viacoin",
+    "ver_name": "Viacoin v0.15.x",
     "conf_name": "viacoin.conf",
     "dir_name_linux": "viacoin",
     "dir_name_mac": "Viacoin",
@@ -1858,6 +1858,22 @@
     ],
     "xbridge_conf": "viacoin--v0.15.1.conf",
     "wallet_conf": "viacoin--v0.15.1.conf"
+  },
+  {
+    "blockchain": "Viacoin",
+    "ticker": "VIA",
+    "ver_id": "viacoin--v0.16.3",
+    "ver_name": "Viacoin v0.16.x",
+    "conf_name": "viacoin.conf",
+    "dir_name_linux": "viacoin",
+    "dir_name_mac": "Viacoin",
+    "dir_name_win": "Viacoin",
+    "repo_url": "https://github.com/viacoin/viacoin",
+    "versions": [
+      "v0.16.3"
+    ],
+    "xbridge_conf": "viacoin--v0.15.1.conf",
+    "wallet_conf": "viacoin--v0.16.3.conf"
   },
   {
     "blockchain": "Vitae",
