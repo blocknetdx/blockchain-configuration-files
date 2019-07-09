@@ -409,7 +409,7 @@
     "dir_name_win": "Cryptonodes",
     "repo_url": "https://github.com/cryptonodes-core/cryptonodes-core",
     "versions": [
-      "v1.4.3"
+      "v1.4.4.1"
     ],
     "xbridge_conf": "cryptonodes--v1.4.3.conf",
     "wallet_conf": "cryptonodes--v1.4.3.conf"
