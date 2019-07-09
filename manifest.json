@@ -721,7 +721,7 @@
     "dir_name_win": "GincoinCore",
     "repo_url": "https://github.com/gincoin-dev/gincoin-core",
     "versions": [
-      "1.1.0.0"
+      "v1.3.0.0"
     ],
     "xbridge_conf": "gincoin--1.1.0.0.conf",
     "wallet_conf": "gincoin--1.1.0.0.conf"
