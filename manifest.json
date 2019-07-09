@@ -1135,8 +1135,7 @@
     "dir_name_win": "MonetaryUnitCore",
     "repo_url": "https://github.com/muecoin/MUE",
     "versions": [
-      "v2.0.2",
-      "v2.1.2"
+      "v2.1.4"
     ],
     "xbridge_conf": "monetaryunit--v2.0.2.conf",
     "wallet_conf": "monetaryunit--v2.0.2.conf"
