@@ -1599,7 +1599,7 @@
     "dir_name_win": "SparksCore",
     "repo_url": "https://github.com/sparkspay/sparks",
     "versions": [
-      "v0.12.3.2"
+      "v0.12.4.3"
     ],
     "xbridge_conf": "sparks--v0.12.3.2.conf",
     "wallet_conf": "sparks--v0.12.3.2.conf"
