@@ -921,7 +921,7 @@
   {
     "blockchain": "LBRY Credits",
     "ticker": "LBC",
-    "ver_id": "lbrycrd--v0.12.2.1",
+    "ver_id": "lbrycrd--v0.17.2.0",
     "ver_name": "LBRY Credits",
     "conf_name": "lbrycrd.conf",
     "dir_name_linux": "lbrycrd",
@@ -929,14 +929,10 @@
     "dir_name_win": "lbrycrd",
     "repo_url": "https://github.com/lbryio/lbrycrd",
     "versions": [
-      "v0.12.2.1",
-      "v0.12.2.2",
-      "v0.12.2.3",
-      "v0.12.3.0",
-      "v0.12.3.1"
+      "v0.17.2.0"
     ],
     "xbridge_conf": "lbrycrd--v0.12.2.1.conf",
-    "wallet_conf": "lbrycrd--v0.12.2.1.conf"
+    "wallet_conf": "lbrycrd--v0.17.2.0.conf"
   },
   {
     "blockchain": "Light Pay Coin",
