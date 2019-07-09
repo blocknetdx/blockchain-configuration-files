@@ -1035,6 +1035,22 @@
     "wallet_conf": "litecoin--v0.17.1.conf"
   },
   {
+    "blockchain": "LogisCoin",
+    "ticker": "LGS",
+    "ver_id": "logiscoin--v2.0.3.0",
+    "ver_name": "LogisCoin",
+    "conf_name": "logiscoin.conf",
+    "dir_name_linux": "logiscoin",
+    "dir_name_mac": "LogisCoin",
+    "dir_name_win": "LogisCoin",
+    "repo_url": "https://github.com/lgsproject/LogisCoin",
+    "versions": [
+      "v2.0.3.0"
+    ],
+    "xbridge_conf": "logiscoin--v2.0.3.0.conf",
+    "wallet_conf": "logiscoin--v2.0.3.0.conf"
+  },
+  {
     "blockchain": "Lynx",
     "ticker": "LYNX",
     "ver_id": "lynx--v0.15.1.0",
