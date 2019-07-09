@@ -705,7 +705,7 @@
     "dir_name_win": "Galilel",
     "repo_url": "https://github.com/Galilel-Project/galilel",
     "versions": [
-      "v3.2.0"
+      "v3.3.0"
     ],
     "xbridge_conf": "galilel--v3.2.0.conf",
     "wallet_conf": "galilel--v3.2.0.conf"
