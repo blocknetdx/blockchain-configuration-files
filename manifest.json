@@ -80,22 +80,6 @@
     "wallet_conf": "australiacash--v0.17.4.0.conf"
   },
   {
-    "blockchain": "Banq",
-    "ticker": "BANQ",
-    "ver_id": "banq--v1.0",
-    "ver_name": "Banq",
-    "conf_name": "banq.conf",
-    "dir_name_linux": "banqcore",
-    "dir_name_mac": "BanqCore",
-    "dir_name_win": "BanqCore",
-    "repo_url": "https://github.com/banq-platform/banq",
-    "versions": [
-      "v1.0"
-    ],
-    "xbridge_conf": "banq--v1.0.conf",
-    "wallet_conf": "banq--v1.0.conf"
-  },
-  {
     "blockchain": "BiFrost",
     "ticker": "FROST",
     "ver_id": "bifrost--v1.2.0",
@@ -375,22 +359,6 @@
     ],
     "xbridge_conf": "crave--v2.5.0.3.conf",
     "wallet_conf": "crave--v2.5.0.3.conf"
-  },
-  {
-    "blockchain": "CrowdCoin",
-    "ticker": "CRC",
-    "ver_id": "crowdcoin--2.0.0",
-    "ver_name": "CrowdCoin",
-    "conf_name": "crowdcoin.conf",
-    "dir_name_linux": "crowdcoinbrain",
-    "dir_name_mac": "CrowdcoinBrain",
-    "dir_name_win": "CrowdcoinBrain",
-    "repo_url": "https://github.com/crowdcoinChain/Crowdcoin",
-    "versions": [
-      "2.0.1"
-    ],
-    "xbridge_conf": "crowdcoin--1.1.0.conf",
-    "wallet_conf": "crowdcoin--1.1.0.conf"
   },
   {
     "blockchain": "Crown",
@@ -1166,39 +1134,6 @@
   {
     "blockchain": "MonaCoin",
     "ticker": "MONA",
-    "ver_id": "monacoin--monacoin-0.15.1",
-    "ver_name": "MonaCoin v0.15.x",
-    "conf_name": "monacoin.conf",
-    "dir_name_linux": "monacoin",
-    "dir_name_mac": "Monacoin",
-    "dir_name_win": "Monacoin",
-    "repo_url": "https://github.com/monacoinproject/monacoin",
-    "versions": [
-      "monacoin-0.15.1"
-    ],
-    "xbridge_conf": "monacoin--monacoin-0.15.1.conf",
-    "wallet_conf": "monacoin--monacoin-0.15.1.conf"
-  },
-  {
-    "blockchain": "MonaCoin",
-    "ticker": "MONA",
-    "ver_id": "monacoin--monacoin-0.16.2",
-    "ver_name": "MonaCoin v0.16.x",
-    "conf_name": "monacoin.conf",
-    "dir_name_linux": "monacoin",
-    "dir_name_mac": "Monacoin",
-    "dir_name_win": "Monacoin",
-    "repo_url": "https://github.com/monacoinproject/monacoin",
-    "versions": [
-      "monacoin-0.16.2",
-      "monacoin-0.16.3"
-    ],
-    "xbridge_conf": "monacoin--monacoin-0.15.1.conf",
-    "wallet_conf": "monacoin--monacoin-0.16.2.conf"
-  },
-  {
-    "blockchain": "MonaCoin",
-    "ticker": "MONA",
     "ver_id": "monacoin--monacoin-0.17.1",
     "ver_name": "MonaCoin v0.17.x",
     "conf_name": "monacoin.conf",
@@ -1243,25 +1178,6 @@
     ],
     "xbridge_conf": "monoeci--v0.12.2.3.conf",
     "wallet_conf": "monoeci--v0.12.2.3.conf"
-  },
-  {
-    "blockchain": "Myriad",
-    "ticker": "XMY",
-    "ver_id": "myriadcoin--v0.14.2.5",
-    "ver_name": "Myriad",
-    "conf_name": "myriadcoin.conf",
-    "dir_name_linux": "myriadcoin",
-    "dir_name_mac": "Myriadcoin",
-    "dir_name_win": "Myriadcoin",
-    "repo_url": "https://github.com/myriadteam/myriadcoin",
-    "versions": [
-      "v0.14.2.5",
-      "v0.14.3.0",
-      "v0.14.4.0",
-      "v0.14.4.1"
-    ],
-    "xbridge_conf": "myriadcoin--v0.14.2.5.conf",
-    "wallet_conf": "myriadcoin--v0.14.2.5.conf"
   },
   {
     "blockchain": "Myriad",
@@ -1506,26 +1422,6 @@
   {
     "blockchain": "Qtum",
     "ticker": "QTUM",
-    "ver_id": "qtum--mainnet-ignition-v0.15.2",
-    "ver_name": "Qtum v0.15.x - v0.16.x",
-    "conf_name": "qtum.conf",
-    "dir_name_linux": "qtum",
-    "dir_name_mac": "Qtum",
-    "dir_name_win": "Qtum",
-    "repo_url": "https://github.com/qtumproject/qtum",
-    "versions": [
-      "mainnet-ignition-v0.15.2",
-      "mainnet-ignition-v0.15.3",
-      "mainnet-ignition-v0.16.0",
-      "mainnet-ignition-v0.16.1",
-      "mainnet-ignition-v0.16.2"
-    ],
-    "xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
-    "wallet_conf": "qtum--mainnet-ignition-v0.15.2.conf"
-  },
-  {
-    "blockchain": "Qtum",
-    "ticker": "QTUM",
     "ver_id": "qtum--mainnet-ignition-v0.17.1",
     "ver_name": "Qtum v0.17.x",
     "conf_name": "qtum.conf",
@@ -1700,22 +1596,6 @@
     "wallet_conf": "sparks--v0.12.3.2.conf"
   },
   {
-    "blockchain": "Stakenet",
-    "ticker": "XSN",
-    "ver_id": "xsn--v1.0.9",
-    "ver_name": "Stakenet",
-    "conf_name": "xsn.conf",
-    "dir_name_linux": "xsncore",
-    "dir_name_mac": "XSNCore",
-    "dir_name_win": "XSNCore",
-    "repo_url": "https://github.com/X9Developers/XSN",
-    "versions": [
-      "v1.0.9"
-    ],
-    "xbridge_conf": "xsn--v1.0.9.conf",
-    "wallet_conf": "xsn--v1.0.9.conf"
-  },
-  {
     "blockchain": "STRAKS",
     "ticker": "STAK",
     "ver_id": "straks--1.14.7.3",
@@ -1812,54 +1692,6 @@
     "wallet_conf": "tribe--v1.0.0.conf"
   },
   {
-    "blockchain": "Ultranatum",
-    "ticker": "ULTRA",
-    "ver_id": "ultranatum--1.1.0.2",
-    "ver_name": "Ultranatum",
-    "conf_name": "ultranatum.conf",
-    "dir_name_linux": "ultranatumcore",
-    "dir_name_mac": "UltranatumCore",
-    "dir_name_win": "UltranatumCore",
-    "repo_url": "https://github.com/ultranatum/ultranatum",
-    "versions": [
-      "1.1.0.2"
-    ],
-    "xbridge_conf": "ultranatum--1.1.0.2.conf",
-    "wallet_conf": "ultranatum--1.1.0.2.conf"
-  },
-  {
-    "blockchain": "UnbreakableCoin",
-    "ticker": "UNB",
-    "ver_id": "unbreakablecoin--v0.10.3.0",
-    "ver_name": "UnbreakableCoin",
-    "conf_name": "unbreakablecoin.conf",
-    "dir_name_linux": "unbreakablecoin",
-    "dir_name_mac": "Unbreakablecoin",
-    "dir_name_win": "Unbreakablecoin",
-    "repo_url": "https://github.com/jimblasko/UnbreakableCoin-master",
-    "versions": [
-      "v0.10.3.0"
-    ],
-    "xbridge_conf": "unbreakablecoin--v0.10.3.0.conf",
-    "wallet_conf": "unbreakablecoin--v0.10.3.0.conf"
-  },
-  {
-    "blockchain": "Uniform Fiscal Object",
-    "ticker": "UFO",
-    "ver_id": "ufocoin--v0.16.1",
-    "ver_name": "Uniform Fiscal Object v0.16.x",
-    "conf_name": "ufocoin.conf",
-    "dir_name_linux": "ufo",
-    "dir_name_mac": "UFO",
-    "dir_name_win": "UFO",
-    "repo_url": "https://github.com/fiscalobject/ufo",
-    "versions": [
-      "v0.16.1"
-    ],
-    "xbridge_conf": "ufocoin--v0.16.1.conf",
-    "wallet_conf": "ufocoin--v0.16.1.conf"
-  },
-  {
     "blockchain": "Uniform Fiscal Object",
     "ticker": "UFO",
     "ver_id": "ufocoin--v0.17.0",
@@ -1890,23 +1722,6 @@
     ],
     "xbridge_conf": "vertcoin--0.12.0.conf",
     "wallet_conf": "vertcoin--0.13.0.conf"
-  },
-  {
-    "blockchain": "Viacoin",
-    "ticker": "VIA",
-    "ver_id": "viacoin--v0.15.1",
-    "ver_name": "Viacoin v0.15.x",
-    "conf_name": "viacoin.conf",
-    "dir_name_linux": "viacoin",
-    "dir_name_mac": "Viacoin",
-    "dir_name_win": "Viacoin",
-    "repo_url": "https://github.com/viacoin/viacoin",
-    "versions": [
-      "v0.15.1",
-      "v0.15.2"
-    ],
-    "xbridge_conf": "viacoin--v0.15.1.conf",
-    "wallet_conf": "viacoin--v0.15.1.conf"
   },
   {
     "blockchain": "Viacoin",
@@ -1973,22 +1788,6 @@
     "wallet_conf": "vsync--v3.8.5.0.conf"
   },
   {
-    "blockchain": "Vyigrat",
-    "ticker": "VYI",
-    "ver_id": "vyigrat--v1.3.0.0",
-    "ver_name": "Vyigrat",
-    "conf_name": "vyigrat.conf",
-    "dir_name_linux": "vyigrat",
-    "dir_name_mac": "Vyigrat",
-    "dir_name_win": "Vyigrat",
-    "repo_url": "https://github.com/vyigrat/vyigrat",
-    "versions": [
-      "v1.3.0.0"
-    ],
-    "xbridge_conf": "vyigrat--v1.3.0.0.conf",
-    "wallet_conf": "vyigrat--v1.3.0.0.conf"
-  },
-  {
     "blockchain": "Wagerr",
     "ticker": "WGR",
     "ver_id": "wagerr--1.5.0",
@@ -2035,21 +1834,5 @@
     ],
     "xbridge_conf": "zcoin--v0.13.6.4.conf",
     "wallet_conf": "zcoin--v0.13.6.4.conf"
-  },
-  {
-    "blockchain": "ZEST",
-    "ticker": "ZEST",
-    "ver_id": "zest--v1.0.3",
-    "ver_name": "ZEST",
-    "conf_name": "zest.conf",
-    "dir_name_linux": "zest",
-    "dir_name_mac": "Zest",
-    "dir_name_win": "Zest",
-    "repo_url": "https://github.com/zestfoundation/ZestCoin",
-    "versions": [
-      "v1.0.3"
-    ],
-    "xbridge_conf": "zest--v1.0.3.conf",
-    "wallet_conf": "zest--v1.0.3.conf"
   }
 ]
