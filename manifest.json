@@ -361,22 +361,6 @@
     "wallet_conf": "crave--v2.5.0.3.conf"
   },
   {
-    "blockchain": "Crown",
-    "ticker": "CRW",
-    "ver_id": "crown--v0.12.4.1",
-    "ver_name": "Crown",
-    "conf_name": "crown.conf",
-    "dir_name_linux": "crown",
-    "dir_name_mac": "Crown",
-    "dir_name_win": "Crown",
-    "repo_url": "https://github.com/Crowndev/crown-core",
-    "versions": [
-      "v0.13.4.0"
-    ],
-    "xbridge_conf": "crown--v0.12.4.1.conf",
-    "wallet_conf": "crown--v0.12.4.1.conf"
-  },
-  {
     "blockchain": "CryptoCashBack",
     "ticker": "CCBC",
     "ver_id": "ccbc--v1.2.0.1",
