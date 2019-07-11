@@ -258,8 +258,8 @@
     "versions": [
       "2.1.1.0"
     ],
-    "xbridge_conf": "BitMoney--2.1.1.0.conf",
-    "wallet_conf": "BitMoney--2.1.1.0.conf"
+    "xbridge_conf": "bitmoney--2.1.1.0.conf",
+    "wallet_conf": "bitmoney--2.1.1.0.conf"
   },
   {
     "blockchain": "BitSend",
@@ -1052,7 +1052,6 @@
     "wallet_conf": "litecoin--v0.16.0.conf"
   },
   {
-<<<<<<< HEAD
     "blockchain": "Litecoin",
     "ticker": "LTC",
     "ver_id": "litecoin--v0.17.1",
@@ -1069,8 +1068,6 @@
     "wallet_conf": "litecoin--v0.17.1.conf"
   },
   {
-=======
->>>>>>> 17fb8a0... Update manifest.json
     "blockchain": "LogisCoin",
     "ticker": "LGS",
     "ver_id": "logiscoin--v2.0.3.0",
@@ -1087,7 +1084,6 @@
     "wallet_conf": "logiscoin--v2.0.3.0.conf"
   },
   {
-<<<<<<< HEAD
     "blockchain": "Luxcore",
     "ticker": "LUX",
     "ver_id": "lux--v5.3.3",
@@ -1104,8 +1100,6 @@
     "wallet_conf": "lux--v5.3.3.conf"
   },
   {
-=======
->>>>>>> 17fb8a0... Update manifest.json
     "blockchain": "Lynx",
     "ticker": "LYNX",
     "ver_id": "lynx--v0.15.1.0",
