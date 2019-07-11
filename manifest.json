@@ -1478,7 +1478,7 @@
     "dir_name_win": "sequence",
     "repo_url": "https://github.com/duality-solutions/Sequence",
     "versions": [
-      "v1.3.0.0"
+      "v1.3.1.0"
     ],
     "xbridge_conf": "sequence--v1.3.0.0.conf",
     "wallet_conf": "sequence--v1.3.0.0.conf"
