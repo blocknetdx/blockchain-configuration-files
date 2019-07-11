@@ -104,7 +104,7 @@
     "dir_name_linux": "bitcloud",
     "dir_name_mac": "Bitcloud",
     "dir_name_win": "Bitcloud",
-    "repo_url": "https://github.com/LIMXTEC/Bitcloud/",
+    "repo_url": "https://github.com/LIMXTEC/Bitcloud",
     "versions": [
       "2.1.0.1.1"
     ],
@@ -341,8 +341,8 @@
     "versions": [
       "v1.2.1"
     ],
-    "xbridge_conf": "ColossusXT--v1.2.1.conf",
-    "wallet_conf": "ColossusXT--v1.2.1.conf"
+    "xbridge_conf": "colossusxt--v1.2.1.conf",
+    "wallet_conf": "colossusxt--v1.2.1.conf"
   },
   {
     "blockchain": "Crave",
@@ -738,7 +738,7 @@
     "dir_name_linux": "hash",
     "dir_name_mac": "Hash",
     "dir_name_win": "Hash",
-    "repo_url": "https://github.com/hashplatform/hash/",
+    "repo_url": "https://github.com/hashplatform/hash",
     "versions": [
       "1.1.0"
     ],
