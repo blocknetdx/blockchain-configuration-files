@@ -1374,7 +1374,7 @@
   {
     "blockchain": "Qbic",
     "ticker": "QBIC",
-    "ver_id": "qbic--v1.0.1.0",
+    "ver_id": "qbiccoin--v1.0.1.0",
     "ver_name": "Qbic",
     "conf_name": "qbiccoin.conf",
     "dir_name_linux": "qbiccoin",
@@ -1384,8 +1384,8 @@
     "versions": [
       "v1.0.1.0"
     ],
-    "xbridge_conf": "qbic--v1.0.1.0.conf",
-    "wallet_conf": "qbic--v1.0.1.0.conf"
+    "xbridge_conf": "qbiccoin--v1.0.1.0.conf",
+    "wallet_conf": "qbiccoin--v1.0.1.0.conf"
   },
   {
     "blockchain": "Qtum",
