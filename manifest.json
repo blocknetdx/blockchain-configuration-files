@@ -248,7 +248,7 @@
   {
     "blockchain": "BitMoney",
     "ticker": "BIT",
-    "ver_id": "BitMoney--2.1.1.0",
+    "ver_id": "BitMoney--2.2.0.2",
     "ver_name": "BitMoney",
     "conf_name": "BitMoney.conf",
     "dir_name_linux": "BitMoney",
@@ -256,10 +256,10 @@
     "dir_name_win": "BitMoney",
     "repo_url": "https://github.com/CryptVenture/BitMoneyV2",
     "versions": [
-      "2.1.1.0"
+      "2.2.0.2"
     ],
-    "xbridge_conf": "bitmoney--2.1.1.0.conf",
-    "wallet_conf": "bitmoney--2.1.1.0.conf"
+    "xbridge_conf": "bitmoney--2.2.0.2.conf",
+    "wallet_conf": "bitmoney--2.2.0.2.conf"
   },
   {
     "blockchain": "BitSend",
@@ -732,7 +732,7 @@
   {
     "blockchain": "GeekCash",
     "ticker": "GEEK",
-    "ver_id": "geekcash--v1.0.1.3",
+    "ver_id": "geekcash--v1.3.0.1",
     "ver_name": "GeekCash",
     "conf_name": "geekcash.conf",
     "dir_name_linux": "geekcash",
@@ -740,10 +740,10 @@
     "dir_name_win": "GeekCash",
     "repo_url": "https://github.com/GeekCash/geekcash",
     "versions": [
-      "v1.0.1.3"
+      "v1.3.0.1"
     ],
-    "xbridge_conf": "geekcash--v1.0.1.3.conf",
-    "wallet_conf": "geekcash--v1.0.1.3.conf"
+    "xbridge_conf": "geekcash--v1.3.0.1.conf",
+    "wallet_conf": "geekcash--v1.3.0.1.conf"
   },
   {
     "blockchain": "GINcoin",
@@ -872,22 +872,6 @@
     ],
     "xbridge_conf": "iop--v6.2.3.conf",
     "wallet_conf": "iop--v6.2.3.conf"
-  },
-  {
-    "blockchain": "IONOS",
-    "ticker": "IOX",
-    "ver_id": "ionos--1.3.0",
-    "ver_name": "IONOS",
-    "conf_name": "ionos.conf",
-    "dir_name_linux": "ionos",
-    "dir_name_mac": "Ionos",
-    "dir_name_win": "Ionos",
-    "repo_url": "https://github.com/IONOSProject/IONOS",
-    "versions": [
-      "1.3.0"
-    ],
-    "xbridge_conf": "ionos--1.3.0.conf",
-    "wallet_conf": "ionos--1.3.0.conf"
   },
   {
     "blockchain": "Ixcoin",
@@ -1338,22 +1322,6 @@
     ],
     "xbridge_conf": "northern--1.0.0.conf",
     "wallet_conf": "northern--1.0.0.conf"
-  },
-  {
-    "blockchain": "Nucleon",
-    "ticker": "NEON",
-    "ver_id": "neon--v2.2.0",
-    "ver_name": "Nucleon",
-    "conf_name": "neon.conf",
-    "dir_name_linux": "neoncore",
-    "dir_name_mac": "NucleonCore",
-    "dir_name_win": "NucleonCore",
-    "repo_url": "https://github.com/MealwormsBiz/Nucleon",
-    "versions": [
-      "v2.2.0"
-    ],
-    "xbridge_conf": "neon--v2.2.0.conf",
-    "wallet_conf": "neon--v2.2.0.conf"
   },
   {
     "blockchain": "Nyerium",
