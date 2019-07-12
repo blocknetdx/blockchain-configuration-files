@@ -372,7 +372,6 @@ If a new wallet version is successful using a newly generated XBridge or wallet 
 If a successful exchange was confirmed for a new blockchain, then a new `manifest` version group must be created as well as the new configuration files.
 
 
-
 Contributing
 --------------------------------------
 Want to help build the internet of blockchains? Check out our [contributing documentation](https://github.com/BlocknetDX/BlockDX/blob/master/CONTRIBUTING.md).
