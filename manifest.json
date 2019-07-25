@@ -1476,7 +1476,7 @@
     "dir_name_linux": "qbiccoin",
     "dir_name_mac": "QBICcoin",
     "dir_name_win": "QBICcoin",
-    "repo_url": "https://github.com/qbic-platform/qbic",
+    "repo_url": "https://github.com/qbic-platform/qbic_v2.0",
     "versions": [
       "v1.0.1.0"
     ],
