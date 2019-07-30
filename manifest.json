@@ -182,6 +182,22 @@
     "wallet_conf": "bitcoin--v0.17.0.conf"
   },
   {
+    "blockchain": "Bitcoin",
+    "ticker": "BTC",
+    "ver_id": "bitcoin--v0.18.0",
+    "ver_name": "Bitcoin v0.18.x",
+    "conf_name": "bitcoin.conf",
+    "dir_name_linux": "bitcoin",
+    "dir_name_mac": "Bitcoin",
+    "dir_name_win": "Bitcoin",
+    "repo_url": "https://github.com/bitcoin/bitcoin",
+    "versions": [
+      "v0.18.0"
+    ],
+    "xbridge_conf": "bitcoin--v0.15.1.conf",
+    "wallet_conf": "bitcoin--v0.18.0.conf"
+  },
+  {
     "blockchain": "Bitcoin CZ",
     "ticker": "BCZ",
     "ver_id": "bcz--6.0.0.8",
