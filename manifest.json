@@ -996,7 +996,8 @@
     "dir_name_win": "lbrycrd",
     "repo_url": "https://github.com/lbryio/lbrycrd",
     "versions": [
-      "v0.17.2.0"
+      "v0.17.2.0",
+      "v0.17.2.1"
     ],
     "xbridge_conf": "lbrycrd--v0.12.2.1.conf",
     "wallet_conf": "lbrycrd--v0.17.2.0.conf"
