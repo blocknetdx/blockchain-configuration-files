@@ -1911,7 +1911,7 @@
     "dir_name_win": "Wagerr",
     "repo_url": "https://github.com/wagerr/wagerr",
     "versions": [
-      "v2.0.2"
+      "v3.0.0"
     ],
     "xbridge_conf": "wagerr--1.5.0.conf",
     "wallet_conf": "wagerr--1.5.0.conf"
