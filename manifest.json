@@ -195,7 +195,7 @@
       "v0.18.0"
     ],
     "xbridge_conf": "bitcoin--v0.15.1.conf",
-    "wallet_conf": "bitcoin--v0.18.0.conf"
+    "wallet_conf": "bitcoin--v0.16.0.conf"
   },
   {
     "blockchain": "Bitcoin CZ",
