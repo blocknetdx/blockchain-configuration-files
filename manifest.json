@@ -106,7 +106,7 @@
     "dir_name_win": "Bifrost",
     "repo_url": "https://github.com/bifrost-actual/bifrost-coin",
     "versions": [
-      "v1.2.0"
+      "v1.2.1"
     ],
     "xbridge_conf": "bifrost--v1.2.0.conf",
     "wallet_conf": "bifrost--v1.2.0.conf"
