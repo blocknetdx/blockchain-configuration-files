@@ -1740,6 +1740,22 @@
     "wallet_conf": "syndicate--v2.0.0.conf"
   },
   {
+    "blockchain": "Syscoin",
+    "ticker": "SYS",
+    "ver_id": "syscoin--v4.0.3",
+    "ver_name": "Syscoin 4",
+    "conf_name": "syscoin.conf",
+    "dir_name_linux": "syscoin",
+    "dir_name_mac": "Syscoin",
+    "dir_name_win": "Syscoin",
+    "repo_url": "https://github.com/syscoin/syscoin",
+    "versions": [
+      "v4.0.3"
+    ],
+    "xbridge_conf": "syscoin--v4.0.3.conf",
+    "wallet_conf": "syscoin--v4.0.3.conf"
+  },
+  {
     "blockchain": "Terracoin",
     "ticker": "TRC",
     "ver_id": "terracoin--v0.12.1.8",
