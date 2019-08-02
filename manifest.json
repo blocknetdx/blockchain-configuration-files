@@ -553,7 +553,7 @@
   {
     "blockchain": "Divi",
     "ticker": "DIVI",
-    "ver_id": "divi--DESK-1.2.2",
+    "ver_id": "divi--v1.0.4-core",
     "ver_name": "Divi",
     "conf_name": "divi.conf",
     "dir_name_linux": "divi",
@@ -564,8 +564,8 @@
       "DESK-1.2.2",
       "v1.0.4-core"
     ],
-    "xbridge_conf": "divi--desk-1.2.2.conf",
-    "wallet_conf": "divi--desk-1.2.2.conf"
+    "xbridge_conf": "divi--v1.0.4-core.conf",
+    "wallet_conf": "divi--v1.0.4-core.conf"
   },
   {
     "blockchain": "DogeCash",
