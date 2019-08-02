@@ -881,7 +881,7 @@
     "dir_name_linux": "innovacore",
     "dir_name_mac": "InnovaCore",
     "dir_name_win": "InnovaCore",
-    "repo_url": "https://github.com/innovacoin/innova",
+    "repo_url": "https://github.com/innova-coin/innova",
     "versions": [
       "v12.2.1",
       "v12.2.2"
