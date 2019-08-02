@@ -553,7 +553,7 @@
   {
     "blockchain": "Divi",
     "ticker": "DIVI",
-    "ver_id": "divi--DESK-1.2.2.1",
+    "ver_id": "divi--DESK-1.2.2",
     "ver_name": "Divi",
     "conf_name": "divi.conf",
     "dir_name_linux": "divi",
@@ -564,8 +564,8 @@
       "DESK-1.2.2",
       "v1.0.4-core"
     ],
-    "xbridge_conf": "divi--desk-1.2.2.1.conf",
-    "wallet_conf": "divi--desk-1.2.2.1.conf"
+    "xbridge_conf": "divi--desk-1.2.2.conf",
+    "wallet_conf": "divi--desk-1.2.2.conf"
   },
   {
     "blockchain": "DogeCash",
@@ -1453,7 +1453,7 @@
   {
     "blockchain": "PIVX",
     "ticker": "PIVX",
-    "ver_id": "pivx--v3.1.0.2",
+    "ver_id": "pivx--v3.3.0",
     "ver_name": "PIVX",
     "conf_name": "pivx.conf",
     "dir_name_linux": "pivx",
@@ -1463,8 +1463,8 @@
     "versions": [
       "v3.3.0"
     ],
-    "xbridge_conf": "pivx--v3.1.0.2.conf",
-    "wallet_conf": "pivx--v3.1.0.2.conf"
+    "xbridge_conf": "pivx--v3.3.0.conf",
+    "wallet_conf": "pivx--v3.3.0.conf"
   },
   {
     "blockchain": "Polis",
