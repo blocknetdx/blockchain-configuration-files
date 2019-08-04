@@ -1741,22 +1741,6 @@
     "wallet_conf": "zsub1x--1.4.0.conf"
   },
   {
-    "blockchain": "Sucre",
-    "ticker": "SUCR",
-    "ver_id": "sucr--v0.12.2.1",
-    "ver_name": "Sucre",
-    "conf_name": "sucr.conf",
-    "dir_name_linux": "sucrcore",
-    "dir_name_mac": "SucrCore",
-    "dir_name_win": "SucrCore",
-    "repo_url": "https://github.com/sucremoneda/SucreCore",
-    "versions": [
-      "v0.12.2.1"
-    ],
-    "xbridge_conf": "sucr--v0.12.2.1.conf",
-    "wallet_conf": "sucr--v0.12.2.1.conf"
-  },
-  {
     "blockchain": "Syndicate",
     "ticker": "SYNX",
     "ver_id": "syndicate--v2.0.0",
