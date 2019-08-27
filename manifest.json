@@ -249,7 +249,7 @@
     "blockchain": "BitcoinZero",
     "ticker": "BZX",
     "ver_id": "bitcoinzero--5.0.1.0",
-    "ver_name": "BitcoinZero 5.0.1.0",
+    "ver_name": "BitcoinZero",
     "conf_name": "bitcoinzero.conf",
     "dir_name_linux": "bitcoinzero",
     "dir_name_mac": "bitcoinzero",
