@@ -338,8 +338,6 @@
     "dir_name_win": "BlocknetDX",
     "repo_url": "https://github.com/blocknetdx/blocknet",
     "versions": [
-      "v3.13.2",
-      "v3.13.2-classic",
       "v3.14.0",
       "v3.14.0-classic"
     ],
@@ -1245,7 +1243,8 @@
     "dir_name_win": "MKTcoin",
     "repo_url": "https://github.com/Mktcoin-official/Mktcoin",
     "versions": [
-      "0.15.0.1"
+      "0.15.0.1",
+      "0.15.0.2"
     ],
     "xbridge_conf": "mktcoin--0.14.3.conf",
     "wallet_conf": "mktcoin--0.14.3.conf"
@@ -1566,7 +1565,8 @@
     "repo_url": "https://github.com/qtumproject/qtum",
     "versions": [
       "mainnet-ignition-v0.17.6",
-      "mainnet-ignition-v0.18.0"
+      "mainnet-ignition-v0.18.0",
+      "mainnet-ignition-v0.18.1"
     ],
     "xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
     "wallet_conf": "qtum--mainnet-ignition-v0.17.1.conf"
