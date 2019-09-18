@@ -96,6 +96,22 @@
     "wallet_conf": "australiacash--v0.17.4.0.conf"
   },
   {
+    "blockchain": "Badcoin",
+    "ticker": "BAD",
+    "ver_id": "badcoin--v0.16.3-2",
+    "ver_name": "Badcoin",
+    "conf_name": "badcoin.conf",
+    "dir_name_linux": "badcoin",
+    "dir_name_mac": "Badcoin",
+    "dir_name_win": "Badcoin",
+    "repo_url": "https://github.com/badcoin-net/Badcoin",
+    "versions": [
+      "v0.16.3-2"
+    ],
+    "xbridge_conf": "badcoin--v0.16.3-2.conf",
+    "wallet_conf": "badcoin--v0.16.3-2.conf"
+  },
+  {
     "blockchain": "BiFrost",
     "ticker": "FROST",
     "ver_id": "bifrost--v1.2.0",
