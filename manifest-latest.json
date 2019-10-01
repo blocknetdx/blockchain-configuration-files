@@ -1987,7 +1987,7 @@
     "versions": [
       "v3.0.05"
     ],
-    "xbridge_conf": "xcurrency--v3.0.05.conf", 
+    "xbridge_conf": "xcurrency--v3.0.05.conf",
     "wallet_conf": "xcurrency--v3.0.05.conf"
   },
   {
