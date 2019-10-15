@@ -548,7 +548,9 @@
     "dir_name_win": "Denarius",
     "repo_url": "https://github.com/carsenk/denarius",
     "versions": [
-      "v3.3.9.3"
+      "v3.3.9.3",
+      "v3.3.9.4",
+      "v3.3.9.5"
     ],
     "xbridge_conf": "denarius--v3.3.9.3.conf",
     "wallet_conf": "denarius--v3.3.9.3.conf"
