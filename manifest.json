@@ -128,6 +128,22 @@
     "wallet_conf": "bifrost--v1.2.0.conf"
   },
   {
+    "blockchain": "BitBay",
+    "ticker": "BAY",
+    "ver_id": "bitbay--v2.1.2a",
+    "ver_name": "BitBay",
+    "conf_name": "bitbay.conf",
+    "dir_name_linux": "bitbay",
+    "dir_name_mac": "BitBay",
+    "dir_name_win": "BitBay",
+    "repo_url": "https://github.com/bitbaymarket/bitbay-core",
+    "versions": [
+      "v2.1.2a"
+    ],
+    "xbridge_conf": "bitbay--v2.1.2a.conf",
+    "wallet_conf": "bitbay--v2.1.2a.conf"
+  },
+  {
     "blockchain": "Bitcloud",
     "ticker": "BTDX",
     "ver_id": "bitcloud--2.1.0.1.1",
@@ -215,6 +231,22 @@
     "wallet_conf": "bitcoin--v0.16.0.conf"
   },
   {
+    "blockchain": "Bitcoin",
+    "ticker": "BTC",
+    "ver_id": "bitcoin--v0.19.0",
+    "ver_name": "Bitcoin v0.19.x",
+    "conf_name": "bitcoin.conf",
+    "dir_name_linux": "bitcoin",
+    "dir_name_mac": "Bitcoin",
+    "dir_name_win": "Bitcoin",
+    "repo_url": "https://github.com/bitcoin/bitcoin",
+    "versions": [
+      "v0.19.0"
+    ],
+    "xbridge_conf": "bitcoin--v0.15.1.conf",
+    "wallet_conf": "bitcoin--v0.16.0.conf"
+  },
+  {
     "blockchain": "Bitcoin CZ",
     "ticker": "BCZ",
     "ver_id": "bcz--6.0.0.8",
@@ -274,7 +306,7 @@
     "dir_name_win": "bitcoinzero",
     "repo_url": "https://github.com/BitcoinZeroOfficial/bitcoinzero",
     "versions": [
-      "5.0.3.2"
+      "5.0.3.4"
     ],
     "xbridge_conf": "bitcoinzero--5.0.0.5.conf",
     "wallet_conf": "bitcoinzero--5.0.0.5.conf"
@@ -377,6 +409,22 @@
     "wallet_conf": "carebitcoin--v3.0.0.0.conf"
   },
   {
+    "blockchain": "Chaincoin",
+    "ticker": "CHC",
+    "ver_id": "chaincoin--v0.18.1",
+    "ver_name": "Chaincoin",
+    "conf_name": "chaincoin.conf",
+    "dir_name_linux": "chaincoincore",
+    "dir_name_mac": "Chaincoin",
+    "dir_name_win": "Chaincoin",
+    "repo_url": "https://github.com/chaincoin/chaincoin",
+    "versions": [
+      "v0.18.1"
+    ],
+    "xbridge_conf": "chaincoin--v0.18.1.conf",
+    "wallet_conf": "chaincoin--v0.18.1.conf"
+  },
+  {
     "blockchain": "Civitas",
     "ticker": "CIV",
     "ver_id": "civitas--v1.2.2",
@@ -417,9 +465,9 @@
     "dir_name_linux": "craveng",
     "dir_name_mac": "CraveNG",
     "dir_name_win": "CraveNG",
-    "repo_url": "https://github.com/Crave-Project/Crave-NG",
+    "repo_url": "https://github.com/Crave-Community-Project/Crave-Project",
     "versions": [
-      "v2.5.1"
+      "v2.5.2"
     ],
     "xbridge_conf": "crave--v2.5.0.3.conf",
     "wallet_conf": "crave--v2.5.0.3.conf"
@@ -488,6 +536,22 @@
     ],
     "xbridge_conf": "dash--v0.12.2.3.conf",
     "wallet_conf": "dash--v0.12.2.3.conf"
+  },
+  {
+    "blockchain": "Denarius",
+    "ticker": "D",
+    "ver_id": "denarius--v3.3.9.3",
+    "ver_name": "Denarius",
+    "conf_name": "denarius.conf",
+    "dir_name_linux": "denarius",
+    "dir_name_mac": "Denarius",
+    "dir_name_win": "Denarius",
+    "repo_url": "https://github.com/carsenk/denarius",
+    "versions": [
+      "v3.3.9.3"
+    ],
+    "xbridge_conf": "denarius--v3.3.9.3.conf",
+    "wallet_conf": "denarius--v3.3.9.3.conf"
   },
   {
     "blockchain": "Desire",
@@ -700,6 +764,22 @@
     "wallet_conf": "faircoin--v2.0.0.conf"
   },
   {
+    "blockchain": "FantasyGold",
+    "ticker": "FGC",
+    "ver_id": "fantasygold--2.0.0",
+    "ver_name": "FantasyGold",
+    "conf_name": "fantasygold.conf",
+    "dir_name_linux": "fantasygold",
+    "dir_name_mac": "FantasyGold",
+    "dir_name_win": "FantasyGold",
+    "repo_url": "https://github.com/FantasyGold/FantasyGold-Core",
+    "versions": [
+      "2.0.0"
+    ],
+    "xbridge_conf": "fantasygold--2.0.0.conf",
+    "wallet_conf": "fantasygold--2.0.0.conf"
+  },
+  {
     "blockchain": "Flo",
     "ticker": "FLO",
     "ver_id": "flo--v0.15.0.3",
@@ -838,7 +918,7 @@
     "dir_name_win": "GravityCoin",
     "repo_url": "https://github.com/GravityCoinOfficial/GravityCoin",
     "versions": [
-      "4.0.7.1"
+      "4.0.7.3"
     ],
     "xbridge_conf": "gravitycoin--4.0.5.0.1.conf",
     "wallet_conf": "gravitycoin--4.0.5.0.1.conf"
@@ -1048,8 +1128,7 @@
     "dir_name_win": "lbrycrd",
     "repo_url": "https://github.com/lbryio/lbrycrd",
     "versions": [
-      "v0.17.2.0",
-      "v0.17.2.1"
+      "v0.17.3.1"
     ],
     "xbridge_conf": "lbrycrd--v0.12.2.1.conf",
     "wallet_conf": "lbrycrd--v0.17.2.0.conf"
@@ -1243,8 +1322,7 @@
     "dir_name_win": "MKTcoin",
     "repo_url": "https://github.com/Mktcoin-official/Mktcoin",
     "versions": [
-      "0.15.0.1",
-      "0.15.0.2"
+      "0.15.0.3"
     ],
     "xbridge_conf": "mktcoin--0.14.3.conf",
     "wallet_conf": "mktcoin--0.14.3.conf"
@@ -1340,7 +1418,7 @@
     "dir_name_win": "nix",
     "repo_url": "https://github.com/NixPlatform/NixCore",
     "versions": [
-      "v3.0.4"
+      "v3.0.5"
     ],
     "xbridge_conf": "nix--v2.0.3.conf",
     "wallet_conf": "nix--v2.0.3.conf"
@@ -1458,6 +1536,22 @@
     "wallet_conf": "ohmc--2.3.1.conf"
   },
   {
+    "blockchain": "OPCoinX",
+    "ticker": "OPCX",
+    "ver_id": "OPCoinX--v2.0.0",
+    "ver_name": "OPCoinX",
+    "conf_name": "OPCoinX.conf",
+    "dir_name_linux": "OPCoinX",
+    "dir_name_mac": "OPCoinX",
+    "dir_name_win": "OPCoinX",
+    "repo_url": "https://github.com/opcoinx/OPCoinX",
+    "versions": [
+      "v2.0.0"
+    ],
+    "xbridge_conf": "OPCoinX--v2.0.0.conf",
+    "wallet_conf": "OPCoinX--v2.0.0.conf"
+  },
+  {
     "blockchain": "PACcoin",
     "ticker": "$PAC",
     "ver_id": "paccoin--v0.12.5.1",
@@ -1516,7 +1610,7 @@
     "dir_name_win": "PolisCore",
     "repo_url": "https://github.com/polispay/polis",
     "versions": [
-      "v1.4.18"
+      "v1.5.3"
     ],
     "xbridge_conf": "polis--v1.3.1.conf",
     "wallet_conf": "polis--v1.3.1.conf"
@@ -1564,8 +1658,6 @@
     "dir_name_win": "Qtum",
     "repo_url": "https://github.com/qtumproject/qtum",
     "versions": [
-      "mainnet-ignition-v0.17.6",
-      "mainnet-ignition-v0.18.0",
       "mainnet-ignition-v0.18.1"
     ],
     "xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
