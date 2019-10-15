@@ -1452,7 +1452,7 @@
     "dir_name_win": "noir",
     "repo_url": "https://github.com/noirofficial/noir",
     "versions": [
-      "v2.0.0.0"
+      "v2.0.1"
     ],
     "xbridge_conf": "noir--v1.0.0.2.conf",
     "wallet_conf": "noir--v1.0.0.2.conf"
@@ -1466,9 +1466,9 @@
     "dir_name_linux": "northern",
     "dir_name_mac": "Northern",
     "dir_name_win": "Northern",
-    "repo_url": "https://github.com/zabtc/Northern",
+    "repo_url": "https://github.com/northern-community/Northern",
     "versions": [
-      "2.4.0"
+      "2.6.1"
     ],
     "xbridge_conf": "northern--1.0.0.conf",
     "wallet_conf": "northern--1.0.0.conf"
@@ -1982,7 +1982,8 @@
     "dir_name_win": "Vertcoin",
     "repo_url": "https://github.com/vertcoin-project/vertcoin-core",
     "versions": [
-      "0.14.0"
+      "0.14.0",
+      "0.15.0"
     ],
     "xbridge_conf": "vertcoin--0.12.0.conf",
     "wallet_conf": "vertcoin--0.13.0.conf"
