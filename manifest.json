@@ -1550,8 +1550,8 @@
     "versions": [
       "v2.0.0"
     ],
-    "xbridge_conf": "OPCoinX--v2.0.0.conf",
-    "wallet_conf": "OPCoinX--v2.0.0.conf"
+    "xbridge_conf": "opcoinx--v2.0.0.conf",
+    "wallet_conf": "opcoinx--v2.0.0.conf"
   },
   {
     "blockchain": "PACcoin",
