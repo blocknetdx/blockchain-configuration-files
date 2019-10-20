@@ -1266,6 +1266,22 @@
     "wallet_conf": "machinecoin--v0.16.1.4.conf"
   },
   {
+    "blockchain": "Merge",
+    "ticker": "MERGE",
+    "ver_id": "merge--v1.0.3",
+    "ver_name": "Merge",
+    "conf_name": "merge.conf",
+    "dir_name_linux": "merge",
+    "dir_name_mac": "Merge",
+    "dir_name_win": "Merge",
+    "repo_url": "https://gitlab.projectmerge.org/ProjectMerge/merge",
+    "versions": [
+      "v1.0.3"
+    ],
+    "xbridge_conf": "merge--v1.0.3.conf",
+    "wallet_conf": "merge--v1.0.3.conf"
+  },
+  {
     "blockchain": "Magna Coin",
     "ticker": "MGN",
     "ver_id": "mgn--v1.0.0",
