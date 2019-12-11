@@ -550,7 +550,8 @@
     "versions": [
       "v0.14.0.2",
       "v0.14.0.3",
-      "v0.14.0.4"
+      "v0.14.0.4",
+      "v0.14.0.5"
     ],
     "xbridge_conf": "dash--v0.12.2.3.conf",
     "wallet_conf": "dash--v0.12.2.3.conf"
