@@ -64,6 +64,22 @@
     "wallet_conf": "aprcoin--v1.0.conf"
   },
   {
+    "blockchain": "Argoneum",
+    "ticker": "AGM",
+    "ver_id": "argoneum--v1.2.3.4",
+    "ver_name": "Argoneum",
+    "conf_name": "argoneum.conf",
+    "dir_name_linux": "argoneum",
+    "dir_name_mac": "Argoneum",
+    "dir_name_win": "Argoneum",
+    "repo_url": "https://github.com/Argoneum/argoneum",
+    "versions": [
+      "v1.2.3.4"
+    ],
+    "xbridge_conf": "argoneum--v1.2.3.4.conf",
+    "wallet_conf": "argoneum--v1.2.3.4.conf"
+  },
+  {
     "blockchain": "ATBCoin",
     "ticker": "ATB",
     "ver_id": "atbcoin--v1.1.0",
@@ -241,7 +257,8 @@
     "dir_name_win": "Bitcoin",
     "repo_url": "https://github.com/bitcoin/bitcoin",
     "versions": [
-      "v0.19.0"
+      "v0.19.0",
+      "v0.19.0.1"
     ],
     "xbridge_conf": "bitcoin--v0.15.1.conf",
     "wallet_conf": "bitcoin--v0.16.0.conf"
@@ -304,9 +321,9 @@
     "dir_name_linux": "bitcoinzero",
     "dir_name_mac": "bitcoinzero",
     "dir_name_win": "bitcoinzero",
-    "repo_url": "https://github.com/BitcoinZeroOfficial/bitcoinzero",
+    "repo_url": "https://github.com/GravityCoinOfficial/BitcoinZero",
     "versions": [
-      "5.0.3.4"
+      "5.0.3.5"
     ],
     "xbridge_conf": "bitcoinzero--5.0.0.5.conf",
     "wallet_conf": "bitcoinzero--5.0.0.5.conf"
@@ -532,7 +549,9 @@
     "repo_url": "https://github.com/dashpay/dash",
     "versions": [
       "v0.14.0.2",
-      "v0.14.0.3"
+      "v0.14.0.3",
+      "v0.14.0.4",
+      "v0.14.0.5"
     ],
     "xbridge_conf": "dash--v0.12.2.3.conf",
     "wallet_conf": "dash--v0.12.2.3.conf"
@@ -550,7 +569,8 @@
     "versions": [
       "v3.3.9.3",
       "v3.3.9.4",
-      "v3.3.9.5"
+      "v3.3.9.5",
+      "v3.3.9.6"
     ],
     "xbridge_conf": "denarius--v3.3.9.3.conf",
     "wallet_conf": "denarius--v3.3.9.3.conf"
@@ -663,8 +683,7 @@
     "dir_name_win": "DogeCashCore",
     "repo_url": "https://github.com/dogecash/dogecash",
     "versions": [
-      "4.0.0",
-      "4.0.1"
+      "v5.0.1"
     ],
     "xbridge_conf": "dogecash--3.0.0.conf",
     "wallet_conf": "dogecash--3.0.0.conf"
@@ -734,6 +753,22 @@
     "wallet_conf": "electra--2.0.2.1.conf"
   },
   {
+    "blockchain": "Emercoin",
+    "ticker": "EMC",
+    "ver_id": "emercoin--v0.7.10emc",
+    "ver_name": "Emercoin",
+    "conf_name": "emercoin.conf",
+    "dir_name_linux": "emercoin",
+    "dir_name_mac": "Emercoin",
+    "dir_name_win": "Emercoin",
+    "repo_url": "https://github.com/emercoin/emercoin",
+    "versions": [
+      "v0.7.10emc"
+    ],
+    "xbridge_conf": "emercoin--v0.7.10emc.conf",
+    "wallet_conf": "emercoin--v0.7.10emc.conf"
+  },
+  {
     "blockchain": "Eternity",
     "ticker": "ENT",
     "ver_id": "eternity--v0.12.1.7",
@@ -792,7 +827,8 @@
     "dir_name_win": "FLO",
     "repo_url": "https://github.com/floblockchain/flo",
     "versions": [
-      "v0.15.2.0"
+      "v0.15.2.0",
+      "v0.15.2.1"
     ],
     "xbridge_conf": "flo--v0.15.0.3.conf",
     "wallet_conf": "flo--v0.15.0.3.conf"
@@ -1130,7 +1166,8 @@
     "dir_name_win": "lbrycrd",
     "repo_url": "https://github.com/lbryio/lbrycrd",
     "versions": [
-      "v0.17.3.1"
+      "v0.17.3.1",
+      "v0.17.3.2"
     ],
     "xbridge_conf": "lbrycrd--v0.12.2.1.conf",
     "wallet_conf": "lbrycrd--v0.17.2.0.conf"
@@ -1436,7 +1473,7 @@
     "dir_name_win": "nix",
     "repo_url": "https://github.com/NixPlatform/NixCore",
     "versions": [
-      "v3.0.5"
+      "v3.0.7"
     ],
     "xbridge_conf": "nix--v2.0.3.conf",
     "wallet_conf": "nix--v2.0.3.conf"
@@ -1468,7 +1505,7 @@
     "dir_name_win": "noir",
     "repo_url": "https://github.com/noirofficial/noir",
     "versions": [
-      "v2.0.1"
+      "v2.1.0"
     ],
     "xbridge_conf": "noir--v1.0.0.2.conf",
     "wallet_conf": "noir--v1.0.0.2.conf"
@@ -1532,7 +1569,7 @@
     "dir_name_win": "ODIN",
     "repo_url": "https://github.com/odinblockchain/Odin",
     "versions": [
-      "v1.4.2"
+      "v1.6.6"
     ],
     "xbridge_conf": "odin--v1.4.2.conf",
     "wallet_conf": "odin--v1.4.2.conf"
@@ -1676,7 +1713,8 @@
     "dir_name_win": "Qtum",
     "repo_url": "https://github.com/qtumproject/qtum",
     "versions": [
-      "mainnet-ignition-v0.18.1"
+      "mainnet-ignition-v0.18.1",
+      "mainnet-ignition-v0.18.2"
     ],
     "xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
     "wallet_conf": "qtum--mainnet-ignition-v0.17.1.conf"
@@ -1773,7 +1811,7 @@
     "dir_name_win": "sequence",
     "repo_url": "https://github.com/duality-solutions/Sequence",
     "versions": [
-      "v1.3.2.0"
+      "v1.3.3.0"
     ],
     "xbridge_conf": "sequence--v1.3.0.0.conf",
     "wallet_conf": "sequence--v1.3.0.0.conf"
@@ -2063,7 +2101,7 @@
     "dir_name_win": "Vsync",
     "repo_url": "https://github.com/VsyncCrypto/VSX",
     "versions": [
-      "v3.8.6.4"
+      "v3.8.7.5"
     ],
     "xbridge_conf": "vsync--v3.8.5.0.conf",
     "wallet_conf": "vsync--v3.8.5.0.conf"
@@ -2111,10 +2149,7 @@
     "dir_name_win": "zcoin",
     "repo_url": "https://github.com/zcoinofficial/zcoin",
     "versions": [
-      "v0.13.8.2",
-      "v0.13.8.3",
-      "v0.13.8.4",
-      "v0.13.8.5"
+      "v0.13.8.9"
     ],
     "xbridge_conf": "zcoin--v0.13.6.4.conf",
     "wallet_conf": "zcoin--v0.13.6.4.conf"
