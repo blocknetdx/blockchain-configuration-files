@@ -374,5 +374,5 @@ If a successful exchange was confirmed for a new blockchain, then a new `manifes
 
 Contributing
 --------------------------------------
-Want to help build the internet of blockchains? Check out our [contributing documentation](https://github.com/BlocknetDX/BlockDX/blob/master/CONTRIBUTING.md).
+Want to help build the internet of blockchains? Check out our [contributing documentation](https://github.com/blocknetdx/blocknet/blob/master/CONTRIBUTING.md).
 
