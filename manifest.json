@@ -553,7 +553,8 @@
       "v3.3.9.3",
       "v3.3.9.4",
       "v3.3.9.5",
-      "v3.3.9.6"
+      "v3.3.9.6",
+      "v3.3.9.7"
     ],
     "xbridge_conf": "denarius--v3.3.9.3.conf",
     "wallet_conf": "denarius--v3.3.9.3.conf"
