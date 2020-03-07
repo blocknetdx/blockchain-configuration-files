@@ -1645,6 +1645,22 @@
     "wallet_conf": "pivx--v3.3.0.conf"
   },
   {
+	  "blockchain":"Placeholders",
+	  "ticker":"PHL",
+	  "ver_id":"placeh--v2.0.30.5",
+	  "ver_name":"Placeholders v2.0.30.5",
+	  "conf_name":"placeh.conf",
+	  "dir_name_linux":"placeh",
+	  "dir_name_mac":"placeh",
+	  "dir_name_win":"placeh",
+	  "repo_url":"https://www.github.com/xagau/Placeholders-X16R",
+	  "versions": [
+	  "v2.0.30.5"
+	  ],
+	  "xbridge_conf":"placeh--v2.0.30.5",
+	  "wallet_conf":"placeh--v2.0.30.5"
+  },
+  {
     "blockchain": "Polis",
     "ticker": "POLIS",
     "ver_id": "polis--v1.3.1",
