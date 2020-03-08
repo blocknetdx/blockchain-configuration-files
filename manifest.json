@@ -1610,7 +1610,7 @@
     "xbridge_conf": "paccoin--v0.12.5.1.conf",
     "wallet_conf": "paccoin--v0.12.5.1.conf"
   },
-    {
+  {
    "blockchain":"Placeholders",
    "ticker":"PHL",
    "ver_id":"placeh--v2.0.30.5",
