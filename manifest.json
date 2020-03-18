@@ -409,6 +409,22 @@
     "wallet_conf": "carebitcoin--v3.0.0.0.conf"
   },
   {
+    "blockchain": "CbdHealthNetwork",
+    "ticker": "CHN",
+    "ver_id": "cbdhealthnetwork--wallets-source-daemon",
+    "ver_name": "CbdHealthNetwork",
+    "conf_name": "cbdhealthnetwork.conf",
+    "dir_name_linux": "cbdhealthnetwork",
+    "dir_name_mac": "CbdHealthNetwork",
+    "dir_name_win": "CbdHealthNetwork",
+    "repo_url": "https://github.com/CHN-portal/CHN-Portal",
+    "versions": [
+      "wallets-source-daemon"
+    ],
+    "xbridge_conf": "cbdhealthnetwork--wallets-source-daemon.conf",
+    "wallet_conf": "cbdhealthnetwork--wallets-source-daemon.conf"
+  },
+  {
     "blockchain": "Chaincoin",
     "ticker": "CHC",
     "ver_id": "chaincoin--v0.18.1",
