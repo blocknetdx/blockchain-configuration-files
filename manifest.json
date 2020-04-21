@@ -96,22 +96,6 @@
     "wallet_conf": "badcoin--v0.16.3-2.conf"
   },
   {
-    "blockchain": "BitBay",
-    "ticker": "BAY",
-    "ver_id": "bitbay--v2.1.2a",
-    "ver_name": "BitBay",
-    "conf_name": "bitbay.conf",
-    "dir_name_linux": "bitbay",
-    "dir_name_mac": "BitBay",
-    "dir_name_win": "BitBay",
-    "repo_url": "https://github.com/bitbaymarket/bitbay-core",
-    "versions": [
-      "v2.1.2a"
-    ],
-    "xbridge_conf": "bitbay--v2.1.2a.conf",
-    "wallet_conf": "bitbay--v2.1.2a.conf"
-  },
-  {
     "blockchain": "Bitcloud",
     "ticker": "BTDX",
     "ver_id": "bitcloud--2.1.0.1.1",
