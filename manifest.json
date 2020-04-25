@@ -42,7 +42,8 @@
     "dir_name_win": "Argoneum",
     "repo_url": "https://github.com/Argoneum/argoneum",
     "versions": [
-      "v1.4.0.0"
+      "v1.4.0.0",
+      "v1.4.1.0"
     ],
     "xbridge_conf": "argoneum--v1.2.3.4.conf",
     "wallet_conf": "argoneum--v1.2.3.4.conf"
@@ -423,7 +424,8 @@
     "dir_name_win": "ColossusXT",
     "repo_url": "https://github.com/ColossusCoinXT/ColossusCoinXT",
     "versions": [
-      "v1.2.3"
+      "v1.2.3",
+      "v1.2.4"
     ],
     "xbridge_conf": "colossusxt--v1.2.1.conf",
     "wallet_conf": "colossusxt--v1.2.1.conf"
