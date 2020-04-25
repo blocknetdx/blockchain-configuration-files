@@ -1761,22 +1761,6 @@
     "wallet_conf": "raven--v0.15.99.0.conf"
   },
   {
-    "blockchain": "Rupaya",
-    "ticker": "RUPX",
-    "ver_id": "rupaya--v5.2.0",
-    "ver_name": "Rupaya",
-    "conf_name": "rupaya.conf",
-    "dir_name_linux": "rupayacore",
-    "dir_name_mac": "RupayaCore",
-    "dir_name_win": "RupayaCore",
-    "repo_url": "https://github.com/rupaya-project/rupx",
-    "versions": [
-      "5.3.2"
-    ],
-    "xbridge_conf": "rupaya--v5.2.0.conf",
-    "wallet_conf": "rupaya--v5.2.0.conf"
-  },
-  {
     "blockchain": "Scribe",
     "ticker": "SCRIBE",
     "ver_id": "scribe--v0.2",
