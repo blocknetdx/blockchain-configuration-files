@@ -1,5 +1,21 @@
 [
   {
+    "blockchain": "Abosom",
+    "ticker": "ABS",
+    "ver_id": "abosom--v1.0.0",
+    "ver_name": "Abosom",
+    "conf_name": "abosom.conf",
+    "dir_name_linux": "abosomcore",
+    "dir_name_mac": "AbosomCore",
+    "dir_name_win": "AbosomCore",
+    "repo_url": "https://github.com/ZenyattaAbosom/Abosom",
+    "versions": [
+      "v1.0.0"
+    ],
+    "xbridge_conf": "abosom--v1.0.0.conf",
+    "wallet_conf": "abosom--v1.0.0.conf"
+  },
+  {
     "blockchain": "AeriumX",
     "ticker": "AEX",
     "ver_id": "aeriumx--v2.0",
@@ -14,6 +30,22 @@
     ],
     "xbridge_conf": "aeriumx--v2.0.conf",
     "wallet_conf": "aeriumx--v2.0.conf"
+  },
+  {
+    "blockchain": "Altbet",
+    "ticker": "ABET",
+    "ver_id": "abet--v3.4.1.0",
+    "ver_name": "Altbet",
+    "conf_name": "abet.conf",
+    "dir_name_linux": "abet",
+    "dir_name_mac": "Abet",
+    "dir_name_win": "Abet",
+    "repo_url": "https://github.com/altbet/abet",
+    "versions": [
+      "v3.4.1.0"
+    ],
+    "xbridge_conf": "abet--v3.4.1.0.conf",
+    "wallet_conf": "abet--v3.4.1.0.conf"
   },
   {
     "blockchain": "APR Coin",
