@@ -247,7 +247,7 @@
     "versions": [
       "v0.20.0"
     ],
-    "xbridge_conf": "bitcoin--v0.15.1.conf",
+    "xbridge_conf": "bitcoin--v0.20.0.conf",
     "wallet_conf": "bitcoin--v0.16.0.conf"
   },
   {
@@ -1298,7 +1298,7 @@
     "versions": [
       "v0.18.1"
     ],
-    "xbridge_conf": "litecoin--v0.15.1.conf",
+    "xbridge_conf": "litecoin--v0.18.1.conf",
     "wallet_conf": "litecoin--v0.18.1.conf"
   },
   {
