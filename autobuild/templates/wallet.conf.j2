@@ -2,15 +2,19 @@ server=1
 listen=1
 rpcuser=
 rpcpassword=
-rpcallowip=127.0.0.1
-port=8333
-rpcport=8332
+rpcallowip=0.0.0.0/0
+port={{ p2pPort }}
+rpcport={{ rpcPort }}
 txindex=1
 
+{% if legacy is defined and legacy is sameas true %} 
 # Legacy addresses must be used (address must begin with "1", not "3")
 addresstype=legacy
 changetype=legacy
+{% endif %}
 
+{% if deprecatedrpc is defined and deprecatedrpc is sameas true %} 
 # Enable deprecated calls
 deprecatedrpc=signrawtransaction
+{% endif %}
 
