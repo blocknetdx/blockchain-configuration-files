@@ -1,0 +1,34 @@
+{
+    "NMC": {
+        "Title": "Namecoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8336)}}",
+        "p2pPort": "{{ p2pPort|default(8334)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "52",
+        "ScriptPrefix": "13",
+        "SecretPrefix": "180",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "false",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "100000",
+        "BlockTime": "600",
+        "TxVersion": "1",
+        "FeePerByte": "200",
+        "Confirmations": "0",
+        "versions": {
+            "nc0.13.99-name-tab-beta1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "namecoin--nc0.13.99-name-tab-beta1.conf",
+                "wallet_conf": "namecoin--nc0.13.99-name-tab-beta1.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "PIVX": {
+        "Title": "PIVX",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(52473)}}",
+        "p2pPort": "{{ p2pPort|default(52472)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "30",
+        "ScriptPrefix": "13",
+        "SecretPrefix": "212",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "false",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v4.1.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "pivx--v3.3.0.conf",
+                "wallet_conf": "pivx--v3.3.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}
