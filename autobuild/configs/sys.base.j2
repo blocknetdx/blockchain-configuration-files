@@ -1,0 +1,34 @@
+{
+    "SYS": {
+        "Title": "Syscoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8370)}}",
+        "p2pPort": "{{ p2pPort|default(8369)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "63",
+        "ScriptPrefix": "5",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "20000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "40",
+        "Confirmations": "0",
+        "versions": {
+            "v4.1.3": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "syscoin--v4.0.3.conf",
+                "wallet_conf": "syscoin--v4.0.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

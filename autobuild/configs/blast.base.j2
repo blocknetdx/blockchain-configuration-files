@@ -1,0 +1,34 @@
+{
+    "BLAST": {
+        "Title": "BLAST",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(64639)}}",
+        "p2pPort": "{{ p2pPort|default(64640)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "25",
+        "ScriptPrefix": "18",
+        "SecretPrefix": "239",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "32",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v2.2.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "blast--v1.2.0.2.conf",
+                "wallet_conf": "blast--v1.2.0.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

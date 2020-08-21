@@ -1,0 +1,34 @@
+{
+    "BCD": {
+        "Title": "BitcoinDiamond",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(7116)}}",
+        "p2pPort": "{{ p2pPort|default(7117)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "0",
+        "ScriptPrefix": "5",
+        "SecretPrefix": "128",
+        "COIN": "10000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BCD",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "5000",
+        "BlockTime": "600",
+        "TxVersion": "12",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v1.3.0": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "bitcoindiamond--v1.3.0.conf",
+                "wallet_conf": "bitcoindiamond--v1.3.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "KYDC": {
+        "Title": "KnowYourDeveloper",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(3435)}}",
+        "p2pPort": "{{ p2pPort|default(3434)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "78",
+        "ScriptPrefix": "85",
+        "SecretPrefix": "153",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "3.2.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "kyd--3.3.1.conf",
+                "wallet_conf": "kyd--v3.2.0.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

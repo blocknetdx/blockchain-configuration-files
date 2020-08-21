@@ -1,0 +1,34 @@
+{
+    "BTG": {
+        "Title": "BitcoinGold",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(11332)}}",
+        "p2pPort": "{{ p2pPort|default(11333)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "38",
+        "ScriptPrefix": "23",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTG",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "500",
+        "BlockTime": "600",
+        "TxVersion": "2",
+        "FeePerByte": "2",
+        "Confirmations": "0",
+        "versions": {
+            "v0.17.2": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "bitcoingold--v0.17.2.conf",
+                "wallet_conf": "bitcoingold--v0.17.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

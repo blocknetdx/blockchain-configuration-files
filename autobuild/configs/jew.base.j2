@@ -1,0 +1,34 @@
+{
+    "JEW": {
+        "Title": "Shekel",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(5501)}}",
+        "p2pPort": "{{ p2pPort|default(5500)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "43",
+        "ScriptPrefix": "13",
+        "SecretPrefix": "212",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "1.5.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "shekel--1.4.0.conf",
+                "wallet_conf": "shekel--1.4.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

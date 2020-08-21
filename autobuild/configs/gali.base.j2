@@ -1,0 +1,34 @@
+{
+    "GALI": {
+        "Title": "Galilel",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(36002)}}",
+        "p2pPort": "{{ p2pPort|default(36001)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "68",
+        "ScriptPrefix": "16",
+        "SecretPrefix": "193",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "5000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v3.4.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "galilel--v3.2.0.conf",
+                "wallet_conf": "galilel--v3.2.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "ABET": {
+        "Title": "Altbet",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(2239)}}",
+        "p2pPort": "{{ p2pPort|default(2238)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "23",
+        "ScriptPrefix": "25",
+        "SecretPrefix": "33",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "5000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "10",
+        "Confirmations": "0",
+        "versions": {
+            "v3.4.1.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "abet--v3.4.1.0.conf",
+                "wallet_conf": "abet--v3.4.1.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

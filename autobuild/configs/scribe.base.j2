@@ -1,0 +1,34 @@
+{
+    "SCRIBE": {
+        "Title": "Scribe",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8801)}}",
+        "p2pPort": "{{ p2pPort|default(8802)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "60",
+        "ScriptPrefix": "125",
+        "SecretPrefix": "110",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "1000",
+        "BlockTime": "90",
+        "TxVersion": "1",
+        "FeePerByte": "2",
+        "Confirmations": "0",
+        "versions": {
+            "v0.2": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "scribe--v0.2.conf",
+                "wallet_conf": "scribe--v0.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

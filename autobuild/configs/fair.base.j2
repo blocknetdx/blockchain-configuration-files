@@ -1,0 +1,34 @@
+{
+    "FAIR": {
+        "Title": "Faircoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(40405)}}",
+        "p2pPort": "{{ p2pPort|default(40404)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "95",
+        "ScriptPrefix": "36",
+        "SecretPrefix": "223",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "800000",
+        "BlockTime": "210",
+        "TxVersion": "1",
+        "FeePerByte": "1600",
+        "Confirmations": "0",
+        "versions": {
+            "v2.0.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "faircoin--v2.0.0.conf",
+                "wallet_conf": "faircoin--v2.0.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}
