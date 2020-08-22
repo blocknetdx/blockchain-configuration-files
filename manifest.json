@@ -18,7 +18,7 @@
   {
     "blockchain": "AeriumX",
     "ticker": "AEX",
-    "ver_id": "aeriumx--v2.0",
+    "ver_id": "aeriumx--v2.2",
     "ver_name": "AeriumX",
     "conf_name": "aeriumx.conf",
     "dir_name_linux": "aeriumx",
@@ -28,8 +28,8 @@
     "versions": [
       "v2.2"
     ],
-    "xbridge_conf": "aeriumx--v2.0.conf",
-    "wallet_conf": "aeriumx--v2.0.conf"
+    "xbridge_conf": "aeriumx--v2.2.conf",
+    "wallet_conf": "aeriumx--v2.2.conf"
   },
   {
     "blockchain": "Altbet",
@@ -51,7 +51,7 @@
   {
     "blockchain": "APR Coin",
     "ticker": "APR",
-    "ver_id": "aprcoin--v1.0",
+    "ver_id": "aprcoin--v3.1.0",
     "ver_name": "APR Coin",
     "conf_name": "aprcoin.conf",
     "dir_name_linux": "aprcoin",
@@ -59,15 +59,15 @@
     "dir_name_win": "AprCoin",
     "repo_url": "https://github.com/APRCoin/zenith-repository",
     "versions": [
-      "V3.1.0"
+      "v3.1.0"
     ],
-    "xbridge_conf": "aprcoin--v1.0.conf",
-    "wallet_conf": "aprcoin--v1.0.conf"
+    "xbridge_conf": "aprcoin--v3.1.0.conf",
+    "wallet_conf": "aprcoin--v3.1.0.conf"
   },
   {
     "blockchain": "Argoneum",
     "ticker": "AGM",
-    "ver_id": "argoneum--v1.2.3.4",
+    "ver_id": "argoneum--v1.4.0.0",
     "ver_name": "Argoneum",
     "conf_name": "argoneum.conf",
     "dir_name_linux": "argoneum",
@@ -100,7 +100,7 @@
   {
     "blockchain": "AustraliaCash",
     "ticker": "AUS",
-    "ver_id": "australiacash--v0.17.4.0",
+    "ver_id": "australiacash--v0.17.4.1",
     "ver_name": "AustraliaCash",
     "conf_name": "australiacash.conf",
     "dir_name_linux": "australiacash",

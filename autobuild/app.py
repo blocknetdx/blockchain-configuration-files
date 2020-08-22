@@ -27,6 +27,14 @@ COIN_LIST='ABET,ABS,AEX,AGM,APR,ATB,AUS,BAD,BCD,BCH,BCZ,BIT,BITG,BLAST,BLOCK,BSD
 WALLETCONFPATH='wallet_confs/'
 XBRIDGECONFPATH='xbridge_confs/'
 
+if not os.path.isdir(WALLETCONFPATH):
+    os.mkdir(WALLETCONFPATH)
+print('checking walletconfpath: {}'.format(os.path.isdir(WALLETCONFPATH)))
+if not os.path.isdir(XBRIDGECONFPATH):
+    os.mkdir(XBRIDGECONFPATH)
+
+print('checking xb: {}'.format(os.path.isdir(XBRIDGECONFPATH)))
+
 J2_ENV = Environment(loader=FileSystemLoader(''),
                      trim_blocks=True)
 
@@ -53,7 +61,12 @@ for chain in data:
         coin_title, p, this_coin_version = chain['ver_id'].partition('--')
         print(this_coin_version)
         #print(json.dumps(merged_dict['versions'], indent=2))
-        version_data = merged_dict['versions'][this_coin_version]
+        try:
+            version_data = merged_dict['versions'][this_coin_version]
+        except Exception as e:
+            print('error, check manifest: {}'.format(chain['ticker']))
+            print(merged_dict['versions'])
+            raise Exception
         # load xb j2
         print(version_data)
         custom_template_fname = 'templates/xbridge.conf.j2'
