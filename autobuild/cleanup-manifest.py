@@ -64,4 +64,4 @@ for chain in data:
         if conf_file_version not in versions:            
             os.remove(conf_path)
         
-# write_file(os.getcwd() + '\\manifest.json', data)
+write_file(os.getcwd() + '\\manifest.json', data)
