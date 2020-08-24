@@ -51,7 +51,7 @@
   {
     "blockchain": "APR Coin",
     "ticker": "APR",
-    "ver_id": "aprcoin--v3.1.0",
+    "ver_id": "aprcoin--V3.1.0",
     "ver_name": "APR Coin",
     "conf_name": "aprcoin.conf",
     "dir_name_linux": "aprcoin",
@@ -59,7 +59,7 @@
     "dir_name_win": "AprCoin",
     "repo_url": "https://github.com/APRCoin/zenith-repository",
     "versions": [
-      "v3.1.0"
+      "V3.1.0"
     ],
     "xbridge_conf": "aprcoin--v3.1.0.conf",
     "wallet_conf": "aprcoin--v3.1.0.conf"
@@ -269,7 +269,7 @@
   {
     "blockchain": "Bitcoin CZ",
     "ticker": "BCZ",
-    "ver_id": "bcz--v6.0.3.2",
+    "ver_id": "bcz--6.0.3.2",
     "ver_name": "Bitcoin CZ",
     "conf_name": "bcz.conf",
     "dir_name_linux": "bcz",
@@ -277,7 +277,7 @@
     "dir_name_win": "BCZ",
     "repo_url": "https://github.com/SpecialCoins/bitcoincz",
     "versions": [
-      "v6.0.3.2"
+      "6.0.3.2"
     ],
     "xbridge_conf": "bcz--6.0.0.8.conf",
     "wallet_conf": "bcz--6.0.0.8.conf"
@@ -635,7 +635,7 @@
   {
     "blockchain": "Diamond",
     "ticker": "DMD",
-    "ver_id": "diamond--v3.0.1.3",
+    "ver_id": "diamond--3.0.1.3",
     "ver_name": "Diamond",
     "conf_name": "diamond.conf",
     "dir_name_linux": "DMDV3",
@@ -643,7 +643,7 @@
     "dir_name_win": "DMDV3",
     "repo_url": "https://github.com/DMDcoin/Diamond",
     "versions": [
-      "v3.0.1.3"
+      "3.0.1.3"
     ],
     "xbridge_conf": "diamond--v3.0.1.1.conf",
     "wallet_conf": "diamond--v3.0.1.1.conf"
@@ -667,7 +667,7 @@
   {
     "blockchain": "Digiwage",
     "ticker": "WAGE",
-    "ver_id": "digiwage--v1.2.1",
+    "ver_id": "digiwage--1.2.1",
     "ver_name": "Digiwage",
     "conf_name": "digiwage.conf",
     "dir_name_linux": "digiwage",
@@ -675,7 +675,7 @@
     "dir_name_win": "Digiwage",
     "repo_url": "https://github.com/digiwage/digiwage",
     "versions": [
-      "v1.2.1"
+      "1.2.1"
     ],
     "xbridge_conf": "digiwage--v1.1.0.conf",
     "wallet_conf": "digiwage--v1.1.0.conf"
@@ -1168,7 +1168,7 @@
   {
     "blockchain": "Know Your Developer",
     "ticker": "KYDC",
-    "ver_id": "kyd--v3.2.1",
+    "ver_id": "kyd--3.2.1",
     "ver_name": "Know Your Developer",
     "conf_name": "kyd.conf",
     "dir_name_linux": "kydcore",
@@ -1176,8 +1176,8 @@
     "dir_name_win": "KYDcore",
     "repo_url": "https://github.com/kydcoin/KYD3",
     "versions": [
-      "v3.2.1",
-      "v3.3.1"
+      "3.2.1",
+      "3.3.1"
     ],
     "xbridge_conf": "kyd--3.3.1.conf",
     "wallet_conf": "kyd--v3.2.0.3.conf"
