@@ -63,5 +63,6 @@ for chain in data:
         conf_file_version = conf_file_filename.split(sep, 1)[1].split('.conf')[0]
         if conf_file_version not in versions:            
             os.remove(conf_path)
-        
-write_file(os.getcwd() + '\\manifest.json', data)
+
+sorted_data = sorted(data, key = lambda d: (d['blockchain'].lower()), reverse= False)
+write_file(os.getcwd() + '\\manifest.json', sorted_data)
