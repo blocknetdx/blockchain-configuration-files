@@ -2175,7 +2175,7 @@
     ],
     "xbridge_conf": "xcurrency--v3.0.05.conf",
     "wallet_conf": "xcurrency--v3.0.05.conf"
-  },
+  },  
   {
     "blockchain": "ZCoin",
     "ticker": "XZC",
@@ -2192,5 +2192,21 @@
     ],
     "xbridge_conf": "zcoin--v0.13.6.4.conf",
     "wallet_conf": "zcoin--v0.13.6.4.conf"
+  },
+  {
+    "blockchain": "ZENZO",
+    "ticker": "ZNZ",
+    "ver_id": "zenzo--v2.1.0",
+    "ver_name": "Zenzo",
+    "conf_name": "zenzo.conf",
+    "dir_name_linux": "zenzo",
+    "dir_name_mac": "Zenzo",
+    "dir_name_win": "Zenzo",
+    "repo_url": "https://github.com/ZENZO-Ecosystem/ZENZO-Core",
+    "versions": [
+      "v2.1.0"
+    ],
+    "xbridge_conf": "zenzo--v2.1.0.conf",
+    "wallet_conf": "zenzo--v2.1.0.conf"
   }
 ]
