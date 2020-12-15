@@ -992,6 +992,22 @@
     "xbridge_conf": "gobyte--v0.12.2.4.conf",
     "wallet_conf": "gobyte--v0.12.2.4.conf"
   },
+    {
+    "blockchain": "Goldcoin",
+    "ticker": "GLC",
+    "ver_id": "goldcoin--0.14.5",
+    "ver_name": "GoldCoin",
+    "conf_name": "goldcoin.conf",
+    "dir_name_linux": "GoldCoin (GLD)",
+    "dir_name_mac": "GoldCoin (GLD)",
+    "dir_name_win": "GoldCoin (GLD)",
+    "repo_url": "https://github.com/goldcoin/goldcoin",
+    "versions": [
+      "v0.14.5"
+    ],
+    "xbridge_conf": "goldcoin--0.14.5.conf",
+    "wallet_conf": "goldcoin--0.14.5.conf"
+  },
   {
     "blockchain": "GravityCoin",
     "ticker": "GXX",
