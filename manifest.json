@@ -2177,6 +2177,21 @@
     "wallet_conf": "wagerr--1.5.0.conf"
   },
   {
+    "blockchain": "Xaya",
+    "ticker": "CHI",
+    "ver_id": "xaya--v1.4.1",
+    "ver_name": "XCurrency",
+    "conf_name": "xcurrency.conf",
+    "dir_name_linux": "xaya",
+    "dir_name_win": "Xaya",
+    "repo_url": "https://github.com/xaya/xaya/",
+    "versions": [
+      "v1.4.1"
+    ],
+    "xbridge_conf": "xaya--v1.4.1.conf",
+    "wallet_conf": "xayav.1.4.1.conf"
+  },
+  {
     "blockchain": "XCurrency",
     "ticker": "XC",
     "ver_id": "xcurrency--v3.0.05",
