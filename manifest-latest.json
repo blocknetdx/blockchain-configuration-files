@@ -586,7 +586,7 @@
   {
     "blockchain": "Denarius",
     "ticker": "D",
-    "ver_id": "denarius--v3.3.9.3",
+    "ver_id": "denarius--v3.3.9.9",
     "ver_name": "Denarius",
     "conf_name": "denarius.conf",
     "dir_name_linux": "denarius",
@@ -594,14 +594,11 @@
     "dir_name_win": "Denarius",
     "repo_url": "https://github.com/carsenk/denarius",
     "versions": [
-      "v3.3.9.3",
-      "v3.3.9.4",
-      "v3.3.9.5",
-      "v3.3.9.6",
-      "v3.3.9.7"
+      "v3.3.9.8",
+      "v3.3.9.9"
     ],
-    "xbridge_conf": "denarius--v3.3.9.3.conf",
-    "wallet_conf": "denarius--v3.3.9.3.conf"
+    "xbridge_conf": "denarius--v3.3.9.9.conf",
+    "wallet_conf": "denarius--v3.3.9.9.conf"
   },
   {
     "blockchain": "Desire",
