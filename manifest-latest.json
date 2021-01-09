@@ -1003,6 +1003,7 @@
     "dir_name_win": "GoldCoin (GLD)",
     "repo_url": "https://github.com/goldcoin/goldcoin",
     "versions": [
+      "v0.14.6",
       "v0.14.5"
     ],
     "xbridge_conf": "goldcoin--0.14.5.conf",
