@@ -1980,6 +1980,22 @@
     "wallet_conf": "zsub1x--1.4.0.conf"
   },
   {
+    "blockchain": "SwiftCash",
+    "ticker": "SWIFT",
+    "ver_id": "swiftcash--3.0.5",
+    "ver_name": "v3.0.5",
+    "conf_name": "swiftcash.conf",
+    "dir_name_linux": "swiftcash",
+    "dir_name_mac": "SwiftCash",
+    "dir_name_win": "SwiftCash",
+    "repo_url": "https://github.com/swiftcashproject/swiftcash",
+    "versions": [
+      "3.0.5"
+    ],
+    "xbridge_conf": "swiftcash--3.0.5.conf",
+    "wallet_conf": "swiftcash--3.0.5.conf"
+  },
+  {
     "blockchain": "Syscoin",
     "ticker": "SYS",
     "ver_id": "syscoin--v4.0.3",
