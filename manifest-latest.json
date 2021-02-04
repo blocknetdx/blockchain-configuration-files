@@ -999,8 +999,8 @@ Fgold[
     "ver_name": "GoldCoin",
     "conf_name": "goldcoin.conf",
     "dir_name_linux": "goldcoin",
-    "dir_name_mac": "goldcoin",
-    "dir_name_win": "goldcoin",
+    "dir_name_mac": "Goldcoin",
+    "dir_name_win": "Goldcoin",
     "repo_url": "https://github.com/goldcoin/goldcoin",
     "versions": [
       "v0.14.7"
