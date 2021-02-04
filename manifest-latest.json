@@ -2176,7 +2176,7 @@
     "xbridge_conf": "wagerr--1.5.0.conf",
     "wallet_conf": "wagerr--1.5.0.conf"
   },
-   {
+  {
     "blockchain": "Xaya",
     "ticker": "CHI",
     "ver_id": "xaya--v1.4.1",
