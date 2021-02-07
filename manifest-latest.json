@@ -1683,7 +1683,7 @@
   {
     "blockchain": "PIVX",
     "ticker": "PIVX",
-    "ver_id": "pivx--v3.3.0",
+    "ver_id": "pivx--v5.0.1",
     "ver_name": "PIVX",
     "conf_name": "pivx.conf",
     "dir_name_linux": "pivx",
@@ -1691,10 +1691,10 @@
     "dir_name_win": "PIVX",
     "repo_url": "https://github.com/PIVX-Project/PIVX",
     "versions": [
-      "v4.1.1"
+      "v5.0.1"
     ],
-    "xbridge_conf": "pivx--v3.3.0.conf",
-    "wallet_conf": "pivx--v3.3.0.conf"
+    "xbridge_conf": "pivx--v5.0.1.conf",
+    "wallet_conf": "pivx--v5.0.1.conf"
   },
   {
     "blockchain": "Placeholders",
