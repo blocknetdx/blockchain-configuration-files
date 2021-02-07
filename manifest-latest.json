@@ -748,6 +748,22 @@
     "wallet_conf": "dynamic--v2.3.5.0.conf"
   },
   {
+    "blockchain": "eGulden",
+    "ticker": "EFL",
+    "ver_id": "egulden-v1.4.3.2",
+    "ver_name": "eGulden",
+    "conf_name": "coin.conf",
+    "dir_name_linux": "egulden",
+    "dir_name_mac": "Egulden",
+    "dir_name_win": "Egulden",
+    "repo_url": "https://gitlab.com/electronic-gulden-foundation/egulden",
+    "versions": [
+      "v1.4.3.2"
+    ],
+    "xbridge_conf": "egulden-v1.4.3.2.conf",
+    "wallet_conf": "egulden-v1.4.3.2.conf"
+  },
+  {
     "blockchain": "Einsteinium",
     "ticker": "EMC2",
     "ver_id": "einsteinium--v0.13.48.0",
