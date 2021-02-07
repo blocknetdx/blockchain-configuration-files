@@ -1002,8 +1002,8 @@
     "versions": [
       "v0.14.7"
     ],
-    "xbridge_conf": "goldcoin--0.14.7.conf",
-    "wallet_conf": "goldcoin--0.14.7.conf"
+    "xbridge_conf": "goldcoin--v0.14.7.conf",
+    "wallet_conf": "goldcoin--v0.14.7.conf"
   },
   {
     "blockchain": "GravityCoin",
