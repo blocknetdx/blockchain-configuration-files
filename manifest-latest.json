@@ -2221,7 +2221,7 @@
     "xbridge_conf": "wagerr--1.5.0.conf",
     "wallet_conf": "wagerr--1.5.0.conf"
   },
-   {
+  {
     "blockchain": "Xaya",
     "ticker": "CHI",
     "ver_id": "xaya--v1.4.1",
@@ -2234,7 +2234,7 @@
       "v1.4.1"
     ],
     "xbridge_conf": "xaya--v1.4.1.conf",
-    "wallet_conf": "xaya—v1.4.1.conf"
+    "wallet_conf": "xaya--v1.4.1.conf"
   },
   {
     "blockchain": "XCurrency",
@@ -2268,7 +2268,7 @@
     ],
     "xbridge_conf": "zcoin--v0.13.6.4.conf",
     "wallet_conf": "zcoin--v0.13.6.4.conf"
-  }
+  },
   {
     "blockchain": "ZENZO",
     "ticker": "ZNZ",
