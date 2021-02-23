@@ -2269,23 +2269,6 @@
     "wallet_conf": "xcurrency--v3.0.05.conf"
   },
   {
-    "blockchain": "ZCoin",
-    "ticker": "XZC",
-    "ver_id": "zcoin--v0.13.6.4",
-    "ver_name": "ZCoin",
-    "conf_name": "zcoin.conf",
-    "dir_name_linux": "zcoin",
-    "dir_name_mac": "zcoin",
-    "dir_name_win": "zcoin",
-    "repo_url": "https://github.com/zcoinofficial/zcoin",
-    "versions": [
-      "v0.14.0.1",
-      "v0.14.0.2"
-    ],
-    "xbridge_conf": "zcoin--v0.13.6.4.conf",
-    "wallet_conf": "zcoin--v0.13.6.4.conf"
-  },
-  {
     "blockchain": "ZENZO",
     "ticker": "ZNZ",
     "ver_id": "zenzo--v2.1.0",
