@@ -584,6 +584,22 @@
     "wallet_conf": "dash--v0.12.2.3.conf"
   },
   {
+    "blockchain": "DeepOnion",
+    "ticker": "ONION",
+    "ver_id": "deeponion--v2.2.2",
+    "ver_name": "DeepOnion",
+    "conf_name": "DeepOnion.conf",
+    "dir_name_linux": "deeponion",
+    "dir_name_mac": "DeepOnion",
+    "dir_name_win": "DeepOnion",
+    "repo_url": "https://github.com/deeponion/deeponion",
+    "versions": [
+      "v2.2.2.0"
+    ],
+    "xbridge_conf": "deeponion--v2.2.2.conf",
+    "wallet_conf": "deeponion--v2.2.2.conf"
+  },
+  {
     "blockchain": "Denarius",
     "ticker": "D",
     "ver_id": "denarius--v3.3.9.9",
