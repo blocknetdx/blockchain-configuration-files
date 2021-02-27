@@ -73,7 +73,7 @@ blockchain      | The name of the blockchain: *Blocknet, Dogecoin, Syscoin, etc*
 ticker          | The abbreviation used to represent this blockchain on exchanges: *BLOCK, DOGE, SYS, etc*. Use all uppercase letters.
 ver_id          | This ID must be unique, not change, and is case-sensitive. The format used is the wallet's configuration file name (without the extension), followed by a double-hyphen, then the initial wallet version added to this compatibility versioning group: *blocknetdx--v3.9.16, dogecoin--v1.10.0-dogeparty, syscoin--3.0.5.0, etc*.
 ver_name        | User viewable and user friendly name for the blockchain version group. This can be changed/renamed and is used to indicate the blockchain versioning group. For example, Blocknet's current `ver_name` is *Blocknet v3.9.16+*. If a new version group was created for the next waller version release, the `ver_name` could be changed to *Blocknet v3.9.16-v3.9.22*.
-conf_name       | The name of the wallet's configuration file (with the extension): *blocknetdx.conf, dogecoin.conf, syscoin.conf, etc*. This is case-sensitive and should be written exactly as it is in the file name.
+conf_name       | The name of the wallet's configuration file (with the extension): *blocknet.conf, dogecoin.conf, syscoin.conf, etc*. This is case-sensitive and should be written exactly as it is in the file name.
 dir_name_linux  | This is the name of the blockchain's folder in the data directory: *blocknetdx, dogecoin, syscoincore, etc*. This is case-sensitive and should be written exactly as it is in the folder name.
 dir_name_mac    | This is the name of the blockchain's folder in the data directory: *BlocknetDX, Dogecoin, SyscoinCore, etc*. This is case-sensitive and should be written exactly as it is in the folder name.
 dir_name_win    | This is the name of the blockchain's folder in the data directory: *BlocknetDX, Dogecoin, SyscoinCore, etc*. This is case-sensitive and should be written exactly as it is in the folder name.
@@ -89,7 +89,7 @@ wallet_conf     | This is the name of the wallet configuration file within the `
     "ticker": "BLOCK",
     "ver_id": "blocknetdx--v3.9.16",
     "ver_name": "Blocknet v3.9.16+",
-    "conf_name": "blocknetdx.conf",
+    "conf_name": "blocknet.conf",
     "dir_name_linux": "blocknetdx",
     "dir_name_mac": "BlocknetDX",
     "dir_name_win": "BlocknetDX",
@@ -333,7 +333,7 @@ Password=fa506e4a01a7           | The password is made up and the value must be 
 
 
 ### Setup Wallet Files
-Each blockchain wallet installation has a configuration file; for Blocknet it is `blocknetdx.conf`. These contents are to be replaced by the contents of the wallet configuration file referenced in the respective `manifest-latest.json` version group. To find the proper wallet configuration for each blockchain, first find the version group in the `manifest-latest.json` file for each blockchain that has the wallet version to be used listed in the `"versions"` array (if a version is not listed then it is not yet supported). Copy the contents of each referenced wallet configuration file and paste it into the configuration file of the downloaded wallet.
+Each blockchain wallet installation has a configuration file; for Blocknet it is `blocknet.conf`. These contents are to be replaced by the contents of the wallet configuration file referenced in the respective `manifest-latest.json` version group. To find the proper wallet configuration for each blockchain, first find the version group in the `manifest-latest.json` file for each blockchain that has the wallet version to be used listed in the `"versions"` array (if a version is not listed then it is not yet supported). Copy the contents of each referenced wallet configuration file and paste it into the configuration file of the downloaded wallet.
 
 Make sure to update the following for each configuration entry:
 
@@ -351,7 +351,7 @@ To attempt an exchange to test compatibility, the following will be needed:
 * A small amount above dust value of the blockchain's token, Blocknet's token(BLOCK) for the exchange network fee, and token of a compatible blockchain to trade against, which can also be BLOCK. Depending on the token's unit value, $1-3 USD should work fine.
 * Run the full nodes for each of the blockchains being tested on a testnet Service Node with the composed configuration files. Contact a contributor for tBLOCK or see if the chains can be added to existing testnet Service Nodes.
 * Two instances of each blockchain used in testing must be run, with each having the respective configuration files. Exchanges cannot be taken by the client that created them.
-* Make sure `debug=1` is set in the `blocknetdx.conf` file to receive full debug logs if there's an issue.
+* Make sure `debug=1` is set in the `blocknet.conf` file to receive full debug logs if there's an issue.
 
 Once the test environment is ready, create an order and conduct a loop exchange by taking the order that was created with the other set of clients. The exchange will either be successful or present errors in the debug log. 
 
