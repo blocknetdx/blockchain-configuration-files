@@ -589,7 +589,7 @@
     "ver_id": "deeponion--v2.2.2",
     "ver_name": "DeepOnion",
     "conf_name": "DeepOnion.conf",
-    "dir_name_linux": "deeponion",
+    "dir_name_linux": "DeepOnion",
     "dir_name_mac": "DeepOnion",
     "dir_name_win": "DeepOnion",
     "repo_url": "https://github.com/deeponion/deeponion",
