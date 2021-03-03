@@ -1350,7 +1350,7 @@
   {
     "blockchain": "Metrix",
     "ticker": "MRX",
-    "ver_id": "Metrix--v4.0.3",
+    "ver_id": "Metrix--v4.0.4",
     "ver_name": "Metrix",
     "conf_name": "metrix.conf",
     "dir_name_linux": "metrixcoin",
@@ -1358,10 +1358,11 @@
     "dir_name_win": "MetrixCoin",
     "repo_url": "https://github.com/TheLindaProjectInc/Metrix",
     "versions": [
-      "v4.0.3"
+      "v4.0.3",
+      "v4.0.4"
     ],
-    "xbridge_conf": "Metrix--v4.0.3.conf",
-    "wallet_conf": "Metrix--v4.0.3.conf"
+    "xbridge_conf": "Metrix--v4.0.4.conf",
+    "wallet_conf": "Metrix--v4.0.4.conf"
   },
   {
     "blockchain": "MNPCoin",
