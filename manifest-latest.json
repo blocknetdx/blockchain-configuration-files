@@ -1665,6 +1665,22 @@
     "wallet_conf": "pacglobal--v0.15-da839021c.conf"
   },
   {
+    "blockchain": "Peercoin",
+    "ticker": "PPC",
+    "ver_id": "peercoin--v0.9.0ppc",
+    "ver_name": "Peercoin",
+    "conf_name": "peercoin.conf",
+    "dir_name_linux": "peercoin",
+    "dir_name_mac": "Peercoin",
+    "dir_name_win": "Peercoin",
+    "repo_url": "https://github.com/peercoin/peercoin",
+    "versions": [
+      "v0.9.0ppc"
+    ],
+    "xbridge_conf": "peercoin--v0.9.0ppc.conf",
+    "wallet_conf": "peercoin--v0.9.0ppc.conf"
+  },
+  {
     "blockchain": "Phore",
     "ticker": "PHR",
     "ver_id": "phore--v1.3.3.1",
