@@ -2040,6 +2040,22 @@
     "wallet_conf": "syscoin--v4.0.3.conf"
   },
   {
+    "blockchain": "Scalaris",
+    "ticker": "SCA",
+    "ver_id": "scalaris--v1.0.0",
+    "ver_name": "Scalaris v1",
+    "conf_name": "scalaris.conf",
+    "dir_name_linux": "scalaris",
+    "dir_name_mac": "Scalaris",
+    "dir_name_win": "Scalaris",
+    "repo_url": "https://github.com/scalaris-project/scalaris",
+    "versions": [
+      "v1.0.0"
+    ],
+    "xbridge_conf": "scalaris--v1.0.0.conf",
+    "wallet_conf": "scalaris--v1.0.0.conf"
+  },
+  {
     "blockchain": "Terracoin",
     "ticker": "TRC",
     "ver_id": "terracoin--v0.12.1.8",
