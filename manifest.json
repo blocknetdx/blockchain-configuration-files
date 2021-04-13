@@ -1301,7 +1301,7 @@
   {
     "blockchain": "Luxcore",
     "ticker": "LUX",
-    "ver_id": "lux--v5.3.3",
+    "ver_id": "lux--v5.5.0",
     "ver_name": "Luxcore",
     "conf_name": "lux.conf",
     "dir_name_linux": "lux",
@@ -1309,10 +1309,10 @@
     "dir_name_win": "LUX",
     "repo_url": "https://github.com/LUX-Core/lux",
     "versions": [
-      "v5.3.3"
+      "v5.5.0"
     ],
-    "xbridge_conf": "lux--v5.3.3.conf",
-    "wallet_conf": "lux--v5.3.3.conf"
+    "xbridge_conf": "lux--v5.5.0.conf",
+    "wallet_conf": "lux--v5.5.0.conf"
   },
   {
     "blockchain": "Lynx",
