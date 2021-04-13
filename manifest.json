@@ -1729,25 +1729,6 @@
     "wallet_conf": "placeh--2.0.30.5.conf"
   },
   {
-    "blockchain": "Polis",
-    "ticker": "POLIS",
-    "ver_id": "polis--v1.3.1",
-    "ver_name": "Polis",
-    "conf_name": "polis.conf",
-    "dir_name_linux": "poliscore",
-    "dir_name_mac": "PolisCore",
-    "dir_name_win": "PolisCore",
-    "repo_url": "https://github.com/polispay/polis",
-    "versions": [
-      "v1.6.0",
-      "v1.6.1",
-      "v1.6.2",
-      "v1.6.3"
-    ],
-    "xbridge_conf": "polis--v1.3.1.conf",
-    "wallet_conf": "polis--v1.3.1.conf"
-  },
-  {
     "blockchain": "Pura",
     "ticker": "PURA",
     "ver_id": "pura--v1.0.0.0",
