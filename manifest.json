@@ -429,7 +429,9 @@
     "dir_name_win": "Blocknet",
     "repo_url": "https://github.com/blocknetdx/blocknet",
     "versions": [
-      "v4.3.0"
+      "v4.3.0",
+      "v4.3.1",
+      "v4.3.2"
     ],
     "xbridge_conf": "blocknet--v4.0.1.conf",
     "wallet_conf": "blocknet--v4.0.1.conf"
