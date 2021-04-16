@@ -2301,4 +2301,20 @@
     "xbridge_conf": "zenzo--v2.1.0.conf",
     "wallet_conf": "zenzo--v2.1.0.conf"
   }
+  {
+    "blockchain": "Zerozed",
+    "ticker": "X0Z",
+    "ver_id": "zerozed--0.13.1",
+    "ver_name": "Zerozed",
+    "conf_name": "zerozed.conf",
+    "dir_name_linux": "zerozed",
+    "dir_name_mac": "zerozed",
+    "dir_name_win": "zerozed",
+    "repo_url": "https://github.com/ZerozedProject/zerozed",
+    "versions": [
+      "v0.13.1"
+    ],
+    "xbridge_conf": "zerozed--v0.13.1.conf",
+    "wallet_conf": "zerozed--v0.13.1.conf"
+}
 ]
