@@ -708,7 +708,7 @@
     "dir_name_win": "DogeCashCore",
     "repo_url": "https://github.com/dogecash/dogecash",
     "versions": [
-      "5.2.1.0"
+      "5.2.2.0"
     ],
     "xbridge_conf": "dogecash--3.0.0.conf",
     "wallet_conf": "dogecash--3.0.0.conf"
