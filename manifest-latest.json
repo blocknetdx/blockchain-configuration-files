@@ -1696,6 +1696,22 @@
     "xbridge_conf": "phore--v1.3.3.1.conf",
     "wallet_conf": "phore--v1.3.3.1.conf"
   },
+    {
+    "blockchain": "Picacoin",
+    "ticker": "PIC",
+    "ver_id": "picacoin--v1.1.0",
+    "ver_name": "Picacoin",
+    "conf_name": "picacoin.conf",
+    "dir_name_linux": "picacoin",
+    "dir_name_mac": "Picacoin",
+    "dir_name_win": "Picacoin",
+    "repo_url": "https://github.com/picacoin/picacoin",
+    "versions": [
+      "v1.1.0"
+    ],
+    "xbridge_conf": "picacoin--v1.1.0.conf",
+    "wallet_conf": "picacoin--v1.1.0.conf"
+  },
   {
     "blockchain": "PIVX",
     "ticker": "PIVX",

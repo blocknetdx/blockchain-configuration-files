@@ -1652,6 +1652,23 @@
     "wallet_conf": "phore--v1.3.3.1.conf"
   },
   {
+    "blockchain": "Phore",
+    "ticker": "PHR",
+    "ver_id": "phore--v1.3.3.1",
+    "ver_name": "Phore",
+    "conf_name": "phore.conf",
+    "dir_name_linux": "phore",
+    "dir_name_mac": "Phore",
+    "dir_name_win": "Phore",
+    "repo_url": "https://github.com/phoreproject/Phore",
+    "versions": [
+      "v1.6.3"
+    ],
+    "xbridge_conf": "phore--v1.3.3.1.conf",
+    "wallet_conf": "phore--v1.3.3.1.conf"
+  },
+
+  {
     "blockchain": "PIVX",
     "ticker": "PIVX",
     "ver_id": "pivx--v3.3.0",

@@ -1696,6 +1696,7 @@
     "xbridge_conf": "phore--v1.3.3.1.conf",
     "wallet_conf": "phore--v1.3.3.1.conf"
   },
+
   {
     "blockchain": "PIVX",
     "ticker": "PIVX",
