@@ -1601,6 +1601,22 @@
     "wallet_conf": "nyx--v2.0.0.0.conf"
   },
   {
+    "blockchain": "OASIS",
+    "ticker": "XOS",
+    "ver_id": "oasis--v3.0.0",
+    "ver_name": "Oasis",
+    "conf_name": "oasis.conf",
+    "dir_name_linux": "oasis",
+    "dir_name_mac": "Oasis",
+    "dir_name_win": "Oasis",
+    "repo_url": "https://github.com/OasisCoinTeam/Oasis",
+    "versions": [
+      "v3.0.0"
+    ],
+    "xbridge_conf": "oasis--v3.0.0.conf",
+    "wallet_conf": "oasis--v3.0.0.conf"
+  }
+  {
     "blockchain": "Odin",
     "ticker": "ODIN",
     "ver_id": "odin--v1.4.2",
