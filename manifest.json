@@ -2050,7 +2050,8 @@
     "dir_name_win": "Syscoin",
     "repo_url": "https://github.com/syscoin/syscoin",
     "versions": [
-      "v4.1.3"
+      "v4.1.3",
+      "v4.3"
     ],
     "xbridge_conf": "syscoin--v4.0.3.conf",
     "wallet_conf": "syscoin--v4.0.3.conf"
