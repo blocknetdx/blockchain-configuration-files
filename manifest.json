@@ -1707,7 +1707,8 @@
     "dir_name_win": "PIVX",
     "repo_url": "https://github.com/PIVX-Project/PIVX",
     "versions": [
-      "v5.0.1"
+      "v5.0.1",
+      "v5.3.0"
     ],
     "xbridge_conf": "pivx--v5.0.1.conf",
     "wallet_conf": "pivx--v5.0.1.conf"
