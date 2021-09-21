@@ -1,0 +1,34 @@
+{
+    "NORT": {
+        "Title": "Northern",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(6943)}}",
+        "p2pPort": "{{ p2pPort|default(6942)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "53",
+        "ScriptPrefix": "6",
+        "SecretPrefix": "46",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "3.3.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "northern--1.0.0.conf",
+                "wallet_conf": "northern--1.0.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

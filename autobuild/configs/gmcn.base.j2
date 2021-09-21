@@ -1,0 +1,34 @@
+{
+    "GMCN": {
+        "Title": "GambleCoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(12010)}}",
+        "p2pPort": "{{ p2pPort|default(12000)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "28",
+        "ScriptPrefix": "18",
+        "SecretPrefix": "65",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "90",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "1.1.4": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "gamblecoin--1.1.4.conf",
+                "wallet_conf": "gamblecoin--1.1.4.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

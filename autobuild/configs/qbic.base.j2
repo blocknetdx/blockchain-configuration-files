@@ -1,0 +1,34 @@
+{
+    "QBIC": {
+        "Title": "Qbic",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(37196)}}",
+        "p2pPort": "{{ p2pPort|default(37195)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "58",
+        "ScriptPrefix": "13",
+        "SecretPrefix": "251",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v1.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "qbiccoin--v1.0.1.0.conf",
+                "wallet_conf": "qbiccoin--v1.0.1.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

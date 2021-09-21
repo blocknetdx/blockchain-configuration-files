@@ -1,0 +1,34 @@
+{
+    "XN": {
+        "Title": "Nodium",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(56000)}}",
+        "p2pPort": "{{ p2pPort|default(6250)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "53",
+        "ScriptPrefix": "30",
+        "SecretPrefix": "212",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "3.0.6": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "nodium--3.0.6.conf",
+                "wallet_conf": "nodium--3.0.6.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

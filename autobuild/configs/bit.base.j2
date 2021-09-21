@@ -1,0 +1,34 @@
+{
+    "BIT": {
+        "Title": "BitMoney",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(49443)}}",
+        "p2pPort": "{{ p2pPort|default(49444)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "55",
+        "ScriptPrefix": "108",
+        "SecretPrefix": "117",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "2.2.0.2": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "bitmoney--2.2.0.2.conf",
+                "wallet_conf": "bitmoney--2.2.0.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

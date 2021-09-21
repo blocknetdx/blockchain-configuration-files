@@ -1,0 +1,34 @@
+{
+    "ORE": {
+        "Title": "Galactrum",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(6269)}}",
+        "p2pPort": "{{ p2pPort|default(6270)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "38",
+        "ScriptPrefix": "16",
+        "SecretPrefix": "204",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "4",
+        "Confirmations": "0",
+        "versions": {
+            "v1.4.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "galactrum--v1.1.6.conf",
+                "wallet_conf": "galactrum--v1.4.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

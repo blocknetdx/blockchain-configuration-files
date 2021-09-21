@@ -1,0 +1,34 @@
+{
+    "BCH": {
+        "Title": "BitcoinCash",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(10332)}}",
+        "p2pPort": "{{ p2pPort|default(10333)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "0",
+        "ScriptPrefix": "5",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BCH",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "500",
+        "BlockTime": "600",
+        "TxVersion": "2",
+        "FeePerByte": "2",
+        "Confirmations": "0",
+        "versions": {
+            "v0.21.11": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "bitcoincash--v0.21.11.conf",
+                "wallet_conf": "bitcoincash--v0.21.11.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "EMC2": {
+        "Title": "Einsteinium",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(41879)}}",
+        "p2pPort": "{{ p2pPort|default(41878)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "33",
+        "ScriptPrefix": "55",
+        "SecretPrefix": "176",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "200000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "400",
+        "Confirmations": "0",
+        "versions": {
+            "v0.13.5.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "einsteinium--v0.13.48.0.conf",
+                "wallet_conf": "einsteinium--v0.13.48.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

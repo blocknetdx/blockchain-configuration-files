@@ -1,0 +1,34 @@
+{
+    "AUS": {
+        "Title": "AustraliaCash",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(1987)}}",
+        "p2pPort": "{{ p2pPort|default(1986)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "23",
+        "ScriptPrefix": "63",
+        "SecretPrefix": "23",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000000",
+        "BlockTime": "150",
+        "TxVersion": "2",
+        "FeePerByte": "4000",
+        "Confirmations": "0",
+        "versions": {
+            "v0.17.4.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "australiacash--v0.17.4.0.conf",
+                "wallet_conf": "australiacash--v0.17.4.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

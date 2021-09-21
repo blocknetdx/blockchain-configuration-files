@@ -3,38 +3,67 @@
         "Title": "Bitcoin",
         "Address": "",
         "Ip": "127.0.0.1",
-        "rpcPort": "{{ rpcPort|default(8332) }}",
-        "p2pPort": "{{ p2pPort|default(8333) }}",
+        "rpcPort": "{{ rpcPort|default(8332)}}",
+        "p2pPort": "{{ p2pPort|default(8333)}}",
         "Username": "{{ rpcusername }}",
         "Password": "{{ rpcpassword }}",
-        "AddressPrefix": 0,
-        "ScriptPrefix": 5,
-        "SecretPrefix": 128,
-        "COIN": 100000000,
-        "MinimumAmount": 0,
-        "DustAmount": 0,
+        "AddressPrefix": "0",
+        "ScriptPrefix": "5",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
         "CreateTxMethod": "BTC",
-        "GetNewKeySupported": false,
-        "ImportWithNoScanSupported": false,
-        "MinTxFee": 12000,
-        "BlockTime": 600,
-        "TxVersion": 2,
-        "FeePerByte": 60,
-        "Confirmations": 0,
+        "GetNewKeySupported": "false",
+        "ImportWithNoScanSupported": "false",
+        "MinTxFee": "12000",
+        "BlockTime": "600",
+        "TxVersion": "2",
+        "FeePerByte": "60",
+        "Confirmations": "0",
         "versions": {
-            "v0.15.1": {"legacy": false, "deprecatedrpc": false, "xbridge_conf":"bitcoin--v0.15.1.conf", "wallet_conf":"bitcoin--v0.15.1.conf",
-            "GetNewKeySupported": false},
-            "v0.16.0": {"legacy": true, "deprecatedrpc": false, "xbridge_conf":"bitcoin--v0.15.1.conf", "wallet_conf":"bitcoin--v0.16.0.conf",
-            "GetNewKeySupported": false},
-            "v0.17.0": {"legacy": true, "deprecatedrpc": true, "xbridge_conf":"bitcoin--v0.15.1.conf", "wallet_conf":"bitcoin--v0.17.0.conf",
-            "GetNewKeySupported": false},
-            "v0.18.0": {"legacy": true, "deprecatedrpc": true, "xbridge_conf":"bitcoin--v0.15.1.conf", "wallet_conf":"bitcoin--v0.17.0.conf",
-            "GetNewKeySupported": false},
-            "v0.19.0": {"legacy": true, "deprecatedrpc": true, "xbridge_conf":"bitcoin--v0.15.1.conf", "wallet_conf":"bitcoin--v0.17.0.conf",
-            "GetNewKeySupported": false},
-            "v0.20.0": {"legacy": true, "deprecatedrpc": true, "xbridge_conf":"bitcoin--v0.15.1.conf", "wallet_conf":"bitcoin--v0.17.0.conf",
-            "GetNewKeySupported": false}
-
+            "v0.15.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "bitcoin--v0.15.1.conf",
+                "wallet_conf": "bitcoin--v0.15.1.conf",
+                "GetNewKeySupported": false
+            },
+            "v0.16.0": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "bitcoin--v0.15.1.conf",
+                "wallet_conf": "bitcoin--v0.16.0.conf",
+                "GetNewKeySupported": false
+            },
+            "v0.17.0": {
+                "legacy": true,
+                "deprecatedrpc": true,
+                "xbridge_conf": "bitcoin--v0.15.1.conf",
+                "wallet_conf": "bitcoin--v0.17.0.conf",
+                "GetNewKeySupported": false
+            },
+            "v0.18.0": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "bitcoin--v0.15.1.conf",
+                "wallet_conf": "bitcoin--v0.16.0.conf",
+                "GetNewKeySupported": false
+            },
+            "v0.19.0": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "bitcoin--v0.15.1.conf",
+                "wallet_conf": "bitcoin--v0.16.0.conf",
+                "GetNewKeySupported": false
+            },
+            "v0.20.0": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "bitcoin--v0.20.0.conf",
+                "wallet_conf": "bitcoin--v0.16.0.conf",
+                "GetNewKeySupported": false
+            }
         }
     }
 }

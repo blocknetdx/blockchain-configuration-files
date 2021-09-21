@@ -1,0 +1,34 @@
+{
+    "ABS": {
+        "Title": "Abosom",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(23004)}}",
+        "p2pPort": "{{ p2pPort|default(23003)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "75",
+        "ScriptPrefix": "78",
+        "SecretPrefix": "80",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "1000",
+        "BlockTime": "600",
+        "TxVersion": "2",
+        "FeePerByte": "2",
+        "Confirmations": "0",
+        "versions": {
+            "v1.0.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "abosom--v1.0.0.conf",
+                "wallet_conf": "abosom--v1.0.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

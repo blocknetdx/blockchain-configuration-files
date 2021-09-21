@@ -3,33 +3,53 @@
         "Title": "Litecoin",
         "Address": "",
         "Ip": "127.0.0.1",
-        "rpcPort": "{{ rpcPort|default(9332) }}",
-        "p2pPort": "{{ p2pPort|default(9333) }}",
+        "rpcPort": "{{ rpcPort|default(9332)}}",
+        "p2pPort": "{{ p2pPort|default(9333)}}",
         "Username": "{{ rpcusername }}",
         "Password": "{{ rpcpassword }}",
-        "AddressPrefix": 48,
-        "ScriptPrefix": 50,
-        "SecretPrefix": 176,
-        "COIN": 100000000,
-        "MinimumAmount": 0,
-        "DustAmount": 0,
+        "AddressPrefix": "48",
+        "ScriptPrefix": "50",
+        "SecretPrefix": "176",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
         "CreateTxMethod": "BTC",
-        "ImportWithNoScanSupported": false,
-        "MinTxFee": 5000,
-        "BlockTime": 150,
-        "TxVersion": 2,
-        "FeePerByte": 10,
-        "Confirmations": 0,
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "5000",
+        "BlockTime": "150",
+        "TxVersion": "2",
+        "FeePerByte": "10",
+        "Confirmations": "0",
         "versions": {
-            "v0.15.1": {"legacy": false, "deprecatedrpc": false, "xbridge_conf":"litecoin--v0.15.1.conf", "wallet_conf":"litecoin--v0.15.1.conf",
-            "GetNewKeySupported": false},
-            "v0.16.0": {"legacy": true, "deprecatedrpc": false, "xbridge_conf":"litecoin--v0.15.1.conf", "wallet_conf":"litecoin--v0.16.0.conf",
-            "GetNewKeySupported": false},
-            "v0.17.1": {"legacy": true, "deprecatedrpc": true, "xbridge_conf":"litecoin--v0.15.1.conf", "wallet_conf":"litecoin--v0.16.0.conf",
-            "GetNewKeySupported": false},
-            "v0.18.1": {"legacy": true, "deprecatedrpc": true, "xbridge_conf":"litecoin--v0.18.1.conf", "wallet_conf":"litecoin--v0.18.1.conf",
-            "GetNewKeySupported": true}
-
+            "v0.15.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "litecoin--v0.15.1.conf",
+                "wallet_conf": "litecoin--v0.15.1.conf",
+                "GetNewKeySupported": false
+            },
+            "v0.16.0": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "litecoin--v0.15.1.conf",
+                "wallet_conf": "litecoin--v0.16.0.conf",
+                "GetNewKeySupported": false
+            },
+            "v0.17.1": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "litecoin--v0.15.1.conf",
+                "wallet_conf": "litecoin--v0.16.0.conf",
+                "GetNewKeySupported": false
+            },
+            "v0.18.1": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "litecoin--v0.18.1.conf",
+                "wallet_conf": "litecoin--v0.18.1.conf",
+                "GetNewKeySupported": false
+            }
         }
     }
 }

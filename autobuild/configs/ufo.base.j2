@@ -1,0 +1,34 @@
+{
+    "UFO": {
+        "Title": "UniformFiscalObject",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(9888)}}",
+        "p2pPort": "{{ p2pPort|default(9887)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "27",
+        "ScriptPrefix": "68",
+        "SecretPrefix": "155",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "200000",
+        "BlockTime": "90",
+        "TxVersion": "2",
+        "FeePerByte": "400",
+        "Confirmations": "0",
+        "versions": {
+            "v0.18.0": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "ufocoin--v0.16.1.conf",
+                "wallet_conf": "ufocoin--v0.18.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "FJC": {
+        "Title": "FujiCoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(3776)}}",
+        "p2pPort": "{{ p2pPort|default(3777)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "36",
+        "ScriptPrefix": "16",
+        "SecretPrefix": "164",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "4000",
+        "Confirmations": "0",
+        "versions": {
+            "fujicoin-v0.18.0": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "fujicoin--fujicoin-v0.16.1.conf",
+                "wallet_conf": "fujicoin--fujicoin-v0.16.1.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

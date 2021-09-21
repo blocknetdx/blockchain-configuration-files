@@ -1,0 +1,34 @@
+{
+    "RAP": {
+        "Title": "Rapture",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(14776)}}",
+        "p2pPort": "{{ p2pPort|default(14777)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "60",
+        "ScriptPrefix": "16",
+        "SecretPrefix": "204",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v1.1.2.2": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "rapture--v1.1.2.2.conf",
+                "wallet_conf": "rapture--v1.1.2.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

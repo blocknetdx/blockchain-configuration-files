@@ -1,0 +1,34 @@
+{
+    "MUE": {
+        "Title": "MonetaryUnit",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(29683)}}",
+        "p2pPort": "{{ p2pPort|default(19683)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "16",
+        "ScriptPrefix": "76",
+        "SecretPrefix": "126",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "false",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "40",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v2.1.4": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "monetaryunit--v2.0.2.conf",
+                "wallet_conf": "monetaryunit--v2.0.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

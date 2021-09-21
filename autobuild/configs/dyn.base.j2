@@ -1,0 +1,34 @@
+{
+    "DYN": {
+        "Title": "Dynamic",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(33350)}}",
+        "p2pPort": "{{ p2pPort|default(31300)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "30",
+        "ScriptPrefix": "10",
+        "SecretPrefix": "140",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "false",
+        "ImportWithNoScanSupported": "false",
+        "MinTxFee": "10000",
+        "BlockTime": "128",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v2.4.3.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "dynamic--v2.3.5.0.conf",
+                "wallet_conf": "dynamic--v2.3.5.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

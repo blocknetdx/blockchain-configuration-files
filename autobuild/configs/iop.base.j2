@@ -1,0 +1,34 @@
+{
+    "IOP": {
+        "Title": "InternetofPeople",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(4878)}}",
+        "p2pPort": "{{ p2pPort|default(4877)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "117",
+        "ScriptPrefix": "174",
+        "SecretPrefix": "49",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v6.3.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "iop--v6.2.3.conf",
+                "wallet_conf": "iop--v6.2.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

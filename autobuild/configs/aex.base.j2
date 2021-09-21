@@ -1,0 +1,34 @@
+{
+    "AEX": {
+        "Title": "AeriumX",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(35408)}}",
+        "p2pPort": "{{ p2pPort|default(35407)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "23",
+        "ScriptPrefix": "83",
+        "SecretPrefix": "151",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v2.2": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "aeriumx--v2.2.conf",
+                "wallet_conf": "aeriumx--v2.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

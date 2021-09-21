@@ -1,0 +1,34 @@
+{
+    "ATB": {
+        "Title": "ATBCoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(15443)}}",
+        "p2pPort": "{{ p2pPort|default(15442)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "23",
+        "ScriptPrefix": "83",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "20000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "40",
+        "Confirmations": "0",
+        "versions": {
+            "v1.1.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "atbcoin--v1.1.0.conf",
+                "wallet_conf": "atbcoin--v1.1.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

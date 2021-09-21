@@ -1,0 +1,34 @@
+{
+    "ODIN": {
+        "Title": "Odin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(22101)}}",
+        "p2pPort": "{{ p2pPort|default(22100)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "115",
+        "ScriptPrefix": "57",
+        "SecretPrefix": "138",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v1.6.6": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "odin--v1.4.2.conf",
+                "wallet_conf": "odin--v1.4.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

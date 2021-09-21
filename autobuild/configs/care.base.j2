@@ -1,0 +1,34 @@
+{
+    "CARE": {
+        "Title": "Carebit",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(9193)}}",
+        "p2pPort": "{{ p2pPort|default(9192)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "28",
+        "ScriptPrefix": "137",
+        "SecretPrefix": "55",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v5.0.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "carebitcoin--v3.0.0.0.conf",
+                "wallet_conf": "carebitcoin--v3.0.0.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "EMC": {
+        "Title": "Emercoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(6662)}}",
+        "p2pPort": "{{ p2pPort|default(6661)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "33",
+        "ScriptPrefix": "92",
+        "SecretPrefix": "128",
+        "COIN": "1000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "200",
+        "BlockTime": "600",
+        "TxVersion": "1",
+        "FeePerByte": "1",
+        "Confirmations": "0",
+        "versions": {
+            "v0.7.10emc": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "emercoin--v0.7.10emc.conf",
+                "wallet_conf": "emercoin--v0.7.10emc.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

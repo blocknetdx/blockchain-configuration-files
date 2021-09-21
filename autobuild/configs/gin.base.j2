@@ -1,0 +1,34 @@
+{
+    "GIN": {
+        "Title": "GINcoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(10211)}}",
+        "p2pPort": "{{ p2pPort|default(10111)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "38",
+        "ScriptPrefix": "10",
+        "SecretPrefix": "198",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "4",
+        "Confirmations": "0",
+        "versions": {
+            "v1.3.0.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "gincoin--1.1.0.0.conf",
+                "wallet_conf": "gincoin--1.1.0.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

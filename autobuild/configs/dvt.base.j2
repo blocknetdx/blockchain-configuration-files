@@ -1,0 +1,34 @@
+{
+    "DVT": {
+        "Title": "DeVault",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(3339)}}",
+        "p2pPort": "{{ p2pPort|default(33039)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "0",
+        "ScriptPrefix": "5",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "DEVAULT",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "30000000",
+        "BlockTime": "120",
+        "TxVersion": "2",
+        "FeePerByte": "50000",
+        "Confirmations": "0",
+        "versions": {
+            "v1.1.7": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "devault--v1.1.7.conf",
+                "wallet_conf": "devault--v1.1.7.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

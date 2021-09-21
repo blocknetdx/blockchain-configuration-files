@@ -1,0 +1,34 @@
+{
+    "MLM": {
+        "Title": "MktCoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(9276)}}",
+        "p2pPort": "{{ p2pPort|default(9275)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "110",
+        "ScriptPrefix": "115",
+        "SecretPrefix": "238",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "0.15.0.3": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "mktcoin--0.14.3.conf",
+                "wallet_conf": "mktcoin--0.14.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

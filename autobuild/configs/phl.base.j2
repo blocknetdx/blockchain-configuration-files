@@ -1,0 +1,34 @@
+{
+    "PHL": {
+        "Title": "Placeholders",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(6706)}}",
+        "p2pPort": "{{ p2pPort|default(6608)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "35",
+        "ScriptPrefix": "38",
+        "SecretPrefix": "176",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "5000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "2.0.30.5": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "placeh--2.0.30.5.conf",
+                "wallet_conf": "placeh--2.0.30.5.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

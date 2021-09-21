@@ -1,0 +1,34 @@
+{
+    "D": {
+        "Title": "Denarius",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(32369)}}",
+        "p2pPort": "{{ p2pPort|default(33369)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "30",
+        "ScriptPrefix": "90",
+        "SecretPrefix": "158",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000",
+        "BlockTime": "30",
+        "TxVersion": "1",
+        "FeePerByte": "5",
+        "Confirmations": "0",
+        "versions": {
+            "v3.3.9.3": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "denarius--v3.3.9.3.conf",
+                "wallet_conf": "denarius--v3.3.9.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

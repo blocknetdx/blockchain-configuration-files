@@ -1,0 +1,34 @@
+{
+    "GBX": {
+        "Title": "GoByte",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(12454)}}",
+        "p2pPort": "{{ p2pPort|default(12455)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "38",
+        "ScriptPrefix": "10",
+        "SecretPrefix": "198",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "4",
+        "Confirmations": "0",
+        "versions": {
+            "v0.12.2.4": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "gobyte--v0.12.2.4.conf",
+                "wallet_conf": "gobyte--v0.12.2.4.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

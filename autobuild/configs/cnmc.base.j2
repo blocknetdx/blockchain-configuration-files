@@ -1,0 +1,34 @@
+{
+    "CNMC": {
+        "Title": "Cryptonodes",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(34219)}}",
+        "p2pPort": "{{ p2pPort|default(44219)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "88",
+        "ScriptPrefix": "16",
+        "SecretPrefix": "81",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v1.4.4.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "cryptonodes--v1.4.3.conf",
+                "wallet_conf": "cryptonodes--v1.4.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

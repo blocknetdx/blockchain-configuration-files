@@ -1,0 +1,34 @@
+{
+    "NYX": {
+        "Title": "NyxCoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(4331)}}",
+        "p2pPort": "{{ p2pPort|default(4330)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "53",
+        "ScriptPrefix": "20",
+        "SecretPrefix": "139",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "4",
+        "Confirmations": "0",
+        "versions": {
+            "v2.0.0.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "nyx--v2.0.0.0.conf",
+                "wallet_conf": "nyx--v2.0.0.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "RPD": {
+        "Title": "Rapids",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(28731)}}",
+        "p2pPort": "{{ p2pPort|default(28732)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "61",
+        "ScriptPrefix": "6",
+        "SecretPrefix": "46",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v2.0.0.0-b784ecbf4d": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "rapids--v1.0.0.1.conf",
+                "wallet_conf": "rapids--v1.0.0.1.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

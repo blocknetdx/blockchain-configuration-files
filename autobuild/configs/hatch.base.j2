@@ -1,0 +1,34 @@
+{
+    "HATCH": {
+        "Title": "Hatch",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8884)}}",
+        "p2pPort": "{{ p2pPort|default(8885)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "76",
+        "ScriptPrefix": "16",
+        "SecretPrefix": "204",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "false",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2500",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "5",
+        "Confirmations": "0",
+        "versions": {
+            "v0.14.0.3": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "hatch--v0.14.0.3.conf",
+                "wallet_conf": "hatch--v0.14.0.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

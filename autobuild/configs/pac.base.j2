@@ -1,0 +1,34 @@
+{
+    "PAC": {
+        "Title": "PACGlobal",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(7111)}}",
+        "p2pPort": "{{ p2pPort|default(7112)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "55",
+        "ScriptPrefix": "10",
+        "SecretPrefix": "204",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "25000000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "100000",
+        "Confirmations": "0",
+        "versions": {
+            "v0.15-da839021c": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "pacglobal--v0.15-da839021c.conf",
+                "wallet_conf": "pacglobal--v0.15-da839021c.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

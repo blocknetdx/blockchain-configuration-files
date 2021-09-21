@@ -1,0 +1,34 @@
+{
+    "ENT": {
+        "Title": "Eternity",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(4854)}}",
+        "p2pPort": "{{ p2pPort|default(4855)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "33",
+        "ScriptPrefix": "8",
+        "SecretPrefix": "101",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v0.12.1.7": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "eternity--v0.12.1.7.conf",
+                "wallet_conf": "eternity--v0.12.1.7.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

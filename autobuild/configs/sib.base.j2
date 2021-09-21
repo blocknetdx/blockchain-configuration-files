@@ -1,0 +1,34 @@
+{
+    "SIB": {
+        "Title": "Sibcoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(1944)}}",
+        "p2pPort": "{{ p2pPort|default(1945)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "63",
+        "ScriptPrefix": "40",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v0.17.0.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "sibcoin--v0.16.1.3.conf",
+                "wallet_conf": "sibcoin--v0.16.1.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

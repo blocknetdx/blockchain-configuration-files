@@ -1,0 +1,34 @@
+{
+    "POLIS": {
+        "Title": "Polis",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(24127)}}",
+        "p2pPort": "{{ p2pPort|default(24126)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "55",
+        "ScriptPrefix": "56",
+        "SecretPrefix": "60",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "4",
+        "Confirmations": "0",
+        "versions": {
+            "v1.6.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "polis--v1.3.1.conf",
+                "wallet_conf": "polis--v1.3.1.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

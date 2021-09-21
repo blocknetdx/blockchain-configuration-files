@@ -1,0 +1,34 @@
+{
+    "WAGE": {
+        "Title": "Digiwage",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(46002)}}",
+        "p2pPort": "{{ p2pPort|default(46003)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "30",
+        "ScriptPrefix": "90",
+        "SecretPrefix": "89",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "1.2.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "digiwage--v1.1.0.conf",
+                "wallet_conf": "digiwage--v1.1.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

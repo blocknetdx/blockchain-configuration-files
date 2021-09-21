@@ -1,0 +1,34 @@
+{
+    "OPCX": {
+        "Title": "OPCoinX",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(18052)}}",
+        "p2pPort": "{{ p2pPort|default(18051)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "115",
+        "ScriptPrefix": "13",
+        "SecretPrefix": "212",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "5000000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20000",
+        "Confirmations": "0",
+        "versions": {
+            "v2.0.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "opcoinx--v2.0.0.conf",
+                "wallet_conf": "opcoinx--v2.0.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

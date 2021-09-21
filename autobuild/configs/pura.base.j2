@@ -1,0 +1,34 @@
+{
+    "PURA": {
+        "Title": "Pura",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(55555)}}",
+        "p2pPort": "{{ p2pPort|default(44444)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "55",
+        "ScriptPrefix": "16",
+        "SecretPrefix": "150",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v1.3.7": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "pura--v1.0.0.0.conf",
+                "wallet_conf": "pura--v1.0.0.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

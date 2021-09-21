@@ -1,0 +1,34 @@
+{
+    "NIX": {
+        "Title": "NIX",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(6215)}}",
+        "p2pPort": "{{ p2pPort|default(6214)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "38",
+        "ScriptPrefix": "53",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v3.0.7": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "nix--v2.0.3.conf",
+                "wallet_conf": "nix--v2.0.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "XMCC": {
+        "Title": "Monoeci",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(24156)}}",
+        "p2pPort": "{{ p2pPort|default(24157)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "50",
+        "ScriptPrefix": "73",
+        "SecretPrefix": "77",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "4",
+        "Confirmations": "0",
+        "versions": {
+            "v0.12.2.3": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "monoeci--v0.12.2.3.conf",
+                "wallet_conf": "monoeci--v0.12.2.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

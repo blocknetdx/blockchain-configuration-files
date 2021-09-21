@@ -1,0 +1,34 @@
+{
+    "XVG": {
+        "Title": "Verge",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(20102)}}",
+        "p2pPort": "{{ p2pPort|default(21102)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "30",
+        "ScriptPrefix": "33",
+        "SecretPrefix": "158",
+        "COIN": "1000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "400000",
+        "BlockTime": "30",
+        "TxVersion": "1",
+        "FeePerByte": "200",
+        "Confirmations": "0",
+        "versions": {
+            "v6.0.2": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "verge--v6.0.2.conf",
+                "wallet_conf": "verge--v6.0.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

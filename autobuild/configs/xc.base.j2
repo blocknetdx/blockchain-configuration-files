@@ -1,0 +1,34 @@
+{
+    "XC": {
+        "Title": "XCurrency",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(14332)}}",
+        "p2pPort": "{{ p2pPort|default(14333)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "75",
+        "ScriptPrefix": "8",
+        "SecretPrefix": "203",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v3.0.05": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "xcurrency--v3.0.05.conf",
+                "wallet_conf": "xcurrency--v3.0.05.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}
