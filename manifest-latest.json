@@ -2123,6 +2123,22 @@
     "wallet_conf": "unobtanium--v0.10.1.1.conf"
   },
   {
+    "blockchain": "Balanced",
+    "ticker": "USBL",
+    "ver_id": "usbl--v1.0.0.0",
+    "ver_name": "Balanced",
+    "conf_name": "bitdollar.conf",
+    "dir_name_linux": "bitdollar",
+    "dir_name_mac": "BitDollar",
+    "dir_name_win": "BitDollar",
+    "repo_url": "https://github.com/softbalanced/core",
+    "versions": [
+      "v1.0.0.0"
+    ],
+    "xbridge_conf": "usbl--v1.0.0.0.conf",
+    "wallet_conf": "usbl--v1.0.0.0.conf"
+  },
+  {
     "blockchain": "Verge",
     "ticker": "XVG",
     "ver_id": "verge--v6.0.2",
