@@ -1,0 +1,34 @@
+{
+    "TRC": {
+        "Title": "Terracoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(13332)}}",
+        "p2pPort": "{{ p2pPort|default(13333)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "0",
+        "ScriptPrefix": "5",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v0.12.2.4": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "terracoin--v0.12.1.8.conf",
+                "wallet_conf": "terracoin--v0.12.1.8.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}
