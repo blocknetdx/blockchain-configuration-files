@@ -1683,6 +1683,22 @@
     "wallet_conf": "particl--v0.19.2.5.conf"
   },
   {
+    "blockchain": "Pandacoin",
+    "ticker": "PND",
+    "ver_id": "pandacoin--v4.10.5",
+    "ver_name": "Pandacoin",
+    "conf_name": "pandacoin.conf",
+    "dir_name_linux": "pandacoin",
+    "dir_name_mac": "Pandacoin",
+    "dir_name_win": "Pandacoin",
+    "repo_url": "https://github.com/DigitalPandacoin/pandacoin",
+    "versions": [
+      "v4.10.5"
+    ],
+    "xbridge_conf": "pandacoin--v4.10.5.conf",
+    "wallet_conf": "pandacoin--v4.10.5.conf"
+  },
+  {
     "blockchain": "Phore",
     "ticker": "PHR",
     "ver_id": "phore--v1.3.3.1",
