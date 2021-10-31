@@ -1,0 +1,34 @@
+{
+    "RVN": {
+        "Title": "Ravencoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8766)}}",
+        "p2pPort": "{{ p2pPort|default(8767)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "60",
+        "ScriptPrefix": "122",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "4",
+        "Confirmations": "0",
+        "versions": {
+            "v4.1.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "raven--v0.15.99.0.conf",
+                "wallet_conf": "raven--v0.15.99.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

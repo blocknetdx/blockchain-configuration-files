@@ -1,0 +1,34 @@
+{
+    "APR": {
+        "Title": "APRcoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(3132)}}",
+        "p2pPort": "{{ p2pPort|default(3133)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "12",
+        "ScriptPrefix": "6",
+        "SecretPrefix": "46",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "V3.1.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "aprcoin--v3.1.0.conf",
+                "wallet_conf": "aprcoin--v3.1.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

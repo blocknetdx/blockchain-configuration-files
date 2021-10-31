@@ -1,0 +1,34 @@
+{
+    "HTML": {
+        "Title": "HTMLCoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(4889)}}",
+        "p2pPort": "{{ p2pPort|default(4890)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "41",
+        "ScriptPrefix": "100",
+        "SecretPrefix": "169",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "625000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "1250",
+        "Confirmations": "0",
+        "versions": {
+            "v2.5.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "htmlcoin--v2.0.3.0.conf",
+                "wallet_conf": "htmlcoin--v2.0.3.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

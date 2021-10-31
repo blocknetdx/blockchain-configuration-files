@@ -1,0 +1,34 @@
+{
+    "VTC": {
+        "Title": "Vertcoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(5888)}}",
+        "p2pPort": "{{ p2pPort|default(5889)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "71",
+        "ScriptPrefix": "5",
+        "SecretPrefix": "199",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "false",
+        "ImportWithNoScanSupported": "false",
+        "MinTxFee": "200000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "400",
+        "Confirmations": "0",
+        "versions": {
+            "0.14.0": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "vertcoin--0.12.0.conf",
+                "wallet_conf": "vertcoin--0.13.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}
