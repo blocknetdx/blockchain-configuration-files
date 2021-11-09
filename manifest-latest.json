@@ -764,6 +764,22 @@
     "wallet_conf": "einsteinium--v0.13.48.0.conf"
   },
   {
+    "blockchain": "Electra Protocol",
+    "ticker": "XEP",
+    "ver_id": "xep--v1.0.3.0",
+    "ver_name": "xep v1.0.3.0",
+    "conf_name": "xep.conf",
+    "dir_name_linux": "xep",
+    "dir_name_mac": "XEP",
+    "dir_name_win": "XEP",
+    "repo_url": "https://github.com/ElectraProtocol/XEP-Core",
+    "versions": [
+      "v1.0.3.0"
+    ],
+    "xbridge_conf": "xep--v1.0.3.0.conf",
+    "wallet_conf": "xep--v1.0.3.0.conf"
+  },
+  {
     "blockchain": "Electra",
     "ticker": "ECA",
     "ver_id": "Electra--2.0.2.1",
