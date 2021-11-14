@@ -18,7 +18,7 @@
   {
     "blockchain": "AeriumX",
     "ticker": "AEX",
-    "ver_id": "aeriumx--v2.0",
+    "ver_id": "aeriumx--v2.2",
     "ver_name": "AeriumX",
     "conf_name": "aeriumx.conf",
     "dir_name_linux": "aeriumx",
@@ -28,8 +28,8 @@
     "versions": [
       "v2.2"
     ],
-    "xbridge_conf": "aeriumx--v2.0.conf",
-    "wallet_conf": "aeriumx--v2.0.conf"
+    "xbridge_conf": "aeriumx--v2.2.conf",
+    "wallet_conf": "aeriumx--v2.2.conf"
   },
   {
     "blockchain": "Altbet",
@@ -51,7 +51,7 @@
   {
     "blockchain": "APR Coin",
     "ticker": "APR",
-    "ver_id": "aprcoin--v1.0",
+    "ver_id": "aprcoin--V3.1.0",
     "ver_name": "APR Coin",
     "conf_name": "aprcoin.conf",
     "dir_name_linux": "aprcoin",
@@ -61,13 +61,13 @@
     "versions": [
       "V3.1.0"
     ],
-    "xbridge_conf": "aprcoin--v1.0.conf",
-    "wallet_conf": "aprcoin--v1.0.conf"
+    "xbridge_conf": "aprcoin--v3.1.0.conf",
+    "wallet_conf": "aprcoin--v3.1.0.conf"
   },
   {
     "blockchain": "Argoneum",
     "ticker": "AGM",
-    "ver_id": "argoneum--v1.2.3.4",
+    "ver_id": "argoneum--v1.4.0.0",
     "ver_name": "Argoneum",
     "conf_name": "argoneum.conf",
     "dir_name_linux": "argoneum",
@@ -100,7 +100,7 @@
   {
     "blockchain": "AustraliaCash",
     "ticker": "AUS",
-    "ver_id": "australiacash--v0.17.4.0",
+    "ver_id": "australiacash--v0.17.4.1",
     "ver_name": "AustraliaCash",
     "conf_name": "australiacash.conf",
     "dir_name_linux": "australiacash",
@@ -269,7 +269,7 @@
   {
     "blockchain": "Bitcoin CZ",
     "ticker": "BCZ",
-    "ver_id": "bcz--6.0.0.8",
+    "ver_id": "bcz--6.0.3.2",
     "ver_name": "Bitcoin CZ",
     "conf_name": "bcz.conf",
     "dir_name_linux": "bcz",
@@ -357,7 +357,7 @@
   {
     "blockchain": "BitcoinZero",
     "ticker": "BZX",
-    "ver_id": "bitcoinzero--5.0.1.0",
+    "ver_id": "bitcoinzero--5.0.7.8",
     "ver_name": "BitcoinZero",
     "conf_name": "bitcoinzero.conf",
     "dir_name_linux": "bitcoinzero",
@@ -405,7 +405,7 @@
   {
     "blockchain": "BLAST",
     "ticker": "BLAST",
-    "ver_id": "blast--v1.2.0.2",
+    "ver_id": "blast--v2.2.0",
     "ver_name": "BLAST",
     "conf_name": "blast.conf",
     "dir_name_linux": "blast",
@@ -421,7 +421,7 @@
   {
     "blockchain": "Blocknet",
     "ticker": "BLOCK",
-    "ver_id": "blocknet--v4.0.1",
+    "ver_id": "blocknet--v4.3.0",
     "ver_name": "Blocknet v4",
     "conf_name": "blocknet.conf",
     "dir_name_linux": "blocknet",
@@ -437,7 +437,7 @@
   {
     "blockchain": "Carebit",
     "ticker": "CARE",
-    "ver_id": "carebitcoin--v3.0.0.0",
+    "ver_id": "carebitcoin--v5.0.0",
     "ver_name": "Carebit",
     "conf_name": "carebitcoin.conf",
     "dir_name_linux": "carebitcoin",
@@ -469,7 +469,7 @@
   {
     "blockchain": "Chaincoin",
     "ticker": "CHC",
-    "ver_id": "chaincoin--v0.18.1",
+    "ver_id": "chaincoin--v0.18",
     "ver_name": "Chaincoin",
     "conf_name": "chaincoin.conf",
     "dir_name_linux": "chaincoincore",
@@ -501,7 +501,7 @@
   {
     "blockchain": "ColossusXT",
     "ticker": "COLX",
-    "ver_id": "ColossusXT--v1.2.1",
+    "ver_id": "ColossusXT--v1.2.3",
     "ver_name": "ColossusXT",
     "conf_name": "ColossusXT.conf",
     "dir_name_linux": "ColossusXT",
@@ -518,7 +518,7 @@
   {
     "blockchain": "Crave",
     "ticker": "CRAVE",
-    "ver_id": "crave--v2.5.0.3",
+    "ver_id": "crave--v2.5.2",
     "ver_name": "Crave",
     "conf_name": "crave.conf",
     "dir_name_linux": "craveng",
@@ -534,7 +534,7 @@
   {
     "blockchain": "Crypto Dezire Cash",
     "ticker": "CDZC",
-    "ver_id": "cryptodezirecash--v2.1.1",
+    "ver_id": "cryptodezirecash--v2.1.2",
     "ver_name": "Crypto Dezire Cash",
     "conf_name": "cryptodezirecash.conf",
     "dir_name_linux": "cryptodezirecash",
@@ -550,7 +550,7 @@
   {
     "blockchain": "Cryptonodes",
     "ticker": "CNMC",
-    "ver_id": "cryptonodes--v1.4.3",
+    "ver_id": "cryptonodes--v1.4.4.1",
     "ver_name": "Cryptonodes",
     "conf_name": "cryptonodes.conf",
     "dir_name_linux": "cryptonodes",
@@ -566,7 +566,7 @@
   {
     "blockchain": "Dash",
     "ticker": "DASH",
-    "ver_id": "dash--v0.12.2.3",
+    "ver_id": "dash--v0.14.0.2",
     "ver_name": "Dash",
     "conf_name": "dash.conf",
     "dir_name_linux": "dashcore",
@@ -603,7 +603,7 @@
   {
     "blockchain": "Desire",
     "ticker": "DSR",
-    "ver_id": "desire--Desire-v.0.12.2.2.1",
+    "ver_id": "desire--Desire-v.0.12.2.2",
     "ver_name": "Desire",
     "conf_name": "desire.conf",
     "dir_name_linux": "desirecore",
@@ -635,7 +635,7 @@
   {
     "blockchain": "Diamond",
     "ticker": "DMD",
-    "ver_id": "diamond--v3.0.1.1",
+    "ver_id": "diamond--3.0.1.3",
     "ver_name": "Diamond",
     "conf_name": "diamond.conf",
     "dir_name_linux": "DMDV3",
@@ -651,7 +651,7 @@
   {
     "blockchain": "DigiByte",
     "ticker": "DGB",
-    "ver_id": "digibyte--v6.16.2",
+    "ver_id": "digibyte--v7.17.2",
     "ver_name": "DigiByte",
     "conf_name": "digibyte.conf",
     "dir_name_linux": "digibyte",
@@ -667,7 +667,7 @@
   {
     "blockchain": "Digiwage",
     "ticker": "WAGE",
-    "ver_id": "digiwage--v1.1.0",
+    "ver_id": "digiwage--1.2.1",
     "ver_name": "Digiwage",
     "conf_name": "digiwage.conf",
     "dir_name_linux": "digiwage",
@@ -683,7 +683,7 @@
   {
     "blockchain": "Divi",
     "ticker": "DIVI",
-    "ver_id": "divi--v1.0.4-core",
+    "ver_id": "divi--v1.1.2",
     "ver_name": "Divi",
     "conf_name": "divi.conf",
     "dir_name_linux": "divi",
@@ -700,7 +700,7 @@
   {
     "blockchain": "DogeCash",
     "ticker": "DOGEC",
-    "ver_id": "dogecash--3.0.0",
+    "ver_id": "dogecash--5.2.1.0",
     "ver_name": "DogeCash",
     "conf_name": "dogecash.conf",
     "dir_name_linux": "dogecash",
@@ -716,7 +716,7 @@
   {
     "blockchain": "Dogecoin",
     "ticker": "DOGE",
-    "ver_id": "dogecoin--v1.10.0",
+    "ver_id": "dogecoin--v1.14.2",
     "ver_name": "Dogecoin",
     "conf_name": "dogecoin.conf",
     "dir_name_linux": "dogecoin",
@@ -732,7 +732,7 @@
   {
     "blockchain": "Dynamic",
     "ticker": "DYN",
-    "ver_id": "dynamic--v2.3.5.0",
+    "ver_id": "dynamic--v2.4.3.0",
     "ver_name": "Dynamic",
     "conf_name": "dynamic.conf",
     "dir_name_linux": "dynamic",
@@ -750,7 +750,7 @@
   {
     "blockchain": "Einsteinium",
     "ticker": "EMC2",
-    "ver_id": "einsteinium--v0.13.48.0",
+    "ver_id": "einsteinium--v0.13.5.0",
     "ver_name": "Einsteinium",
     "conf_name": "einsteinium.conf",
     "dir_name_linux": "einsteinium",
@@ -766,7 +766,7 @@
   {
     "blockchain": "Electra",
     "ticker": "ECA",
-    "ver_id": "Electra--2.0.2.1",
+    "ver_id": "Electra--2.1.1",
     "ver_name": "Electra",
     "conf_name": "Electra.conf",
     "dir_name_linux": "electra",
@@ -831,7 +831,7 @@
   {
     "blockchain": "Faircoin",
     "ticker": "FAIR",
-    "ver_id": "faircoin--v2.0.0",
+    "ver_id": "faircoin--v2.0.1",
     "ver_name": "Faircoin",
     "conf_name": "faircoin.conf",
     "dir_name_linux": "faircoin2",
@@ -847,7 +847,7 @@
   {
     "blockchain": "FantasyGold",
     "ticker": "FGC",
-    "ver_id": "fantasygold--2.0.0",
+    "ver_id": "fantasygold--2.19.1",
     "ver_name": "FantasyGold",
     "conf_name": "fantasygold.conf",
     "dir_name_linux": "fantasygold",
@@ -863,7 +863,7 @@
   {
     "blockchain": "Flo",
     "ticker": "FLO",
-    "ver_id": "flo--v0.15.0.3",
+    "ver_id": "flo--v0.15.2.0",
     "ver_name": "Flo",
     "conf_name": "flo.conf",
     "dir_name_linux": "flo",
@@ -880,7 +880,7 @@
   {
     "blockchain": "FujiCoin",
     "ticker": "FJC",
-    "ver_id": "fujicoin--fujicoin-v0.16.1",
+    "ver_id": "fujicoin--fujicoin-v0.18.0",
     "ver_name": "FujiCoin",
     "conf_name": "fujicoin.conf",
     "dir_name_linux": "fujicoin",
@@ -896,7 +896,7 @@
   {
     "blockchain": "Galactrum",
     "ticker": "ORE",
-    "ver_id": "galactrum--v1.1.6",
+    "ver_id": "galactrum--v1.4.0",
     "ver_name": "Galactrum",
     "conf_name": "galactrum.conf",
     "dir_name_linux": "galactrum",
@@ -912,7 +912,7 @@
   {
     "blockchain": "Galilel",
     "ticker": "GALI",
-    "ver_id": "galilel--v3.2.0",
+    "ver_id": "galilel--v3.4.0",
     "ver_name": "Galilel",
     "conf_name": "galilel.conf",
     "dir_name_linux": "galilel",
@@ -960,7 +960,7 @@
   {
     "blockchain": "GINcoin",
     "ticker": "GIN",
-    "ver_id": "gincoin--1.1.0.0",
+    "ver_id": "gincoin--v1.3.0.0",
     "ver_name": "GINcoin",
     "conf_name": "gincoin.conf",
     "dir_name_linux": "gincoincore",
@@ -1008,7 +1008,7 @@
   {
     "blockchain": "GravityCoin",
     "ticker": "GXX",
-    "ver_id": "GravityCoin--4.0.5.0.1",
+    "ver_id": "GravityCoin--4.0.7.8",
     "ver_name": "GravityCoin",
     "conf_name": "GravityCoin.conf",
     "dir_name_linux": "GravityCoin",
@@ -1024,7 +1024,7 @@
   {
     "blockchain": "HASH",
     "ticker": "HASH",
-    "ver_id": "hash--v1.4.0",
+    "ver_id": "hash--v1.5.1",
     "ver_name": "HASH",
     "conf_name": "hash.conf",
     "dir_name_linux": "hash",
@@ -1072,7 +1072,7 @@
   {
     "blockchain": "HTMLCoin",
     "ticker": "HTML",
-    "ver_id": "htmlcoin--v2.0.3.0",
+    "ver_id": "htmlcoin--v2.5.0",
     "ver_name": "HTMLCoin",
     "conf_name": "htmlcoin.conf",
     "dir_name_linux": "htmlcoin",
@@ -1088,7 +1088,7 @@
   {
     "blockchain": "Innova",
     "ticker": "INN",
-    "ver_id": "innova--v4.3.8.6",
+    "ver_id": "innova--v4.3.8.8",
     "ver_name": "Innova",
     "conf_name": "innova.conf",
     "dir_name_linux": "innova",
@@ -1104,7 +1104,7 @@
   {
     "blockchain": "Internet of People",
     "ticker": "IOP",
-    "ver_id": "iop--v6.1.0",
+    "ver_id": "iop--v6.3.0",
     "ver_name": "Internet of People",
     "conf_name": "iop.conf",
     "dir_name_linux": "iop",
@@ -1152,7 +1152,7 @@
   {
     "blockchain": "Kalkulus",
     "ticker": "KLKS",
-    "ver_id": "klks--v2.6.0",
+    "ver_id": "klks--v2.8.0",
     "ver_name": "Kalkulus",
     "conf_name": "klks.conf",
     "dir_name_linux": "klks",
@@ -1168,7 +1168,7 @@
   {
     "blockchain": "Know Your Developer",
     "ticker": "KYDC",
-    "ver_id": "kyd--v3.2.0.3",
+    "ver_id": "kyd--3.2.1",
     "ver_name": "Know Your Developer",
     "conf_name": "kyd.conf",
     "dir_name_linux": "kydcore",
@@ -1185,7 +1185,7 @@
   {
     "blockchain": "Kreds",
     "ticker": "KREDS",
-    "ver_id": "kreds--v1.0.0.5.1",
+    "ver_id": "kreds--v1.0.0.6",
     "ver_name": "Kreds",
     "conf_name": "kreds.conf",
     "dir_name_linux": "kreds",
@@ -1217,7 +1217,7 @@
   {
     "blockchain": "LBRY Credits",
     "ticker": "LBC",
-    "ver_id": "lbrycrd--v0.17.2.0",
+    "ver_id": "lbrycrd--v0.17.3.1",
     "ver_name": "LBRY Credits",
     "conf_name": "lbrycrd.conf",
     "dir_name_linux": "lbrycrd",
@@ -1227,7 +1227,9 @@
     "versions": [
       "v0.17.3.1",
       "v0.17.3.2",
-      "v0.17.4.5"
+      "v0.17.3.3",
+      "v0.17.4.5",
+      "v0.17.4.6"
     ],
     "xbridge_conf": "lbrycrd--v0.12.2.1.conf",
     "wallet_conf": "lbrycrd--v0.17.2.0.conf"
@@ -1317,7 +1319,7 @@
   {
     "blockchain": "Lynx",
     "ticker": "LYNX",
-    "ver_id": "lynx--v0.15.1.0",
+    "ver_id": "lynx--v0.16.3.9",
     "ver_name": "Lynx",
     "conf_name": "lynx.conf",
     "dir_name_linux": "lynx",
@@ -1333,7 +1335,7 @@
   {
     "blockchain": "Machinecoin",
     "ticker": "MAC",
-    "ver_id": "machinecoin--v0.16.1.4",
+    "ver_id": "machinecoin--v0.16.3",
     "ver_name": "Machinecoin",
     "conf_name": "machinecoin.conf",
     "dir_name_linux": "machinecoin",
@@ -1382,7 +1384,7 @@
   {
     "blockchain": "MktCoin",
     "ticker": "MLM",
-    "ver_id": "mktcoin--0.14.3",
+    "ver_id": "mktcoin--0.15.0.3",
     "ver_name": "MktCoin",
     "conf_name": "mktcoin.conf",
     "dir_name_linux": "mktcoin",
@@ -1414,7 +1416,7 @@
   {
     "blockchain": "MonetaryUnit",
     "ticker": "MUE",
-    "ver_id": "monetaryunit--v2.0.2",
+    "ver_id": "monetaryunit--v2.1.4",
     "ver_name": "MonetaryUnit",
     "conf_name": "monetaryunit.conf",
     "dir_name_linux": "monetaryunit",
@@ -1447,7 +1449,7 @@
   {
     "blockchain": "Myriad",
     "ticker": "XMY",
-    "ver_id": "myriadcoin--v0.16.3.0",
+    "ver_id": "myriadcoin--v0.16.4.1",
     "ver_name": "Myriad",
     "conf_name": "myriadcoin.conf",
     "dir_name_linux": "myriadcoin",
@@ -1489,7 +1491,7 @@
   {
     "blockchain": "NativeCoin",
     "ticker": "N8V",
-    "ver_id": "nativecoin--v1.0.0",
+    "ver_id": "nativecoin--1.2",
     "ver_name": "NativeCoin",
     "conf_name": "nativecoin.conf",
     "dir_name_linux": ".nativecoin",
@@ -1505,7 +1507,7 @@
   {
     "blockchain": "Nix",
     "ticker": "NIX",
-    "ver_id": "nix--v2.2.0",
+    "ver_id": "nix--v3.0.7",
     "ver_name": "Nix",
     "conf_name": "nix.conf",
     "dir_name_linux": "nix",
@@ -1538,7 +1540,7 @@
   {
     "blockchain": "Noir",
     "ticker": "NOR",
-    "ver_id": "noir--v1.0.0.2",
+    "ver_id": "noir--v2.1.0.9",
     "ver_name": "Noir",
     "conf_name": "noir.conf",
     "dir_name_linux": "noir",
@@ -1554,7 +1556,7 @@
   {
     "blockchain": "Northern",
     "ticker": "NORT",
-    "ver_id": "northern--1.0.0",
+    "ver_id": "northern--3.3.1",
     "ver_name": "Northern",
     "conf_name": "northern.conf",
     "dir_name_linux": "northern",
@@ -1603,7 +1605,7 @@
   {
     "blockchain": "Odin",
     "ticker": "ODIN",
-    "ver_id": "odin--v1.4.2",
+    "ver_id": "odin--v1.6.6",
     "ver_name": "Odin",
     "conf_name": "odin.conf",
     "dir_name_linux": "odin",
@@ -1619,7 +1621,7 @@
   {
     "blockchain": "Ohmcoin",
     "ticker": "OHMC",
-    "ver_id": "ohmc--2.3.1",
+    "ver_id": "ohmc--2.4.0.0",
     "ver_name": "Ohmcoin",
     "conf_name": "ohmc.conf",
     "dir_name_linux": "ohmc",
@@ -1665,9 +1667,25 @@
     "wallet_conf": "pacglobal--v0.15-da839021c.conf"
   },
   {
+    "blockchain": "Particl",
+    "ticker": "PART",
+    "ver_id": "particl--v0.19.2.5",
+    "ver_name": "Particl v0.19.2.5+",
+    "conf_name": "particl.conf",
+    "dir_name_linux": "particl",
+    "dir_name_mac": "Particl",
+    "dir_name_win": "Particl",
+    "repo_url": "https://github.com/particl/particl-core",
+    "versions": [
+      "v0.19.2.5"
+    ],
+    "xbridge_conf": "particl--v0.19.2.5.conf",
+    "wallet_conf": "particl--v0.19.2.5.conf"
+  },
+  {
     "blockchain": "Phore",
     "ticker": "PHR",
-    "ver_id": "phore--v1.3.3.1",
+    "ver_id": "phore--v1.6.3",
     "ver_name": "Phore",
     "conf_name": "phore.conf",
     "dir_name_linux": "phore",
@@ -1691,7 +1709,8 @@
     "dir_name_win": "PIVX",
     "repo_url": "https://github.com/PIVX-Project/PIVX",
     "versions": [
-      "v5.0.1"
+      "v5.0.1",
+      "v5.3.0"
     ],
     "xbridge_conf": "pivx--v5.0.1.conf",
     "wallet_conf": "pivx--v5.0.1.conf"
@@ -1715,7 +1734,7 @@
   {
     "blockchain": "Polis",
     "ticker": "POLIS",
-    "ver_id": "polis--v1.3.1",
+    "ver_id": "polis--v1.6.0",
     "ver_name": "Polis",
     "conf_name": "polis.conf",
     "dir_name_linux": "poliscore",
@@ -1734,7 +1753,7 @@
   {
     "blockchain": "Pura",
     "ticker": "PURA",
-    "ver_id": "pura--v1.0.0.0",
+    "ver_id": "pura--v1.3.7",
     "ver_name": "Pura",
     "conf_name": "pura.conf",
     "dir_name_linux": "pura",
@@ -1750,7 +1769,7 @@
   {
     "blockchain": "Qbic",
     "ticker": "QBIC",
-    "ver_id": "qbiccoin--v1.0.1.0",
+    "ver_id": "qbiccoin--v1.1",
     "ver_name": "Qbic",
     "conf_name": "qbiccoin.conf",
     "dir_name_linux": "qbiccoin",
@@ -1766,7 +1785,7 @@
   {
     "blockchain": "Qtum",
     "ticker": "QTUM",
-    "ver_id": "qtum--mainnet-ignition-v0.17.1",
+    "ver_id": "qtum--mainnet-ignition-v0.19.1",
     "ver_name": "Qtum",
     "conf_name": "qtum.conf",
     "dir_name_linux": "qtum",
@@ -1782,7 +1801,7 @@
   {
     "blockchain": "Rapids",
     "ticker": "RPD",
-    "ver_id": "rapids--v1.0.0.1",
+    "ver_id": "rapids--v2.0.0.0-b784ecbf4d",
     "ver_name": "Rapids",
     "conf_name": "rapids.conf",
     "dir_name_linux": "rapids",
@@ -1814,7 +1833,7 @@
   {
     "blockchain": "Ravencoin",
     "ticker": "RVN",
-    "ver_id": "raven--v0.15.99.0",
+    "ver_id": "raven--v4.1.0",
     "ver_name": "Ravencoin",
     "conf_name": "raven.conf",
     "dir_name_linux": "raven",
@@ -1864,7 +1883,7 @@
   {
     "blockchain": "Secure Cloud Net",
     "ticker": "SCN",
-    "ver_id": "securecloud--v2.4.3",
+    "ver_id": "securecloud--v2.5.1.1",
     "ver_name": "Secure Cloud Net",
     "conf_name": "securecloud.conf",
     "dir_name_linux": "securecloud",
@@ -1881,7 +1900,7 @@
   {
     "blockchain": "Sequence",
     "ticker": "SEQ",
-    "ver_id": "sequence--v1.3.0.0",
+    "ver_id": "sequence--v1.3.3.0",
     "ver_name": "Sequence",
     "conf_name": "sequence.conf",
     "dir_name_linux": "sequence",
@@ -1897,7 +1916,7 @@
   {
     "blockchain": "Shekel",
     "ticker": "JEW",
-    "ver_id": "shekel--1.4.0",
+    "ver_id": "shekel--1.5.0",
     "ver_name": "Shekel",
     "conf_name": "shekel.conf",
     "dir_name_linux": "shekel",
@@ -1913,7 +1932,7 @@
   {
     "blockchain": "Sibcoin",
     "ticker": "SIB",
-    "ver_id": "sibcoin--v0.16.1.3",
+    "ver_id": "sibcoin--v0.17.0.0",
     "ver_name": "Sibcoin",
     "conf_name": "sibcoin.conf",
     "dir_name_linux": "sibcoin",
@@ -1929,7 +1948,7 @@
   {
     "blockchain": "Social Send",
     "ticker": "SEND",
-    "ver_id": "send--v1.1.0.0",
+    "ver_id": "send--1.2.0.5",
     "ver_name": "Social Send",
     "conf_name": "send.conf",
     "dir_name_linux": "send",
@@ -1946,7 +1965,7 @@
   {
     "blockchain": "SparksPay",
     "ticker": "SPK",
-    "ver_id": "sparks--v0.12.3.2",
+    "ver_id": "sparks--v0.12.4.3",
     "ver_name": "Sparks",
     "conf_name": "sparks.conf",
     "dir_name_linux": "sparkscore",
@@ -1978,7 +1997,7 @@
   {
     "blockchain": "STRAKS",
     "ticker": "STAK",
-    "ver_id": "straks--1.14.7.3",
+    "ver_id": "straks--1.14.7.5",
     "ver_name": "STRAKS",
     "conf_name": "straks.conf",
     "dir_name_linux": "straks",
@@ -2026,7 +2045,7 @@
   {
     "blockchain": "Syscoin",
     "ticker": "SYS",
-    "ver_id": "syscoin--v4.0.3",
+    "ver_id": "syscoin--v4.1.3",
     "ver_name": "Syscoin 4",
     "conf_name": "syscoin.conf",
     "dir_name_linux": "syscoin",
@@ -2034,7 +2053,8 @@
     "dir_name_win": "Syscoin",
     "repo_url": "https://github.com/syscoin/syscoin",
     "versions": [
-      "v4.1.3"
+      "v4.1.3",
+      "v4.3"
     ],
     "xbridge_conf": "syscoin--v4.0.3.conf",
     "wallet_conf": "syscoin--v4.0.3.conf"
@@ -2042,7 +2062,7 @@
   {
     "blockchain": "Terracoin",
     "ticker": "TRC",
-    "ver_id": "terracoin--v0.12.1.8",
+    "ver_id": "terracoin--v0.12.2.4",
     "ver_name": "Terracoin",
     "conf_name": "terracoin.conf",
     "dir_name_linux": "terracoincore",
@@ -2059,7 +2079,7 @@
   {
     "blockchain": "Tribe",
     "ticker": "TRB",
-    "ver_id": "tribe--v1.0.0",
+    "ver_id": "tribe--1.0.2",
     "ver_name": "Tribe",
     "conf_name": "tribe.conf",
     "dir_name_linux": "tribe",
@@ -2091,7 +2111,7 @@
   {
     "blockchain": "Uniform Fiscal Object",
     "ticker": "UFO",
-    "ver_id": "ufocoin--v0.17.0",
+    "ver_id": "ufocoin--v0.18.0",
     "ver_name": "Uniform Fiscal Object",
     "conf_name": "ufocoin.conf",
     "dir_name_linux": "ufo",
@@ -2107,7 +2127,7 @@
   {
     "blockchain": "Unobtanium",
     "ticker": "UNO",
-    "ver_id": "unobtanium--v0.10.1.1",
+    "ver_id": "unobtanium--v0.10.5",
     "ver_name": "Unobtanium",
     "conf_name": "unobtanium.conf",
     "dir_name_linux": "unobtanium",
@@ -2174,7 +2194,7 @@
   {
     "blockchain": "Vitae",
     "ticker": "VITAE",
-    "ver_id": "vitae--v4.1.0.1",
+    "ver_id": "vitae--v4.4.0.3",
     "ver_name": "Vitae",
     "conf_name": "vitae.conf",
     "dir_name_linux": "vitae",
@@ -2191,7 +2211,7 @@
   {
     "blockchain": "VIVO",
     "ticker": "VIVO",
-    "ver_id": "vivo--v0.12.1.8",
+    "ver_id": "vivo--v0.12.1.17",
     "ver_name": "VIVO",
     "conf_name": "vivo.conf",
     "dir_name_linux": "vivocore",
@@ -2207,7 +2227,7 @@
   {
     "blockchain": "Vsync",
     "ticker": "VSX",
-    "ver_id": "vsync--v3.8.5.0",
+    "ver_id": "vsync--v3.8.7.6",
     "ver_name": "Vsync",
     "conf_name": "vsync.conf",
     "dir_name_linux": "vsync",
@@ -2224,7 +2244,7 @@
   {
     "blockchain": "Wagerr",
     "ticker": "WGR",
-    "ver_id": "wagerr--1.5.0",
+    "ver_id": "wagerr--v3.1.0",
     "ver_name": "Wagerr",
     "conf_name": "wagerr.conf",
     "dir_name_linux": "wagerr",

@@ -1,0 +1,34 @@
+{
+    "SPK": {
+        "Title": "Sparks",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8892)}}",
+        "p2pPort": "{{ p2pPort|default(8890)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "38",
+        "ScriptPrefix": "10",
+        "SecretPrefix": "198",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "2000",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "4",
+        "Confirmations": "0",
+        "versions": {
+            "v0.12.4.3": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "sparks--v0.12.3.2.conf",
+                "wallet_conf": "sparks--v0.12.3.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "STAK": {
+        "Title": "STRAKS",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(7574)}}",
+        "p2pPort": "{{ p2pPort|default(7575)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "63",
+        "ScriptPrefix": "5",
+        "SecretPrefix": "204",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "1.14.7.5": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "straks--1.14.7.3.conf",
+                "wallet_conf": "straks--1.14.7.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

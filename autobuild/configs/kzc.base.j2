@@ -1,0 +1,34 @@
+{
+    "KZC": {
+        "Title": "KZCash",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8276)}}",
+        "p2pPort": "{{ p2pPort|default(8277)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "46",
+        "ScriptPrefix": "16",
+        "SecretPrefix": "204",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v0.1.9.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "kzcash--v0.1.9.1.conf",
+                "wallet_conf": "kzcash--v0.1.9.1.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

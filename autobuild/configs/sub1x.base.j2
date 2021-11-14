@@ -1,0 +1,34 @@
+{
+    "SUB1X": {
+        "Title": "SUB1X",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(5720)}}",
+        "p2pPort": "{{ p2pPort|default(5721)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "80",
+        "ScriptPrefix": "13",
+        "SecretPrefix": "212",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "1.4.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "zsub1x--1.4.0.conf",
+                "wallet_conf": "zsub1x--1.4.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

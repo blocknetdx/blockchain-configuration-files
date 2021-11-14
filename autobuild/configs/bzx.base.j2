@@ -1,0 +1,34 @@
+{
+    "BZX": {
+        "Title": "BitcoinZero",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(29201)}}",
+        "p2pPort": "{{ p2pPort|default(29301)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "75",
+        "ScriptPrefix": "34",
+        "SecretPrefix": "210",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "100000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "200",
+        "Confirmations": "0",
+        "versions": {
+            "5.0.7.8": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "bitcoinzero--5.0.0.5.conf",
+                "wallet_conf": "bitcoinzero--5.0.0.5.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

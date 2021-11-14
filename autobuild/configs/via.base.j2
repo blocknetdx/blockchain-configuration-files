@@ -1,0 +1,34 @@
+{
+    "VIA": {
+        "Title": "Viacoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(5222)}}",
+        "p2pPort": "{{ p2pPort|default(5223)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "71",
+        "ScriptPrefix": "33",
+        "SecretPrefix": "199",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "false",
+        "ImportWithNoScanSupported": "false",
+        "MinTxFee": "100000",
+        "BlockTime": "24",
+        "TxVersion": "1",
+        "FeePerByte": "200",
+        "Confirmations": "0",
+        "versions": {
+            "v0.16.3": {
+                "legacy": true,
+                "deprecatedrpc": false,
+                "xbridge_conf": "viacoin--v0.15.1.conf",
+                "wallet_conf": "viacoin--v0.16.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

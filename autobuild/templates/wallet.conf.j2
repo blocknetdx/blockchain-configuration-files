@@ -1,0 +1,20 @@
+server=1
+listen=1
+rpcuser=
+rpcpassword=
+rpcallowip=0.0.0.0/0
+port={{ p2pPort }}
+rpcport={{ rpcPort }}
+txindex=1
+
+{% if legacy is defined and legacy is sameas true %}
+# Legacy addresses must be used
+addresstype=legacy
+changetype=legacy
+{% endif %}
+
+{% if deprecatedrpc is defined and deprecatedrpc is sameas true %} 
+# Enable deprecated calls
+deprecatedrpc=signrawtransaction
+{% endif %}
+
