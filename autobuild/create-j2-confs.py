@@ -83,14 +83,15 @@ with open('manifest.json') as json_file:
             xbridge_conf_data = get_xbridge_conf('xbridge-confs/' + chain['xbridge_conf'], chain['ticker'])
             
             # get first of versions list of chain 
-            version = chain['versions'][0]
-            coin_base_j2_data_versions[version] = {
-                'legacy': 'addresstype' in wallet_conf_data,
-                'deprecatedrpc': 'deprecatedrpc' in wallet_conf_data,
-                'xbridge_conf': chain['xbridge_conf'],
-                'wallet_conf': chain['wallet_conf'],
-                'GetNewKeySupported': 'GetNewKeySupported' in xbridge_conf_data
-            }
+            # version = chain['versions'][0]
+            for version in chain['versions']:
+                coin_base_j2_data_versions[version] = {
+                    'legacy': 'addresstype' in wallet_conf_data,
+                    'deprecatedrpc': 'deprecatedrpc' in wallet_conf_data,
+                    'xbridge_conf': chain['xbridge_conf'],
+                    'wallet_conf': chain['wallet_conf'],
+                    'GetNewKeySupported': 'GetNewKeySupported' in xbridge_conf_data
+                }
 
         template_data['versions'] = coin_base_j2_data_versions
 
