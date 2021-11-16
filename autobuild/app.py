@@ -33,11 +33,9 @@ if list_coins:
     for coin in list_coins:
         ticker = coin.strip().upper()
         COIN_LIST.append(ticker)
-else:
-    COIN_LIST='ABET,ABS,AEX,AGM,APR,ATB,AUS,BAD,BCD,BCH,BCZ,BIT,BITG,BLAST,BLOCK,BSD,BTC,BTDX,BTG,BTX,BZX,CARE,CDZC,CHC,CHN,CIV,CNMC,COLX,CRAVE,D,DASH,DGB,DIVI,DMD,DOGE,DOGEC,DSR,DVT,DYN,ECA,EMC,EMC2,ENT,FAIR,FGC,FJC,FLO,GALI,GBX,GEEK,GIN,GMCN,GXX,HASH,HATCH,HLM,HTML,INN,IOP,IXC,JEW,JIYOX,KLKS,KREDS,KYDC,KZC,LBC,LTC,LUX,LYNX,MAC,MLM,MNP,MONA,MUE,N8V,NIX,NMC,NOR,NORT,NYEX,NYX,ODIN,OHMC,OPCX,ORE,PAC,PHL,PHR,PIVX,POLIS,PURA,QBIC,QTUM,RAP,REEX,RPD,RVN,SCN,SCRIBE,SEND,SEQ,SIB,SPK,STAK,SUB1X,SYS,TRB,TRC,UFO,UNO,VIA,VITAE,VIVO,VSX,VTC,WAGE,WGR,XC,XMCC,XMY,XN,XP,XVG,XZC'
-
-WALLETCONFPATH='wallet_confs/'
-XBRIDGECONFPATH='xbridge_confs/'
+        
+WALLETCONFPATH='wallet-confs/'
+XBRIDGECONFPATH='xbridge-confs/'
 
 if not os.path.isdir(WALLETCONFPATH):
     os.mkdir(WALLETCONFPATH)
@@ -53,7 +51,9 @@ J2_ENV = Environment(loader=FileSystemLoader(''),
 
 with open('../manifest.json') as json_file:
     data = json.load(json_file)
-
+    if not list_coins:
+        COIN_LIST = list(set([chain['ticker'] for chain in data]))
+        COIN_LIST.sort(key = lambda t:t, reverse = False)
 
 for chain in data:
     #print (chain['blockchain'])
