@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
-from jinja2 import Template
 import json
 import os, sys, os.path
-import random
-import string
-import urllib.request
 import argparse
-import configparser
+from jinja2 import Environment, FileSystemLoader
 
 def Merge(dict1, dict2):
     res = {**dict1, **dict2}
@@ -18,9 +14,6 @@ def write_file(filename, rendered_data):
     with open(filename, "w") as fname:
         fname.write(rendered_data)
     return
-
-
-from jinja2 import Environment, FileSystemLoader, Template
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--coins', help='List of coins', default=False)
