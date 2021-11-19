@@ -16,7 +16,7 @@ def write_file(filename, rendered_data):
     return
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--coins', help='List of coins', default=False)
+parser.add_argument('--coins', help='List of coins. Eg.: BTC, LTC, DASH', default=False)
 args = parser.parse_args()
 list_coins = args.coins
 
@@ -27,8 +27,8 @@ if list_coins:
         ticker = coin.strip().upper()
         COIN_LIST.append(ticker)
         
-WALLETCONFPATH='wallet-confs/'
-XBRIDGECONFPATH='xbridge-confs/'
+WALLETCONFPATH='../wallet-confs/'
+XBRIDGECONFPATH='../xbridge-confs/'
 
 if not os.path.isdir(WALLETCONFPATH):
     os.mkdir(WALLETCONFPATH)
@@ -42,7 +42,7 @@ J2_ENV = Environment(loader=FileSystemLoader(''),
                      trim_blocks=True)
 
 
-with open('../manifest.json') as json_file:
+with open('../manifest-latest.json') as json_file:
     data = json.load(json_file)
     if not list_coins:
         COIN_LIST = list(set([chain['ticker'] for chain in data]))
