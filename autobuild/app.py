@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
-from jinja2 import Template
 import json
 import os, sys, os.path
-import random
-import string
-import urllib.request
 import argparse
-import configparser
+from jinja2 import Environment, FileSystemLoader
 
 def Merge(dict1, dict2):
     res = {**dict1, **dict2}
@@ -19,13 +15,20 @@ def write_file(filename, rendered_data):
         fname.write(rendered_data)
     return
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--coins', help='List of coins. Eg.: BTC, LTC, DASH', default=False)
+args = parser.parse_args()
+list_coins = args.coins
 
-from jinja2 import Environment, FileSystemLoader, Template
-
-COIN_LIST='ABET,ABS,AEX,AGM,APR,ATB,AUS,BAD,BCD,BCH,BCZ,BIT,BITG,BLAST,BLOCK,BSD,BTC,BTDX,BTG,BTX,BZX,CARE,CDZC,CHC,CHN,CIV,CNMC,COLX,CRAVE,D,DASH,DGB,DIVI,DMD,DOGE,DOGEC,DSR,DVT,DYN,ECA,EMC,EMC2,ENT,FAIR,FGC,FJC,FLO,GALI,GBX,GEEK,GIN,GMCN,GXX,HASH,HATCH,HLM,HTML,INN,IOP,IXC,JEW,JIYOX,KLKS,KREDS,KYDC,KZC,LBC,LTC,LUX,LYNX,MAC,MLM,MNP,MONA,MUE,N8V,NIX,NMC,NOR,NORT,NYEX,NYX,ODIN,OHMC,OPCX,ORE,PAC,PHL,PHR,PIVX,POLIS,PURA,QBIC,QTUM,RAP,REEX,RPD,RVN,SCN,SCRIBE,SEND,SEQ,SIB,SPK,STAK,SUB1X,SYS,TRB,TRC,UFO,UNO,VIA,VITAE,VIVO,VSX,VTC,WAGE,WGR,XC,XMCC,XMY,XN,XP,XVG,XZC'
-
-WALLETCONFPATH='wallet_confs/'
-XBRIDGECONFPATH='xbridge_confs/'
+if list_coins:
+    COIN_LIST = []
+    list_coins = list_coins.split(',')
+    for coin in list_coins:
+        ticker = coin.strip().upper()
+        COIN_LIST.append(ticker)
+        
+WALLETCONFPATH='../wallet-confs/'
+XBRIDGECONFPATH='../xbridge-confs/'
 
 if not os.path.isdir(WALLETCONFPATH):
     os.mkdir(WALLETCONFPATH)
@@ -39,9 +42,11 @@ J2_ENV = Environment(loader=FileSystemLoader(''),
                      trim_blocks=True)
 
 
-with open('../manifest.json') as json_file:
+with open('../manifest-latest.json') as json_file:
     data = json.load(json_file)
-
+    if not list_coins:
+        COIN_LIST = list(set([chain['ticker'] for chain in data]))
+        COIN_LIST.sort(key = lambda t:t, reverse = False)
 
 for chain in data:
     #print (chain['blockchain'])

@@ -2,6 +2,7 @@
 import json
 import os, sys, os.path
 import string
+import argparse
 from configparser import ConfigParser
 
 J2_CONF_PATH='autobuild/configs/'
@@ -24,19 +25,29 @@ def get_xbridge_conf(path, ticker):
 
     return dict(xbridge_conf_parser.items(ticker))
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--coins', help='List of coins', default=False)
+args = parser.parse_args()
+list_coins = args.coins
+
+if list_coins:
+    tickers = []
+    list_coins = list_coins.split(',')
+    for coin in list_coins:
+        ticker = coin.strip().upper()
+        tickers.append(ticker)
+
 with open('manifest.json') as json_file:
     data = json.load(json_file)
-
-    tickers = list(set([chain['ticker'] for chain in data]))
-    tickers.sort(key = lambda t:t, reverse = False)
+    if not list_coins:
+        tickers = list(set([chain['ticker'] for chain in data]))
+        tickers.sort(key = lambda t:t, reverse = False)
 
     for ticker in tickers:
         chains = [chain for chain in data if chain['ticker'] == ticker]
-        
         chains.sort(key = lambda c:c['ver_id'], reverse = False)
 
         template_data = {}
-        
         # get latest version
         latest_version_chain = chains[-1]
         xbridge_conf_data = get_xbridge_conf('xbridge-confs/' + latest_version_chain['xbridge_conf'], latest_version_chain['ticker'])
@@ -83,14 +94,15 @@ with open('manifest.json') as json_file:
             xbridge_conf_data = get_xbridge_conf('xbridge-confs/' + chain['xbridge_conf'], chain['ticker'])
             
             # get first of versions list of chain 
-            version = chain['versions'][0]
-            coin_base_j2_data_versions[version] = {
-                'legacy': 'addresstype' in wallet_conf_data,
-                'deprecatedrpc': 'deprecatedrpc' in wallet_conf_data,
-                'xbridge_conf': chain['xbridge_conf'],
-                'wallet_conf': chain['wallet_conf'],
-                'GetNewKeySupported': 'GetNewKeySupported' in xbridge_conf_data
-            }
+            # version = chain['versions'][0]
+            for version in chain['versions']:
+                coin_base_j2_data_versions[version] = {
+                    'legacy': 'addresstype' in wallet_conf_data,
+                    'deprecatedrpc': 'deprecatedrpc' in wallet_conf_data,
+                    'xbridge_conf': chain['xbridge_conf'],
+                    'wallet_conf': chain['wallet_conf'],
+                    'GetNewKeySupported': 'GetNewKeySupported' in xbridge_conf_data
+                }
 
         template_data['versions'] = coin_base_j2_data_versions
 
