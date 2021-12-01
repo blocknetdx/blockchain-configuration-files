@@ -574,6 +574,7 @@
     "dir_name_win": "DashCore",
     "repo_url": "https://github.com/dashpay/dash",
     "versions": [
+      "v0.12.2.3",
       "v0.14.0.2",
       "v0.14.0.3",
       "v0.14.0.4",
@@ -660,6 +661,7 @@
     "dir_name_win": "DigiByte",
     "repo_url": "https://github.com/digibyte/digibyte",
     "versions": [
+      "v6.16.2",
       "v7.17.2"
     ],
     "xbridge_conf": "digibyte--v6.16.2.conf",
