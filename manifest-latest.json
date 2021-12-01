@@ -566,7 +566,7 @@
   {
     "blockchain": "Dash",
     "ticker": "DASH",
-    "ver_id": "dash--v0.12.2.3",
+    "ver_id": "dash--v0.17.0.2",
     "ver_name": "Dash",
     "conf_name": "dash.conf",
     "dir_name_linux": "dashcore",
@@ -574,16 +574,10 @@
     "dir_name_win": "DashCore",
     "repo_url": "https://github.com/dashpay/dash",
     "versions": [
-      "v0.12.2.3",
-      "v0.14.0.2",
-      "v0.14.0.3",
-      "v0.14.0.4",
-      "v0.14.0.5",
-      "v0.15.0.0",
       "v0.17.0.2"
     ],
-    "xbridge_conf": "dash--v0.12.2.3.conf",
-    "wallet_conf": "dash--v0.12.2.3.conf"
+    "xbridge_conf": "dash--v0.17.0.2.conf",
+    "wallet_conf": "dash--v0.17.0.2.conf"
   },
   {
     "blockchain": "Denarius",
@@ -653,7 +647,7 @@
   {
     "blockchain": "DigiByte",
     "ticker": "DGB",
-    "ver_id": "digibyte--v6.16.2",
+    "ver_id": "digibyte--v7.17.2",
     "ver_name": "DigiByte",
     "conf_name": "digibyte.conf",
     "dir_name_linux": "digibyte",
@@ -661,11 +655,10 @@
     "dir_name_win": "DigiByte",
     "repo_url": "https://github.com/digibyte/digibyte",
     "versions": [
-      "v6.16.2",
       "v7.17.2"
     ],
-    "xbridge_conf": "digibyte--v6.16.2.conf",
-    "wallet_conf": "digibyte--v6.16.2.conf"
+    "xbridge_conf": "digibyte--v7.17.2.conf",
+    "wallet_conf": "digibyte--v7.17.2.conf"
   },
   {
     "blockchain": "Digiwage",
