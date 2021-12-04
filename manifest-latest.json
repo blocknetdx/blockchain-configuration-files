@@ -421,7 +421,7 @@
   {
     "blockchain": "Blocknet",
     "ticker": "BLOCK",
-    "ver_id": "blocknet--v4.0.1",
+    "ver_id": "blocknet--v4.2.0",
     "ver_name": "Blocknet v4",
     "conf_name": "blocknet.conf",
     "dir_name_linux": "blocknet",
@@ -429,10 +429,14 @@
     "dir_name_win": "Blocknet",
     "repo_url": "https://github.com/blocknetdx/blocknet",
     "versions": [
-      "v4.3.0"
+      "v4.2.0",
+      "v4.3.0",
+      "v4.3.1",
+      "v4.3.2",
+      "v4.3.3"
     ],
-    "xbridge_conf": "blocknet--v4.0.1.conf",
-    "wallet_conf": "blocknet--v4.0.1.conf"
+    "xbridge_conf": "blocknet--v4.2.0.conf",
+    "wallet_conf": "blocknet--v4.2.0.conf"
   },
   {
     "blockchain": "Carebit",
