@@ -570,7 +570,7 @@
   {
     "blockchain": "Dash",
     "ticker": "DASH",
-    "ver_id": "dash--v0.12.2.3",
+    "ver_id": "dash--v0.17.0.2",
     "ver_name": "Dash",
     "conf_name": "dash.conf",
     "dir_name_linux": "dashcore",
@@ -578,15 +578,11 @@
     "dir_name_win": "DashCore",
     "repo_url": "https://github.com/dashpay/dash",
     "versions": [
-      "v0.14.0.2",
-      "v0.14.0.3",
-      "v0.14.0.4",
-      "v0.14.0.5",
-      "v0.15.0.0",
-      "v0.17.0.2"
+      "v0.17.0.2",
+      "v0.17.0.3"
     ],
-    "xbridge_conf": "dash--v0.12.2.3.conf",
-    "wallet_conf": "dash--v0.12.2.3.conf"
+    "xbridge_conf": "dash--v0.17.0.2.conf",
+    "wallet_conf": "dash--v0.17.0.2.conf"
   },
   {
     "blockchain": "Denarius",
