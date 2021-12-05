@@ -1401,7 +1401,7 @@
   {
     "blockchain": "MonetaryUnit",
     "ticker": "MUE",
-    "ver_id": "monetaryunit--v2.0.2",
+    "ver_id": "monetaryunit--v2.2.0",
     "ver_name": "MonetaryUnit",
     "conf_name": "monetaryunit.conf",
     "dir_name_linux": "monetaryunit",
@@ -1409,11 +1409,10 @@
     "dir_name_win": "MonetaryUnitCore",
     "repo_url": "https://github.com/muecoin/MUE",
     "versions": [
-      "v2.1.4",
-      "v2.1.6"
+      "v2.2.0"
     ],
-    "xbridge_conf": "monetaryunit--v2.0.2.conf",
-    "wallet_conf": "monetaryunit--v2.0.2.conf"
+    "xbridge_conf": "monetaryunit--v2.2.0.conf",
+    "wallet_conf": "monetaryunit--v2.2.0.conf"
   },
   {
     "blockchain": "Monoeci",
