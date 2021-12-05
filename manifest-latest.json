@@ -2015,7 +2015,7 @@
   {
     "blockchain": "Syscoin",
     "ticker": "SYS",
-    "ver_id": "syscoin--v4.0.3",
+    "ver_id": "syscoin--v4.3.0",
     "ver_name": "Syscoin 4",
     "conf_name": "syscoin.conf",
     "dir_name_linux": "syscoin",
@@ -2023,10 +2023,10 @@
     "dir_name_win": "Syscoin",
     "repo_url": "https://github.com/syscoin/syscoin",
     "versions": [
-      "v4.1.3"
+      "v4.3.0"
     ],
-    "xbridge_conf": "syscoin--v4.0.3.conf",
-    "wallet_conf": "syscoin--v4.0.3.conf"
+    "xbridge_conf": "syscoin--v4.3.0.conf",
+    "wallet_conf": "syscoin--v4.3.0.conf"
   },
   {
     "blockchain": "Terracoin",
