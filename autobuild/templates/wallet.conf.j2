@@ -16,5 +16,8 @@ changetype=legacy
 {% if deprecatedrpc is defined and deprecatedrpc is sameas true %} 
 # Enable deprecated calls
 deprecatedrpc=signrawtransaction
+{% elif deprecatedrpc is defined and deprecatedrpc is string %} 
+# Enable deprecated calls
+deprecatedrpc={{ deprecatedrpc }}
 {% endif %}
 
