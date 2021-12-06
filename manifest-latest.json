@@ -439,6 +439,22 @@
     "wallet_conf": "blocknet--v4.2.0.conf"
   },
   {
+    "blockchain": "Blocknet Testnet",
+    "ticker": "TBLOCK",
+    "ver_id": "blocktest--v4.3.3",
+    "ver_name": "Blocktest v4",
+    "conf_name": "blocknet.conf",
+    "dir_name_linux": "blocknet",
+    "dir_name_mac": "Blocknet",
+    "dir_name_win": "Blocknet",
+    "repo_url": "https://github.com/blocknetdx/blocknet",
+    "versions": [
+      "v4.3.3"
+    ],
+    "xbridge_conf": "blocktest--v4.3.3.conf",
+    "wallet_conf": "blocktest--v4.3.3.conf"
+  },
+  {
     "blockchain": "Carebit",
     "ticker": "CARE",
     "ver_id": "carebitcoin--v3.0.0.0",
@@ -2057,6 +2073,22 @@
     ],
     "xbridge_conf": "syscoin--v4.3.0.conf",
     "wallet_conf": "syscoin--v4.3.0.conf"
+  },
+  {
+    "blockchain": "Syscoin Testnet",
+    "ticker": "TSYS",
+    "ver_id": "systest--v4.3.0",
+    "ver_name": "Syscoin Testnet",
+    "conf_name": "syscoin.conf",
+    "dir_name_linux": "syscoin",
+    "dir_name_mac": "Syscoin",
+    "dir_name_win": "Syscoin",
+    "repo_url": "https://github.com/syscoin/syscoin",
+    "versions": [
+      "v4.3.0"
+    ],
+    "xbridge_conf": "systest--v4.3.0.conf",
+    "wallet_conf": "systest--v4.3.0.conf"
   },
   {
     "blockchain": "Terracoin",
