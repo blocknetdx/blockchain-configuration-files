@@ -1103,22 +1103,6 @@
     "wallet_conf": "innova--v4.3.8.6.conf"
   },
   {
-    "blockchain": "Internet of People",
-    "ticker": "IOP",
-    "ver_id": "iop--v6.1.0",
-    "ver_name": "Internet of People",
-    "conf_name": "iop.conf",
-    "dir_name_linux": "iop",
-    "dir_name_mac": "IoP",
-    "dir_name_win": "IoP",
-    "repo_url": "https://github.com/Internet-of-People/iop-core",
-    "versions": [
-      "v6.3.0"
-    ],
-    "xbridge_conf": "iop--v6.2.3.conf",
-    "wallet_conf": "iop--v6.2.3.conf"
-  },
-  {
     "blockchain": "Ixcoin",
     "ticker": "IXC",
     "ver_id": "ixcoin--v0.14.1",
