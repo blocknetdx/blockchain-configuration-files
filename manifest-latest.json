@@ -578,7 +578,8 @@
     "dir_name_win": "DashCore",
     "repo_url": "https://github.com/dashpay/dash",
     "versions": [
-      "v0.17.0.2"
+      "v0.17.0.2",
+      "v0.17.0.3"
     ],
     "xbridge_conf": "dash--v0.17.0.2.conf",
     "wallet_conf": "dash--v0.17.0.2.conf"
