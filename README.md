@@ -18,24 +18,32 @@ Table of contents
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [Configuration File Overview](#configuration-file-overview)
-  - [Manifest File](#manifest-file)
-  - [XBridge Configuration Files](#xbridge-configuration-files)
-  - [Wallet Configuration Files](#wallet-configuration-files)
-- [Creating Configuration Files](#creating-configuration-files)
-  - [Creating an XBridge File](#creating-an-xbridge-file)
-  - [Creating a Wallet File](#creating-a-wallet-file)
-  - [File Comments](#file-comments)
-- [Setup Configuration Files](#setup-configuration-files)
-  - [Setup xbridge.conf](#setup-xbridgeconf)
-  - [Setup Wallet Files](#setup-wallet-files)
-- [Testing a Blockchain for Compatibility](#testing-a-blockchain-for-compatibility)
-  - [Successful Exchange](#successful-exchange)
-- [Contributing](#contributing)
+- [Blocknet's Blockchain Configuration Files](#blocknets-blockchain-configuration-files)
+  - [Table of contents](#table-of-contents)
+  - [Major update to workflow](#major-update-to-workflow)
+  - [Configuration File Overview](#configuration-file-overview)
+    - [Manifest File](#manifest-file)
+    - [XBridge Configuration Files](#xbridge-configuration-files)
+    - [Wallet Configuration Files](#wallet-configuration-files)
+  - [Creating Configuration Files](#creating-configuration-files)
+    - [Creating an XBridge File](#creating-an-xbridge-file)
+    - [Creating a Wallet File](#creating-a-wallet-file)
+    - [File Comments](#file-comments)
+  - [Setup Configuration Files](#setup-configuration-files)
+    - [Setup xbridge.conf](#setup-xbridgeconf)
+    - [Setup Wallet Files](#setup-wallet-files)
+  - [Testing a Blockchain for Compatibility](#testing-a-blockchain-for-compatibility)
+    - [Successful Exchange](#successful-exchange)
+  - [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+Major update to workflow
+------------------------
+The coin update and addition process has been overhauled as of November 2021. New documentation is being prepared to explain the workflow in detail. For now, abbreviated documentation is available in autobuild/workflow.md
 
+The old documentation is preserved below as reference to the configuration information (which is mostly unchanged except in location).
+ 
 
 Configuration File Overview
 --------------------------------------
