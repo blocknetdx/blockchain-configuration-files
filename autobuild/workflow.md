@@ -54,7 +54,7 @@ to identify coins for which there are newer versions available than we currently
 ```
 
 **Output:**
-A list of coins for which there is a newer version than we currently support.  
+A list of coins for which there is a newer version than we currently support. Warnings are also printed for any coin for which we couldn't find releases or tags information on the expected Github URL.
 
 
 ### autobuild/app.py
