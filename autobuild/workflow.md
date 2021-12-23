@@ -31,9 +31,9 @@ These sources of truth are manipulated/consumed by five automation scripts in th
 
 ## Automation scripts
 
-There is one primary script intended for "daily" use in the autobuild directory, and three auxilliary scripts located in the autobuild/utils sub-directory intended for "special" use tasks. There is one additional script in the repo-check directory which can be used periodically to discover coins which need checking and possibly updating.
+There is one primary script intended for "daily" use in the [autobuild](.) directory, and three auxilliary scripts located in the [autobuild/utils](utils) sub-directory intended for "special" use tasks. There is one additional script in the [tools](../tools/) directory which can be used periodically to discover coins which need checking and possibly updating.
 
-### repo-check/app.py
+### tools/check-versions.py
 **Purpose:**
 to identify coins for which there are newer versions available than we currently support.
 
@@ -43,9 +43,9 @@ to identify coins for which there are newer versions available than we currently
 
 **Execution:**
 * customise the script with your Github personal access token
-* within your local repo/repo-check directory:
+* within your local repo/tools directory:
 ```
-  mark@x230:~/src/blockdx-configs/repo-check$ python3 check-versions.py
+  mark@x230:~/src/blockdx-configs/tools$ python3 check-versions.py
   ABS Version inconsistency. Old: v1.0.0. New: v1.0.0b
   AEX Version inconsistency. Old: v2.2. New: v2.2.1
   AUS Version inconsistency. Old: v0.17.4.1. New: v1.17.1
