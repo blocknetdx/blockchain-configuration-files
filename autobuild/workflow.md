@@ -81,22 +81,24 @@ generated wallet and xbridge configuration fragments in
 
 
 ### autobuild/utils/cleanup-manifest.py
-**Purpose:** consolidate duplicate coin sections in manifest-latest.json into a single entry with multiple versions. This is mainly intended to be a one-time step in preparation for running create-j2-confs.py but it may be useful to run it at other times. 
+**Purpose:** consolidate duplicate coin sections in manifest-latest.json into a single entry with multiple versions, and remove deprecated {wallet,xbridge}-confs files. This is mainly intended to be a one-time step in preparation for running create-j2-confs.py but it may be useful to run it at other times. 
 
 **Pre-reqs:** 
 * manifest-latest.json
 
-**Execution:** within your local repo/autobuild directory, for example:
+**Execution:** within your local repo/autobuild/utils directory, for example:
 ```
-mark@x230:~/src/blockdx-configs$ cd autobuild
-mark@x230:~/src/blockdx-configs/autobuild$ python3 cleanup-manifest.py
+mark@x230:~/src/blockdx-configs$ cd autobuild/utils
+mark@x230:~/src/blockdx-configs/autobuild/utils$ python3 cleanup-manifest.py
 ```
 
-**Output:** updated manifest-latest.json
+**Output:** updated manifest-latest.json in the *current* directory. This allows you to easily compare the output with the input and "approve/reject/amend" any changes.
+
+**Warning:** check the output *very* carefully before copying it back to the top level directory and committing any changes. 
 
 
 ### autobuild/utils/create-j2-confs.py
-**Purpose:** create j2 skeletons from manifest-latest.json and wallet/xbridge config fragments. This is mainly intended to be a one-time operation to convert the old style two-files per coin templates into a single-file per coin template to be used going forwards.  
+**Purpose:** create j2 skeletons from manifest-latest.json and wallet/xbridge config fragments. This is mainly intended to be a one-time operation to convert the old style two-files per coin templates into a single-file per coin template to be used going forwards. It can be used on a more constrained input set by specifying  
 
 **Pre-reqs:**
 * manifest-latest.json
@@ -104,11 +106,13 @@ mark@x230:~/src/blockdx-configs/autobuild$ python3 cleanup-manifest.py
 * xbridge-confs/*.conf
 
 **Execution:**
-within your local repo/autobuild directory, for example:
+within your local repo/autobuild/utils directory, for example:
 ```
-mark@x230:~/src/blockdx-configs$ cd autobuild
-mark@x230:~/src/blockdx-configs/autobuild$ python3 create-j2-confs.py
+mark@x230:~/src/blockdx-configs$ cd autobuild/utils
+mark@x230:~/src/blockdx-configs/autobuild/utils$ python3 create-j2-confs.py
 ABET,ABS,AEX,AGM,APR,ATB,AUS,BAD,BCD,BCH,BCZ,BIT,BITG,BLAST,BLOCK,BSD,BTC,BTDX,BTG,BTX,BZX,CARE,CDZC,CHC,CHI,CHN,CIV,CNMC,COLX,CRAVE,D,DASH,DGB,DIVI,DMD,DOGE,DOGEC,DSR,DVT,DYN,ECA,EMC,EMC2,ENT,FAIR,FGC,FJC,FLO,GALI,GBX,GEEK,GIN,GLC,GMCN,GXX,HASH,HATCH,HLM,HTML,INN,IOP,IXC,JEW,JIYOX,KLKS,KREDS,KYDC,KZC,LBC,LTC,LUX,LYNX,MAC,MLM,MNP,MONA,MRX,MUE,N8V,NIX,NMC,NOR,NORT,NYEX,NYX,ODIN,OHMC,OPCX,ORE,PAC,PART,PHL,PHR,PIVX,POLIS,PURA,QBIC,QTUM,RAP,REEX,RPD,RVN,SCC,SCN,SCRIBE,SEND,SEQ,SIB,SPK,STAK,SUB1X,SWIFT,SYS,TRB,TRC,UFO,UNO,VIA,VITAE,VIVO,VSX,VTC,WAGE,WGR,XC,XMCC,XMY,XN,XP,XVG,XZC,ZNZ
+mark@x230:~/src/blockdx-configs/autobuild/utils$ python3 create-j2-confs.py --coins SYS,MUE
+SYS,MUE
 ```
 
 **Output:**
@@ -125,17 +129,17 @@ interactive manifest management
 * manifest-latest.json 
 
 **Execution:**
-within your local repo directory, for example:
+within your local repo/autobuild/utils directory, for example:
 ```
-mark@x230:~/src/blockdx-configs$ cd autobuild
-mark@x230:~/src/blockdx-configs/autobuild$ python3 manifest-management.py
+mark@x230:~/src/blockdx-configs$ cd autobuild/utils
+mark@x230:~/src/blockdx-configs/autobuild/utils$ python3 manifest-management.py
 ```
 
 **Output:**
 * manifest-latest.json
 
 **Warning:**
-this script is still WIP and not ready for use.
+this script is still WIP and not ready for regular use. 
 
 
 
@@ -179,25 +183,18 @@ If successful, the workflow takes around 30 minutes to build and push a new imag
 **Audience:**
 Not applicable to 3rd party developers who are simply looking to list a coin.
 
-* These steps are based closely on https://docs.blocknet.co/service-nodes/setup/#prepare-to-deploy-service-node.
-* Clone the https://github.com/blocknetdx/exrproxy-env repo to your local machine. You need to create a deploy script for the servicenode which will oversee your test trades, and a deploy script for the two trading nodes.
-* cd exrproxy-env/autobuild
-* cp examples/alldaemons.yaml custom.yaml
-* Edit custom.yaml to create a (testnet) servicenode which includes the coin to be tested and any counter-party coin you want to use.
-* Run app.py specifying the path for your branch pushed at step 8 above, eg:
+* Follow the Automated Docker-Based EXR Service Node Setup guide to deploy one testnet Service Node and two testnet Trading Nodes on three different machines.
+* Configure each of these three nodes to support the coin to be tested and any counter-party coin you want to use to trade against the coin to be tested.
+* When you arrive at the step where ./app.py is called, be sure to pass it the (raw form) path to the branch you pushed to your Github Repo in step 8 above, like this:
 ```
-python3 app.py --branchpath https://raw.githubusercontent.com/walkjivefly/blockchain-configuration-files/bump-thing-v4.2.2
+./app.py --custom_manifest 'https://raw.githubusercontent.com/walkjivefly/blockchain-configuration-files/bump-thing-v4.2.2'
 ```
-* Copy the newly created dockercompose-custom.yaml to your servicenode machine.
-* Edit custom.yaml to create a (testnet) trading node.
-* Run app.py again, as above, to create the dockercompose-custom.yaml to be used on the trading machines.
-* Copy the trading dockercompose-custom.yaml to the trading machines. 
 
 ## Testing (CLI)
 **Audience:**
 Not directly applicable to 3rd party developers, although they could choose to follow a similar process if they don't want to jump through the hoops required (at this time) to test with BlockDX.
 
-* Bring up the Docker containers on all 3 machines and let them sync if necessary.
+* Bring up the Docker containers on all three machines mentioned in the previous section and let them sync if necessary.
 * Fund, encrypt and unlock the wallets as required.
 * Restart the servicenode as a servicenode.
 * On one trading machine attempt an XBridge trade between your new coin and any counter-party using dxmakeorder.
@@ -212,7 +209,8 @@ Comment: this is where https://github.com/blocknetdx/block-dx/issues/339 would b
 ## Upon successful testing
 **Audience**: everyone
 
-* Open a pull request in https://github.com/blocknetdx/blockchain-configuration-files
+* Open a pull request in https://github.com/blocknetdx/blockchain-configuration-files.
+* Optionally, ping a QA engineer via [Discord #block-dx-listing](https://discord.gg/WnaygWwqFy).
 * Once approved the new configuration information will be merged into the master branch. An automated workflow will copy it out to AWS from where it will be accessible to any BlockDX user or other interested parties.
 * QA engineer will run the RELEASE IMAGE action in https://github.com/blocknetdx/dockerimages to build a production image without the -staging tag.
 
