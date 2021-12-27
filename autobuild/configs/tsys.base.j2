@@ -1,0 +1,35 @@
+{
+    "TSYS": {
+        "Title": "Syscoin Testnet",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(18370)}}",
+        "p2pPort": "{{ p2pPort|default(18369)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "65",
+        "ScriptPrefix": "196",
+        "SecretPrefix": "239",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "20000",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "40",
+        "Confirmations": "0",
+        "versions": {
+            "v4.3.0": {
+                "legacy": true,
+                "deprecatedrpc": "addresses",
+                "testnet": true,
+                "xbridge_conf": "systest--v4.3.0.conf",
+                "wallet_conf": "systest--v4.3.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}
