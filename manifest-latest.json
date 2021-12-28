@@ -1685,7 +1685,7 @@
   {
     "blockchain": "Phore",
     "ticker": "PHR",
-    "ver_id": "phore--v1.3.3.1",
+    "ver_id": "phore--v1.7.1",
     "ver_name": "Phore",
     "conf_name": "phore.conf",
     "dir_name_linux": "phore",
@@ -1693,10 +1693,11 @@
     "dir_name_win": "Phore",
     "repo_url": "https://github.com/phoreproject/Phore",
     "versions": [
-      "v1.6.3"
+      "v1.7.1",
+      "v1.8.0"
     ],
-    "xbridge_conf": "phore--v1.3.3.1.conf",
-    "wallet_conf": "phore--v1.3.3.1.conf"
+    "xbridge_conf": "phore--v1.7.1.conf",
+    "wallet_conf": "phore--v1.7.1.conf"
   },
   {
     "blockchain": "PIVX",
@@ -1817,7 +1818,7 @@
   {
     "blockchain": "Ravencoin",
     "ticker": "RVN",
-    "ver_id": "raven--v0.15.99.0",
+    "ver_id": "raven--v4.1.0",
     "ver_name": "Ravencoin",
     "conf_name": "raven.conf",
     "dir_name_linux": "raven",
@@ -1827,10 +1828,14 @@
     "versions": [
       "v4.1.0",
       "v4.2.0",
-      "v4.2.1"
+      "v4.2.1",
+      "v4.3.0",
+      "v4.3.1",
+      "v4.3.2",
+      "v4.3.2.1"
     ],
-    "xbridge_conf": "raven--v0.15.99.0.conf",
-    "wallet_conf": "raven--v0.15.99.0.conf"
+    "xbridge_conf": "raven--v4.1.0.conf",
+    "wallet_conf": "raven--v4.1.0.conf"
   },
   {
     "blockchain": "Reecore",
