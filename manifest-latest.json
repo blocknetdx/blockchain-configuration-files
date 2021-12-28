@@ -1952,6 +1952,7 @@
     "ver_id": "stakecubecoin--v3.0.1",
     "ver_name": "StakeCubeCoin",
     "conf_name": "stakecubecoin.conf",
+    "daemon_stem": "scc",
     "dir_name_linux": "stakecubecoin",
     "dir_name_mac": "stakecubecoin",
     "dir_name_win": "StakeCubeCoin",
