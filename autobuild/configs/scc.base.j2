@@ -1,0 +1,48 @@
+{
+    "SCC": {
+        "Title": "StakeCubeCoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(39999)}}",
+        "p2pPort": "{{ p2pPort|default(40000)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "125",
+        "ScriptPrefix": "117",
+        "SecretPrefix": "253",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "1000",
+        "BlockTime": "120",
+        "TxVersion": "2",
+        "FeePerByte": "3",
+        "Confirmations": "0",
+        "versions": {
+            "v3.0.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "stakecubecoin--v3.0.1.conf",
+                "wallet_conf": "stakecubecoin--v3.0.1.conf",
+                "GetNewKeySupported": false
+            },
+            "v3.0.2": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "stakecubecoin--v3.0.1.conf",
+                "wallet_conf": "stakecubecoin--v3.0.1.conf",
+                "GetNewKeySupported": false
+            },
+            "v3.1.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "stakecubecoin--v3.0.1.conf",
+                "wallet_conf": "stakecubecoin--v3.0.1.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

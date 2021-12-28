@@ -1949,7 +1949,7 @@
   {
     "blockchain": "StakeCubeCoin",
     "ticker": "SCC",
-    "ver_id": "stakecubecoin--v3.0.2",
+    "ver_id": "stakecubecoin--v3.0.1",
     "ver_name": "StakeCubeCoin",
     "conf_name": "stakecubecoin.conf",
     "dir_name_linux": "stakecubecoin",
@@ -1957,10 +1957,12 @@
     "dir_name_win": "StakeCubeCoin",
     "repo_url": "https://github.com/stakecube/StakeCubeCoin",
     "versions": [
-      "v3.0.2"
+      "v3.0.1",
+      "v3.0.2",
+      "v3.1.0"
     ],
-    "xbridge_conf": "stakecubecoin--v3.0.2.conf",
-    "wallet_conf": "stakecubecoin--v3.0.2.conf"
+    "xbridge_conf": "stakecubecoin--v3.0.1.conf",
+    "wallet_conf": "stakecubecoin--v3.0.1.conf"
   },
   {
     "blockchain": "STRAKS",
