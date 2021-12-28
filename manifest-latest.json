@@ -2097,7 +2097,7 @@
   {
     "blockchain": "Verge",
     "ticker": "XVG",
-    "ver_id": "verge--v6.0.2",
+    "ver_id": "verge--v7.0.0",
     "ver_name": "Verge",
     "conf_name": "VERGE.conf",
     "dir_name_linux": "VERGE",
@@ -2105,10 +2105,10 @@
     "dir_name_win": "VERGE",
     "repo_url": "https://github.com/vergecurrency/verge",
     "versions": [
-      "v6.0.2"
+      "v7.0.0"
     ],
-    "xbridge_conf": "verge--v6.0.2.conf",
-    "wallet_conf": "verge--v6.0.2.conf"
+    "xbridge_conf": "verge--v7.0.0.conf",
+    "wallet_conf": "verge--v7.0.0.conf"
   },
   {
     "blockchain": "Vertcoin",
