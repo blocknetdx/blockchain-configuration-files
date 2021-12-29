@@ -2101,6 +2101,7 @@
     "ver_id": "verge--v7.0.0",
     "ver_name": "Verge",
     "conf_name": "VERGE.conf",
+    "daemon_stem": "verge",
     "dir_name_linux": "VERGE",
     "dir_name_mac": "VERGE",
     "dir_name_win": "VERGE",
