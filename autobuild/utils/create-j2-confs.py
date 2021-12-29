@@ -5,7 +5,9 @@ import string
 import argparse
 from configparser import ConfigParser
 
-J2_CONF_PATH='autobuild/configs/'
+J2_CONF_PATH='../configs/'
+WALLETS_PATH='../../wallet-confs/'
+XBRIDGE_PATH='../../xbridge-confs/'
 
 def write_file(filename, data):
     with open(filename, "w") as fname:
@@ -37,7 +39,7 @@ if list_coins:
         ticker = coin.strip().upper()
         tickers.append(ticker)
 
-with open('manifest.json') as json_file:
+with open('../../manifest-latest.json') as json_file:
     data = json.load(json_file)
     if not list_coins:
         tickers = list(set([chain['ticker'] for chain in data]))
@@ -50,8 +52,8 @@ with open('manifest.json') as json_file:
         template_data = {}
         # get latest version
         latest_version_chain = chains[-1]
-        xbridge_conf_data = get_xbridge_conf('xbridge-confs/' + latest_version_chain['xbridge_conf'], latest_version_chain['ticker'])
-        wallet_conf_data = get_wallet_conf('wallet-confs/' + latest_version_chain['wallet_conf'])
+        xbridge_conf_data = get_xbridge_conf(XBRIDGE_PATH + latest_version_chain['xbridge_conf'], latest_version_chain['ticker'])
+        wallet_conf_data = get_wallet_conf(WALLETS_PATH + latest_version_chain['wallet_conf'])
         template_data['Title'] = xbridge_conf_data['title']
         template_data['Address'] = xbridge_conf_data['address']
         template_data['Ip'] = xbridge_conf_data['ip']
@@ -90,8 +92,8 @@ with open('manifest.json') as json_file:
         
         coin_base_j2_data_versions = {}
         for chain in chains:
-            wallet_conf_data = get_wallet_conf('wallet-confs/' + chain['wallet_conf'])
-            xbridge_conf_data = get_xbridge_conf('xbridge-confs/' + chain['xbridge_conf'], chain['ticker'])
+            wallet_conf_data = get_wallet_conf(WALLETS_PATH + chain['wallet_conf'])
+            xbridge_conf_data = get_xbridge_conf(XBRIDGE_PATH + chain['xbridge_conf'], chain['ticker'])
             
             # get first of versions list of chain 
             # version = chain['versions'][0]

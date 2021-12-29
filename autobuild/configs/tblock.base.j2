@@ -1,15 +1,15 @@
 {
-    "PHR": {
-        "Title": "Phore",
+    "TBLOCK": {
+        "Title": "Blocknet Testnet",
         "Address": "",
         "Ip": "127.0.0.1",
-        "rpcPort": "{{ rpcPort|default(11772)}}",
-        "p2pPort": "{{ p2pPort|default(11771)}}",
+        "rpcPort": "{{ rpcPort|default(41419)}}",
+        "p2pPort": "{{ p2pPort|default(41474)}}",
         "Username": "{{ rpcusername }}",
         "Password": "{{ rpcpassword }}",
-        "AddressPrefix": "55",
-        "ScriptPrefix": "13",
-        "SecretPrefix": "212",
+        "AddressPrefix": "139",
+        "ScriptPrefix": "19",
+        "SecretPrefix": "239",
         "COIN": "100000000",
         "MinimumAmount": "0",
         "DustAmount": "0",
@@ -22,18 +22,12 @@
         "FeePerByte": "20",
         "Confirmations": "0",
         "versions": {
-            "v1.7.1": {
+            "v4.3.3": {
                 "legacy": false,
                 "deprecatedrpc": false,
-                "xbridge_conf": "phore--v1.7.1.conf",
-                "wallet_conf": "phore--v1.7.1.conf",
-                "GetNewKeySupported": false
-            },
-            "v1.8.0": {
-                "legacy": false,
-                "deprecatedrpc": false,
-                "xbridge_conf": "phore--v1.7.1.conf",
-                "wallet_conf": "phore--v1.7.1.conf",
+                "testnet": true,
+                "xbridge_conf": "blocktest--v4.3.3.conf",
+                "wallet_conf": "blocktest--v4.3.3.conf",
                 "GetNewKeySupported": false
             }
         }
