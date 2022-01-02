@@ -586,38 +586,6 @@
     "wallet_conf": "crave--v2.5.0.3.conf"
   },
   {
-    "blockchain": "Crypto Dezire Cash",
-    "ticker": "CDZC",
-    "ver_id": "cryptodezirecash--v2.1.1",
-    "ver_name": "Crypto Dezire Cash",
-    "conf_name": "cryptodezirecash.conf",
-    "dir_name_linux": "cryptodezirecash",
-    "dir_name_mac": "CryptoDezireCash",
-    "dir_name_win": "CryptoDezireCash",
-    "repo_url": "https://github.com/cryptodezire/CryptoDezireCash",
-    "versions": [
-      "v2.1.2"
-    ],
-    "xbridge_conf": "cryptodezirecash--v2.1.1.conf",
-    "wallet_conf": "cryptodezirecash--v2.1.1.conf"
-  },
-  {
-    "blockchain": "Cryptonodes",
-    "ticker": "CNMC",
-    "ver_id": "cryptonodes--v1.4.3",
-    "ver_name": "Cryptonodes",
-    "conf_name": "cryptonodes.conf",
-    "dir_name_linux": "cryptonodes",
-    "dir_name_mac": "Cryptonodes",
-    "dir_name_win": "Cryptonodes",
-    "repo_url": "https://github.com/cryptonodes-core/cryptonodes-core",
-    "versions": [
-      "v1.4.4.1"
-    ],
-    "xbridge_conf": "cryptonodes--v1.4.3.conf",
-    "wallet_conf": "cryptonodes--v1.4.3.conf"
-  },
-  {
     "blockchain": "Dash",
     "ticker": "DASH",
     "ver_id": "dash--v0.17.0.2",
@@ -1338,7 +1306,7 @@
   {
     "blockchain": "Luxcore",
     "ticker": "LUX",
-    "ver_id": "lux--v5.3.3",
+    "ver_id": "lux--v5.5",
     "ver_name": "Luxcore",
     "conf_name": "lux.conf",
     "dir_name_linux": "lux",
@@ -1346,10 +1314,11 @@
     "dir_name_win": "LUX",
     "repo_url": "https://github.com/LUX-Core/lux",
     "versions": [
-      "v5.3.3"
+      "v5.5",
+      "v5.5.1"
     ],
-    "xbridge_conf": "lux--v5.3.3.conf",
-    "wallet_conf": "lux--v5.3.3.conf"
+    "xbridge_conf": "lux--v5.5.conf",
+    "wallet_conf": "lux--v5.5.conf"
   },
   {
     "blockchain": "Lynx",
