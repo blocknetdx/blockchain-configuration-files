@@ -2119,23 +2119,6 @@
     "wallet_conf": "unobtanium--v0.11.0.conf"
   },
   {
-    "blockchain": "Verge",
-    "ticker": "XVG",
-    "ver_id": "verge--v7.0.0",
-    "ver_name": "Verge",
-    "conf_name": "VERGE.conf",
-    "daemon_stem": "verge",
-    "dir_name_linux": "VERGE",
-    "dir_name_mac": "VERGE",
-    "dir_name_win": "VERGE",
-    "repo_url": "https://github.com/vergecurrency/verge",
-    "versions": [
-      "v7.0.0"
-    ],
-    "xbridge_conf": "verge--v7.0.0.conf",
-    "wallet_conf": "verge--v7.0.0.conf"
-  },
-  {
     "blockchain": "Vertcoin",
     "ticker": "VTC",
     "ver_id": "vertcoin--0.14.0",
