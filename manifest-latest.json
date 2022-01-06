@@ -439,6 +439,22 @@
     "wallet_conf": "blocknet--v4.2.0.conf"
   },
   {
+    "blockchain": "Blocknet Testnet",
+    "ticker": "TBLOCK",
+    "ver_id": "blocktest--v4.3.3",
+    "ver_name": "Blocktest v4",
+    "conf_name": "blocknet.conf",
+    "dir_name_linux": "blocknet",
+    "dir_name_mac": "Blocknet",
+    "dir_name_win": "Blocknet",
+    "repo_url": "https://github.com/blocknetdx/blocknet",
+    "versions": [
+      "v4.3.3"
+    ],
+    "xbridge_conf": "blocktest--v4.3.3.conf",
+    "wallet_conf": "blocktest--v4.3.3.conf"
+  },
+  {
     "blockchain": "Carebit",
     "ticker": "CARE",
     "ver_id": "carebitcoin--v3.0.0.0",
@@ -1669,7 +1685,7 @@
   {
     "blockchain": "Phore",
     "ticker": "PHR",
-    "ver_id": "phore--v1.3.3.1",
+    "ver_id": "phore--v1.7.1",
     "ver_name": "Phore",
     "conf_name": "phore.conf",
     "dir_name_linux": "phore",
@@ -1677,10 +1693,11 @@
     "dir_name_win": "Phore",
     "repo_url": "https://github.com/phoreproject/Phore",
     "versions": [
-      "v1.6.3"
+      "v1.7.1",
+      "v1.8.0"
     ],
-    "xbridge_conf": "phore--v1.3.3.1.conf",
-    "wallet_conf": "phore--v1.3.3.1.conf"
+    "xbridge_conf": "phore--v1.7.1.conf",
+    "wallet_conf": "phore--v1.7.1.conf"
   },
   {
     "blockchain": "PIVX",
@@ -1802,7 +1819,7 @@
   {
     "blockchain": "Ravencoin",
     "ticker": "RVN",
-    "ver_id": "raven--v0.15.99.0",
+    "ver_id": "raven--v4.1.0",
     "ver_name": "Ravencoin",
     "conf_name": "raven.conf",
     "dir_name_linux": "raven",
@@ -1812,10 +1829,14 @@
     "versions": [
       "v4.1.0",
       "v4.2.0",
-      "v4.2.1"
+      "v4.2.1",
+      "v4.3.0",
+      "v4.3.1",
+      "v4.3.2",
+      "v4.3.2.1"
     ],
-    "xbridge_conf": "raven--v0.15.99.0.conf",
-    "wallet_conf": "raven--v0.15.99.0.conf"
+    "xbridge_conf": "raven--v4.1.0.conf",
+    "wallet_conf": "raven--v4.1.0.conf"
   },
   {
     "blockchain": "Reecore",
@@ -2026,6 +2047,22 @@
     ],
     "xbridge_conf": "syscoin--v4.3.0.conf",
     "wallet_conf": "syscoin--v4.3.0.conf"
+  },
+  {
+    "blockchain": "Syscoin Testnet",
+    "ticker": "TSYS",
+    "ver_id": "systest--v4.3.0",
+    "ver_name": "Syscoin Testnet",
+    "conf_name": "syscoin.conf",
+    "dir_name_linux": "syscoin",
+    "dir_name_mac": "Syscoin",
+    "dir_name_win": "Syscoin",
+    "repo_url": "https://github.com/syscoin/syscoin",
+    "versions": [
+      "v4.3.0"
+    ],
+    "xbridge_conf": "systest--v4.3.0.conf",
+    "wallet_conf": "systest--v4.3.0.conf"
   },
   {
     "blockchain": "Terracoin",

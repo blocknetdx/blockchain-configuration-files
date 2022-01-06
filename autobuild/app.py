@@ -3,6 +3,7 @@ import json
 import os, sys, os.path
 import argparse
 from jinja2 import Environment, FileSystemLoader
+from icecream import ic
 
 def Merge(dict1, dict2):
     res = {**dict1, **dict2}
@@ -33,9 +34,9 @@ XBRIDGECONFPATH='../xbridge-confs/'
 if not os.path.isdir(WALLETCONFPATH):
     os.mkdir(WALLETCONFPATH)
 print('checking walletconfpath: {}'.format(os.path.isdir(WALLETCONFPATH)))
+
 if not os.path.isdir(XBRIDGECONFPATH):
     os.mkdir(XBRIDGECONFPATH)
-
 print('checking xb: {}'.format(os.path.isdir(XBRIDGECONFPATH)))
 
 J2_ENV = Environment(loader=FileSystemLoader(''),
@@ -80,12 +81,12 @@ for chain in data:
         #print(updated_dict)
         rendered_data = custom_template.render(updated_dict)
         write_file(XBRIDGECONFPATH+chain['ver_id']+'.conf', rendered_data)
-        #print(rendered_data)
+        ic(rendered_data)
 
         
         custom_template_wallet_conf = 'templates/wallet.conf.j2'
         custom_template_wallet = J2_ENV.get_template(custom_template_wallet_conf)
         wallet_rendered_data = custom_template_wallet.render(updated_dict) 
-        #print(wallet_rendered_data)
         write_file(WALLETCONFPATH+chain['ver_id']+'.conf', wallet_rendered_data) # writes wallet conf
+        ic(wallet_rendered_data)
 
