@@ -67,6 +67,7 @@ The `manifest-latest.json` contains an array of objects with each object contain
     "ver_id": "",
     "ver_name": "",
     "conf_name": "",
+    "daemon_stem": "",
     "dir_name_linux": "",
     "dir_name_mac": "",
     "dir_name_win": "",
@@ -77,13 +78,16 @@ The `manifest-latest.json` contains an array of objects with each object contain
 }
 ```
 
-Key               | Description
-------------------|------------------
+All entries are mandatory unless otherwise noted.
+
+Key             | Description
+----------------|------------------
 blockchain      | The name of the blockchain: *Blocknet, Dogecoin, Syscoin, etc*. This is user-facing, case-sensitive, and should remain consistent across all version groups for this blockchain.
 ticker          | The abbreviation used to represent this blockchain on exchanges: *BLOCK, DOGE, SYS, etc*. Use all uppercase letters.
 ver_id          | This ID must be unique, not change, and is case-sensitive. The format used is the wallet's configuration file name (without the extension), followed by a double-hyphen, then the initial wallet version added to this compatibility versioning group: *blocknet--v4.2.0, dogecoin--v1.10.0-dogeparty, syscoin--3.0.5.0, etc*.
 ver_name        | User viewable and user friendly name for the blockchain version group. This can be changed/renamed and is used to indicate the blockchain versioning group. For example, Blocknet's current `ver_name` is *Blocknet v4*. If a new version group was created for the next wallet version release, the `ver_name` could be changed to *Blocknet v4-v4.4.0*.
 conf_name       | The name of the wallet's configuration file (with the extension): *blocknet.conf, dogecoin.conf, syscoin.conf, etc*. This is case-sensitive and should be written exactly as it is in the file name.
+daemon_stem     | **Optional** A standard executable name is constructed by appending 'd' to the `conf_name` with the extension removed, eg: the executable name for Blocknet is *blocknetd*, constructed from the 'blocknet' of 'blocknet.conf' minus the extension and with a 'd' appended. If the coin has a non-standard executable name, eg: *sccd* for StakeCubeCoin, *verged* for VERGE, specify the *stem* here, eg: *scc* for StakeCubeCoin. 
 dir_name_linux  | This is the name of the blockchain's folder in the data directory: *blocknet, dogecoin, syscoincore, etc*. This is case-sensitive and should be written exactly as it is in the folder name.
 dir_name_mac    | This is the name of the blockchain's folder in the data directory: *Blocknet, Dogecoin, SyscoinCore, etc*. This is case-sensitive and should be written exactly as it is in the folder name.
 dir_name_win    | This is the name of the blockchain's folder in the data directory: *Blocknet, Dogecoin, SyscoinCore, etc*. This is case-sensitive and should be written exactly as it is in the folder name.
