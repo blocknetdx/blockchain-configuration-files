@@ -178,7 +178,7 @@
       "v0.16.2",
       "v0.16.3"
     ],
-    "xbridge_conf": "bitcoin--v0.15.1.conf",
+    "xbridge_conf": "bitcoin--v0.16.0.conf",
     "wallet_conf": "bitcoin--v0.16.0.conf"
   },
   {
@@ -196,7 +196,7 @@
       "v0.17.0.1",
       "v0.17.1"
     ],
-    "xbridge_conf": "bitcoin--v0.15.1.conf",
+    "xbridge_conf": "bitcoin--v0.17.0.conf",
     "wallet_conf": "bitcoin--v0.17.0.conf"
   },
   {
@@ -213,8 +213,8 @@
       "v0.18.0",
       "v0.18.1"
     ],
-    "xbridge_conf": "bitcoin--v0.15.1.conf",
-    "wallet_conf": "bitcoin--v0.16.0.conf"
+    "xbridge_conf": "bitcoin--v0.18.0.conf",
+    "wallet_conf": "bitcoin--v0.18.0.conf"
   },
   {
     "blockchain": "Bitcoin",
@@ -231,8 +231,8 @@
       "v0.19.0.1",
       "v0.19.1"
     ],
-    "xbridge_conf": "bitcoin--v0.15.1.conf",
-    "wallet_conf": "bitcoin--v0.16.0.conf"
+    "xbridge_conf": "bitcoin--v0.19.0.conf",
+    "wallet_conf": "bitcoin--v0.19.0.conf"
   },
   {
     "blockchain": "Bitcoin",
@@ -248,8 +248,8 @@
       "v0.20.0",
       "v0.20.1"
     ],
-    "xbridge_conf": "bitcoin--v0.15.1.conf",
-    "wallet_conf": "bitcoin--v0.16.0.conf"
+    "xbridge_conf": "bitcoin--v0.20.0.conf",
+    "wallet_conf": "bitcoin--v0.20.0.conf"
   },
   {
     "blockchain": "Bitcoin",
@@ -265,8 +265,8 @@
       "v0.21.0",
       "v0.21.1"
     ],
-    "xbridge_conf": "bitcoin--v0.15.1.conf",
-    "wallet_conf": "bitcoin--v0.16.0.conf"
+    "xbridge_conf": "bitcoin--v0.21.0.conf",
+    "wallet_conf": "bitcoin--v0.21.0.conf"
   },
   {
     "blockchain": "Bitcoin",
@@ -281,8 +281,8 @@
     "versions": [
       "v0.22.0"
     ],
-    "xbridge_conf": "bitcoin--v0.15.1.conf",
-    "wallet_conf": "bitcoin--v0.16.0.conf"
+    "xbridge_conf": "bitcoin--v0.22.0.conf",
+    "wallet_conf": "bitcoin--v0.22.0.conf"
   },
   {
     "blockchain": "Bitcoin Cash",
