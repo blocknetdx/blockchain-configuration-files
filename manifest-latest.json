@@ -2063,7 +2063,7 @@
     "dir_name_win": "TerracoinCore",
     "repo_url": "https://github.com/terracoin/terracoin",
     "versions": [
-      "v0.16.2.1",
+      "v0.12.2.4",
       "v0.12.2.5"
     ],
     "xbridge_conf": "terracoin--v0.12.1.8.conf",
