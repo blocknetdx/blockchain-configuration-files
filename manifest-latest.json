@@ -719,7 +719,7 @@
   {
     "blockchain": "DogeCash",
     "ticker": "DOGEC",
-    "ver_id": "dogecash--3.0.0",
+    "ver_id": "dogecash--5.4.4",
     "ver_name": "DogeCash",
     "conf_name": "dogecash.conf",
     "dir_name_linux": "dogecash",
@@ -727,15 +727,15 @@
     "dir_name_win": "DogeCashCore",
     "repo_url": "https://github.com/dogecash/dogecash",
     "versions": [
-      "5.2.1.0"
+      "5.4.4"
     ],
-    "xbridge_conf": "dogecash--3.0.0.conf",
-    "wallet_conf": "dogecash--3.0.0.conf"
+    "xbridge_conf": "dogecash--5.4.4.conf",
+    "wallet_conf": "dogecash--5.4.4.conf"
   },
   {
     "blockchain": "Dogecoin",
     "ticker": "DOGE",
-    "ver_id": "dogecoin--v1.10.0",
+    "ver_id": "dogecoin--v1.14.5",
     "ver_name": "Dogecoin",
     "conf_name": "dogecoin.conf",
     "dir_name_linux": "dogecoin",
@@ -743,10 +743,10 @@
     "dir_name_win": "Dogecoin",
     "repo_url": "https://github.com/dogecoin/dogecoin",
     "versions": [
-      "v1.14.2"
+      "v1.14.5"
     ],
-    "xbridge_conf": "dogecoin--v1.10.0.conf",
-    "wallet_conf": "dogecoin--v1.10.0.conf"
+    "xbridge_conf": "dogecoin--v1.14.5.conf",
+    "wallet_conf": "dogecoin--v1.14.5.conf"
   },
   {
     "blockchain": "Dynamic",
@@ -1587,6 +1587,22 @@
     ],
     "xbridge_conf": "nyx--v2.0.0.0.conf",
     "wallet_conf": "nyx--v2.0.0.0.conf"
+  },
+  {
+    "blockchain": "OASIS",
+    "ticker": "XOS",
+    "ver_id": "oasis--v3.0.0",
+    "ver_name": "Oasis",
+    "conf_name": "oasis.conf",
+    "dir_name_linux": "oasis",
+    "dir_name_mac": "Oasis",
+    "dir_name_win": "Oasis",
+    "repo_url": "https://github.com/OasisCoinTeam/Oasis",
+    "versions": [
+      "v3.0.0"
+    ],
+    "xbridge_conf": "oasis--v3.0.0.conf",
+    "wallet_conf": "oasis--v3.0.0.conf"
   },
   {
     "blockchain": "Odin",
