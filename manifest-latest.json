@@ -995,7 +995,7 @@
   {
     "blockchain": "GoByte",
     "ticker": "GBX",
-    "ver_id": "gobyte--v0.12.2.4",
+    "ver_id": "gobyte--v0.16.2.1",
     "ver_name": "GoByte",
     "conf_name": "gobyte.conf",
     "dir_name_linux": "gobytecore",
@@ -1003,10 +1003,10 @@
     "dir_name_win": "GoByteCore",
     "repo_url": "https://github.com/gobytecoin/gobyte",
     "versions": [
-      "v0.12.2.4"
+      "v0.16.2.1"
     ],
-    "xbridge_conf": "gobyte--v0.12.2.4.conf",
-    "wallet_conf": "gobyte--v0.12.2.4.conf"
+    "xbridge_conf": "gobyte--v0.16.2.1.conf",
+    "wallet_conf": "gobyte--v0.16.2.1.conf"
   },
   {
     "blockchain": "Goldcoin",
