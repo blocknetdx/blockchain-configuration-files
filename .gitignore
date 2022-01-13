@@ -1,4 +1,4 @@
 *~
 .DS_Store
-/tools/
--s
+-s.idea
+.idea/*

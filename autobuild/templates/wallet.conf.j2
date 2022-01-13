@@ -1,0 +1,33 @@
+server=1
+listen=1
+rpcuser=
+rpcpassword=
+{% if testnet is not defined %} 
+rpcallowip=0.0.0.0/0
+port={{ p2pPort }}
+rpcport={{ rpcPort }}
+{% elif testnet is sameas true %}
+testnet=1 
+{% endif %}
+txindex=1
+
+{% if legacy is defined and legacy is sameas true %}
+# Legacy addresses must be used
+addresstype=legacy
+changetype=legacy
+{% endif %}
+
+{% if deprecatedrpc is defined and deprecatedrpc is sameas true %} 
+# Enable deprecated calls
+deprecatedrpc=signrawtransaction
+{% elif deprecatedrpc is defined and deprecatedrpc is string %} 
+# Enable deprecated calls
+deprecatedrpc={{ deprecatedrpc }}
+{% endif %}
+
+{% if testnet is defined and testnet is sameas true %} 
+[test]
+rpcallowip=0.0.0.0/0
+port={{ p2pPort }}
+rpcport={{ rpcPort }}
+{% endif %}

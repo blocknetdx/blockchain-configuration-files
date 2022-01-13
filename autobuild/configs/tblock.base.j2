@@ -1,0 +1,35 @@
+{
+    "TBLOCK": {
+        "Title": "Blocknet Testnet",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(41419)}}",
+        "p2pPort": "{{ p2pPort|default(41474)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "139",
+        "ScriptPrefix": "19",
+        "SecretPrefix": "239",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v4.3.3": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "testnet": true,
+                "xbridge_conf": "blocktest--v4.3.3.conf",
+                "wallet_conf": "blocktest--v4.3.3.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

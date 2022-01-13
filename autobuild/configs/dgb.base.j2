@@ -1,0 +1,34 @@
+{
+    "DGB": {
+        "Title": "DigiByte",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(14022)}}",
+        "p2pPort": "{{ p2pPort|default(12024)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "30",
+        "ScriptPrefix": "63",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "false",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "100000",
+        "BlockTime": "15",
+        "TxVersion": "1",
+        "FeePerByte": "200",
+        "Confirmations": "0",
+        "versions": {
+            "v7.17.2": {
+                "legacy": false,
+                "deprecatedrpc": true,
+                "xbridge_conf": "digibyte--v7.17.2.conf",
+                "wallet_conf": "digibyte--v7.17.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

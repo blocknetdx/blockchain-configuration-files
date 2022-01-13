@@ -1,0 +1,34 @@
+{
+    "IXC": {
+        "Title": "Ixcoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8338)}}",
+        "p2pPort": "{{ p2pPort|default(8337)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "138",
+        "ScriptPrefix": "5",
+        "SecretPrefix": "128",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "600",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v0.14.1": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "ixcoin--v0.14.1.conf",
+                "wallet_conf": "ixcoin--v0.14.1.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

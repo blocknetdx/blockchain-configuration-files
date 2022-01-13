@@ -1,0 +1,34 @@
+{
+    "KLKS": {
+        "Title": "Kalkulus",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(51122)}}",
+        "p2pPort": "{{ p2pPort|default(51121)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "46",
+        "ScriptPrefix": "13",
+        "SecretPrefix": "174",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "10000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v2.8.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "klks--v2.6.0.conf",
+                "wallet_conf": "klks--v2.6.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

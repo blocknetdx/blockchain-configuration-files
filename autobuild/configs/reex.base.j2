@@ -1,0 +1,34 @@
+{
+    "REEX": {
+        "Title": "Reecore",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(43211)}}",
+        "p2pPort": "{{ p2pPort|default(43210)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "61",
+        "ScriptPrefix": "122",
+        "SecretPrefix": "189",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "5000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "20",
+        "Confirmations": "0",
+        "versions": {
+            "v1.4.2.2": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "reecore--v1.4.2.2.conf",
+                "wallet_conf": "reecore--v1.4.2.2.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}

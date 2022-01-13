@@ -1,0 +1,34 @@
+{
+    "SEQ": {
+        "Title": "Sequence",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(16663)}}",
+        "p2pPort": "{{ p2pPort|default(16662)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "63",
+        "ScriptPrefix": "64",
+        "SecretPrefix": "170",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "200000",
+        "BlockTime": "64",
+        "TxVersion": "1",
+        "FeePerByte": "200",
+        "Confirmations": "0",
+        "versions": {
+            "v1.3.3.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "sequence--v1.3.0.0.conf",
+                "wallet_conf": "sequence--v1.3.0.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}
