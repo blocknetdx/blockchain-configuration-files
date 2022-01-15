@@ -2053,6 +2053,22 @@
     "wallet_conf": "systest--v4.3.0.conf"
   },
   {
+    "blockchain": "Trittium",
+    "ticker": "TRTT",
+    "ver_id": "trittium--v4.0.2.1",
+    "ver_name": "Trittium",
+    "conf_name": "trittium.conf",
+    "dir_name_linux": "trittium",
+    "dir_name_mac": "Trittium",
+    "dir_name_win": "Trittium",
+    "repo_url": "https://github.com/Trittium/trittium",
+    "versions": [
+      "v4.0.2.1"
+    ],
+    "xbridge_conf": "trittium--v4.0.2.1.conf",
+    "wallet_conf": "trittium--v4.0.2.1.conf"
+  },
+  {
     "blockchain": "Terracoin",
     "ticker": "TRC",
     "ver_id": "terracoin--v0.12.1.8",
