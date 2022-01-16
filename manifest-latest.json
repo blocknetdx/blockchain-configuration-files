@@ -2254,6 +2254,7 @@
     "ver_id": "xcurrency--v3.0.05",
     "ver_name": "XCurrency",
     "conf_name": "xcurrency.conf",
+    "daemon_stem": "xc3",
     "dir_name_linux": "xc3",
     "dir_name_mac": "XC3",
     "dir_name_win": "XC3",
