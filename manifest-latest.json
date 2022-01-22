@@ -2055,7 +2055,7 @@
   {
     "blockchain": "Trittium",
     "ticker": "TRTT",
-    "ver_id": "trittium--v4.0.2.1",
+    "ver_id": "trittium--v4.0.2.2",
     "ver_name": "Trittium",
     "conf_name": "trittium.conf",
     "dir_name_linux": "trittium",
@@ -2063,10 +2063,10 @@
     "dir_name_win": "Trittium",
     "repo_url": "https://github.com/Trittium/trittium",
     "versions": [
-      "v4.0.2.1"
+      "v4.0.2.2"
     ],
-    "xbridge_conf": "trittium--v4.0.2.1.conf",
-    "wallet_conf": "trittium--v4.0.2.1.conf"
+    "xbridge_conf": "trittium--v4.0.2.2.conf",
+    "wallet_conf": "trittium--v4.0.2.2.conf"
   },
   {
     "blockchain": "Terracoin",
