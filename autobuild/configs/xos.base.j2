@@ -1,0 +1,34 @@
+{
+    "XOS": {
+        "Title": "Oasis",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(3358)}}",
+        "p2pPort": "{{ p2pPort|default(3357)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "115",
+        "ScriptPrefix": "15",
+        "SecretPrefix": "212",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "100000",
+        "BlockTime": "60",
+        "TxVersion": "1",
+        "FeePerByte": "200",
+        "Confirmations": "0",
+        "versions": {
+            "v3.0.0": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "oasis--v3.0.0.conf",
+                "wallet_conf": "oasis--v3.0.0.conf",
+                "GetNewKeySupported": false
+            }
+        }
+    }
+}
