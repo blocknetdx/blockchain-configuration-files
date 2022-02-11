@@ -4,15 +4,15 @@ import os, sys, os.path
 from shutil import copyfile
 import glob
 
-XBRIDGE_SRC_BASE_DIR = os.getcwd() + '\\xbridge-confs\\'
-WALLET_SRC_BASE_DIR = os.getcwd() + '\\wallet-confs\\'
+XBRIDGE_SRC_BASE_DIR = os.getcwd() + '../../xbridge-confs/'
+WALLET_SRC_BASE_DIR = os.getcwd() + '../../wallet-confs/'
 
 def write_file(filename, data):
     with open(filename, "w") as fname:
         json.dump(data, fname, indent = 4)
     return
 
-with open('manifest.json') as json_file:
+with open('../../manifest-latest.json') as json_file:
     data = json.load(json_file)
 
 for chain in data:
@@ -50,14 +50,14 @@ for chain in data:
         versions = chain['versions']
 
 
-    xbridge_conf_files_path = os.getcwd() + '\\xbridge-confs\\' + old_xbridge_conf_ver.split(sep, 1)[0] + sep + '*.conf'
+    xbridge_conf_files_path = XBRIDGE_SRC_BASE_DIR + old_xbridge_conf_ver.split(sep, 1)[0] + sep + '*.conf'
     for conf_path in glob.glob(xbridge_conf_files_path):
         conf_file_filename =  os.path.basename(os.path.normpath(conf_path))
         conf_file_version = conf_file_filename.split(sep, 1)[1].split('.conf')[0]
         if conf_file_version not in versions:            
             os.remove(conf_path)
     
-    wallet_conf_files_path = os.getcwd() + '\\wallet-confs\\' + old_wallet_conf_ver.split(sep, 1)[0] + sep + '*.conf'
+    wallet_conf_files_path = WALLET_SRC_BASE_DIR + old_wallet_conf_ver.split(sep, 1)[0] + sep + '*.conf'
     for conf_path in glob.glob(wallet_conf_files_path):
         conf_file_filename =  os.path.basename(os.path.normpath(conf_path))
         conf_file_version = conf_file_filename.split(sep, 1)[1].split('.conf')[0]
@@ -65,4 +65,4 @@ for chain in data:
             os.remove(conf_path)
 
 sorted_data = sorted(data, key = lambda d: (d['blockchain'].lower()), reverse= False)
-write_file(os.getcwd() + '\\manifest.json', sorted_data)
+write_file(os.getcwd() + 'manifest-latest.json', sorted_data)

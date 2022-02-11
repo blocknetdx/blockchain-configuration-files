@@ -3,7 +3,7 @@
 import json
 import os, sys, os.path
 
-MANIFEST_PATH = '.\\manifest.json'
+MANIFEST_PATH = '../../manifest-latest.json'
 
 def read_file():
     with open(MANIFEST_PATH) as json_file:
@@ -89,7 +89,7 @@ def add_correct_input(entry):
 
     if answer:
         data = read_file()
-        print('Adding {ticker} to manifest.json ...'.format(ticker = entry['ticker']))
+        print('Adding {ticker} to manifest-latest.json ...'.format(ticker = entry['ticker']))
         data.append(entry)
         data = sorted(data, key = lambda d: (d['blockchain'].lower()), reverse= False)
         write_file(MANIFEST_PATH, data)
