@@ -185,9 +185,9 @@ Not applicable to 3rd party developers who are simply looking to list a coin.
 
 * Follow the [Automated Docker-Based EXR Service Node Setup guide](https://docs.blocknet.co/service-nodes/setup/#automated-docker-based-exr-service-node-setup-recommended) to deploy one testnet Service Node and two testnet Trading Nodes on three different machines.
 * Configure each of these three nodes to support the coin to be tested and any counter-party coin you want to use to trade against the coin to be tested.
-* When you arrive at the step where `./app.py` is called, be sure to pass it the (raw form) path to the branch you pushed to your Github Repo in step 8 above, like this:
+* When you arrive at the step where `./builder.py` is called, be sure to pass it the (raw form) path to the branch you pushed to your Github Repo in step 8 above, like this:
 ```
-./app.py --custom_manifest 'https://raw.githubusercontent.com/walkjivefly/blockchain-configuration-files/bump-thing-v4.2.2'
+./builder.py --branchpath 'https://raw.githubusercontent.com/walkjivefly/blockchain-configuration-files/bump-thing-v4.2.2'
 ```
 
 ## Testing (CLI)
