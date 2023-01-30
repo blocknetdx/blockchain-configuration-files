@@ -1703,7 +1703,7 @@
   {
     "blockchain": "PIVX",
     "ticker": "PIVX",
-    "ver_id": "pivx--v5.3.0",
+    "ver_id": "pivx--v5.5.0",
     "ver_name": "PIVX",
     "conf_name": "pivx.conf",
     "dir_name_linux": "pivx",
@@ -1715,10 +1715,11 @@
       "v5.3.1",
       "v5.3.2",
       "v5.3.2.1",
-      "v5.3.3"
+      "v5.3.3",
+      "v5.5.0"
     ],
-    "xbridge_conf": "pivx--v5.3.0.conf",
-    "wallet_conf": "pivx--v5.3.0.conf"
+    "xbridge_conf": "pivx--v5.5.0.conf",
+    "wallet_conf": "pivx--v5.5.0.conf"
   },
   {
     "blockchain": "Placeholders",
