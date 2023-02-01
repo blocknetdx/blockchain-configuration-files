@@ -61,7 +61,7 @@
     "versions": [
       "V3.1.0"
     ],
-    "xbridge_conf": "aprcoin--v1.0.conf",pi
+    "xbridge_conf": "aprcoin--v1.0.conf",
     "wallet_conf": "aprcoin--v1.0.conf"
   },
   {
