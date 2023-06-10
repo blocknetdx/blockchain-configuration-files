@@ -285,6 +285,22 @@
     "wallet_conf": "bitcoin--v0.22.0.conf"
   },
   {
+    "blockchain": "Bitcoin",
+    "ticker": "BTC",
+    "ver_id": "bitcoin--v0.25.0",
+    "ver_name": "Bitcoin v0.25.x",
+    "conf_name": "bitcoin.conf",
+    "dir_name_linux": "bitcoin",
+    "dir_name_mac": "Bitcoin",
+    "dir_name_win": "Bitcoin",
+    "repo_url": "https://github.com/bitcoin/bitcoin",
+    "versions": [
+      "v0.25.0"
+    ],
+    "xbridge_conf": "bitcoin--v0.25.0.conf",
+    "wallet_conf": "bitcoin--v0.25.0.conf"
+  },
+  {
     "blockchain": "Bitcoin Cash",
     "ticker": "BCH",
     "ver_id": "bitcoincash--v0.21.11",
