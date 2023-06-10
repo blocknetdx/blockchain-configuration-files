@@ -758,7 +758,8 @@
     "dir_name_win": "Dogecoin",
     "repo_url": "https://github.com/dogecoin/dogecoin",
     "versions": [
-      "v1.14.5"
+      "v1.14.5",
+      "v1.14.6"
     ],
     "xbridge_conf": "dogecoin--v1.14.5.conf",
     "wallet_conf": "dogecoin--v1.14.5.conf"
