@@ -2034,7 +2034,7 @@
   {
     "blockchain": "Syscoin",
     "ticker": "SYS",
-    "ver_id": "syscoin--v4.3.0",
+    "ver_id": "syscoin--v4.4.2",
     "ver_name": "Syscoin 4",
     "conf_name": "syscoin.conf",
     "dir_name_linux": "syscoin",
@@ -2042,10 +2042,10 @@
     "dir_name_win": "Syscoin",
     "repo_url": "https://github.com/syscoin/syscoin",
     "versions": [
-      "v4.3.0"
+      "v4.4.2"
     ],
-    "xbridge_conf": "syscoin--v4.3.0.conf",
-    "wallet_conf": "syscoin--v4.3.0.conf"
+    "xbridge_conf": "syscoin--v4.4.2.conf",
+    "wallet_conf": "syscoin--v4.4.2.conf"
   },
   {
     "blockchain": "Syscoin Testnet",
