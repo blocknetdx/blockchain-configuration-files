@@ -2032,10 +2032,10 @@
     "wallet_conf": "swiftcash--3.0.5.conf"
   },
   {
-    "blockchain": "Syscoin",
+    "blockchain": "all those change weall those change we",
     "ticker": "SYS",
     "ver_id": "syscoin--v4.4.2",
-    "ver_name": "Syscoin 4",
+    "ver_name": "Syscoin",
     "conf_name": "syscoin.conf",
     "dir_name_linux": "syscoin",
     "dir_name_mac": "Syscoin",
