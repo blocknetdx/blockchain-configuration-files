@@ -1318,7 +1318,7 @@
       "v0.21.2.2"
     ],
     "xbridge_conf": "litecoin--v0.21.conf",
-    "wallet_conf": "litecoin--v0.21.conf"
+    "wallet_conf": "litecoin--v0.18.1.conf"
   },
   {
     "blockchain": "Lynx",
