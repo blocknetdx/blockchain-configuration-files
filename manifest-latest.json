@@ -279,10 +279,11 @@
     "dir_name_win": "Bitcoin",
     "repo_url": "https://github.com/bitcoin/bitcoin",
     "versions": [
-      "v0.22.0"
+      "v0.22.0",
+      "v22-final"
     ],
-    "xbridge_conf": "bitcoin--v0.22.0.conf",
-    "wallet_conf": "bitcoin--v0.22.0.conf"
+    "xbridge_conf": "bitcoin--v0.21.0.conf",
+    "wallet_conf": "bitcoin--v0.21.0.conf"
   },
   {
     "blockchain": "Bitcoin Cash",
