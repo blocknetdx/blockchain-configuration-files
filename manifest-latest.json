@@ -282,8 +282,8 @@
       "v0.22.0",
       "v22-final"
     ],
-    "xbridge_conf": "bitcoin--v0.22.0.conf",
-    "wallet_conf": "bitcoin--v0.22.0.conf"
+    "xbridge_conf": "bitcoin--v0.21.0.conf",
+    "wallet_conf": "bitcoin--v0.21.0.conf"
   },
   {
     "blockchain": "Bitcoin Cash",
