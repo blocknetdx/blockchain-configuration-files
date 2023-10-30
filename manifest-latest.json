@@ -743,7 +743,8 @@
     "dir_name_win": "Dogecoin",
     "repo_url": "https://github.com/dogecoin/dogecoin",
     "versions": [
-      "v1.14.5"
+      "v1.14.5",
+      "v1.14.6"
     ],
     "xbridge_conf": "dogecoin--v1.14.5.conf",
     "wallet_conf": "dogecoin--v1.14.5.conf"
@@ -1302,6 +1303,24 @@
     ],
     "xbridge_conf": "litecoin--v0.18.1.conf",
     "wallet_conf": "litecoin--v0.18.1.conf"
+  },
+  {
+    "blockchain": "Litecoin",
+    "ticker": "LTC",
+    "ver_id": "litecoin--v0.21.2",
+    "ver_name": "Litecoin v0.21.x",
+    "conf_name": "litecoin.conf",
+    "dir_name_linux": "litecoin",
+    "dir_name_mac": "Litecoin",
+    "dir_name_win": "Litecoin",
+    "repo_url": "https://github.com/litecoin-project/litecoin",
+    "versions": [
+      "v0.21.2",     
+      "v0.21.2.1",
+      "v0.21.2.2"
+    ],
+    "xbridge_conf": "litecoin--v0.18.1.conf",
+    "wallet_conf": "litecoin--v0.21.conf"
   },
   {
     "blockchain": "Lynx",
