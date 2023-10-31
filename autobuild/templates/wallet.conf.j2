@@ -25,9 +25,15 @@ deprecatedrpc=signrawtransaction
 deprecatedrpc={{ deprecatedrpc }}
 {% endif %}
 
-{% if testnet is defined and testnet is sameas true %} 
+{% if rpcserialversion is defined and rpcserialversion is number %}
+# Enable rpcserialversion
+rpcserialversion={{ rpcserialversion }}
+{% endif %}
+
+{% if testnet is defined and testnet is sameas true %}
 [test]
 rpcallowip=0.0.0.0/0
 port={{ p2pPort }}
 rpcport={{ rpcPort }}
 {% endif %}
+
