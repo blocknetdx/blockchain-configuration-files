@@ -468,7 +468,8 @@
       "v4.3.0",
       "v4.3.1",
       "v4.3.2",
-      "v4.3.3"
+      "v4.4.0",
+      "v4.4.1"
     ],
     "xbridge_conf": "blocknet--v4.2.0.conf",
     "wallet_conf": "blocknet--v4.2.0.conf"
