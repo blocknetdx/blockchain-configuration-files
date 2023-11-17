@@ -599,11 +599,13 @@
     "dir_name_win": "DashCore",
     "repo_url": "https://github.com/dashpay/dash",
     "versions": [
-      "v19.2.0"
+      "v20.0.0",
+      "v20.0.1"
     ],
     "xbridge_conf": "dash--v19.2.0.conf",
     "wallet_conf": "dash--v19.2.0.conf"
   },
+  
   {
     "blockchain": "Denarius",
     "ticker": "D",
