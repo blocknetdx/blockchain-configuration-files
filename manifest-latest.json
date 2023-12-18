@@ -600,7 +600,8 @@
     "repo_url": "https://github.com/dashpay/dash",
     "versions": [
       "v20.0.0",
-      "v20.0.1"
+      "v20.0.1",
+      "v20.0.2"      
     ],
     "xbridge_conf": "dash--v19.2.0.conf",
     "wallet_conf": "dash--v19.2.0.conf"
