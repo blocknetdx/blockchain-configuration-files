@@ -2,3 +2,6 @@
 .DS_Store
 -s.idea
 .idea/*
+venv
+.aider*
+.env
