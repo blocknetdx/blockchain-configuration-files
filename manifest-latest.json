@@ -1756,6 +1756,22 @@
     "wallet_conf": "placeh--2.0.30.5.conf"
   },
   {
+    "blockchain": "Pocketnet",
+    "ticker": "PKOIN",
+    "ver_id": "pkoin--0.22.13",
+    "ver_name": "pocketcoin",
+    "conf_name": "pocketcoin.conf",
+    "dir_name_linux": "pocketcoin",
+    "dir_name_mac": "Pocketcoin",
+    "dir_name_win": "Pocketcoin",
+    "repo_url": "https://github.com/pocketnetteam/pocketnet.core",
+    "versions": [
+      "0.22.13"
+    ],
+    "xbridge_conf": "pkoin--0.22.13.conf",
+    "wallet_conf": "pkoin--0.22.13.conf"
+  },
+  {
     "blockchain": "Pura",
     "ticker": "PURA",
     "ver_id": "pura--v1.0.0.0",
