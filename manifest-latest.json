@@ -2082,7 +2082,8 @@
     "repo_url": "https://github.com/syscoin/syscoin",
     "versions": [
       "v5.0.3",
-      "v5.0.4"
+      "v5.0.4",
+      "v5.0.5"
     ],
     "xbridge_conf": "syscoin--v4.4.2.conf",
     "wallet_conf": "syscoin--v4.4.2.conf"
