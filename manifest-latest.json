@@ -1766,7 +1766,8 @@
     "dir_name_win": "Pocketcoin",
     "repo_url": "https://github.com/pocketnetteam/pocketnet.core",
     "versions": [
-      "0.22.13"
+      "0.22.13",
+      "0.22.20"
     ],
     "xbridge_conf": "pkoin--0.22.13.conf",
     "wallet_conf": "pkoin--0.22.13.conf"

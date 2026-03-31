@@ -18,13 +18,19 @@
         "ImportWithNoScanSupported": "true",
         "MinTxFee": "10000",
         "BlockTime": "60",
-        "TxVersion": "1",
+        "TxVersion": "2",
         "FeePerByte": "20",
         "Confirmations": "0",
-        "TxWithTimeField": "false",
+        "TxWithTimeField": "true",
         "LockCoinsSupported": "false",
         "versions": {
             "0.22.13": {
+                "legacy": false,
+                "deprecatedrpc": false,
+                "xbridge_conf": "pkoin--0.22.13.conf",
+                "wallet_conf": "pkoin--0.22.13.conf"
+            },
+            "0.22.20": {
                 "legacy": false,
                 "deprecatedrpc": false,
                 "xbridge_conf": "pkoin--0.22.13.conf",
