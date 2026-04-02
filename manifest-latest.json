@@ -1756,7 +1756,7 @@
     "wallet_conf": "placeh--2.0.30.5.conf"
   },
   {
-    "blockchain": "Pocketnet",
+    "blockchain": "Pocketcoin",
     "ticker": "PKOIN",
     "ver_id": "pkoin--0.22.13",
     "ver_name": "pocketcoin",
