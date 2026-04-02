@@ -697,7 +697,8 @@
     "dir_name_win": "DigiByte",
     "repo_url": "https://github.com/DigiByte-Core/digibyte",
     "versions": [
-      "v8.22.0-rc3"
+      "v8.22.0-rc3",
+      "v8.26.2"
     ],
     "xbridge_conf": "digibyte--v7.17.2.conf",
     "wallet_conf": "digibyte--v7.17.2.conf"
