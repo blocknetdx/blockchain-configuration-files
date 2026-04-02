@@ -599,11 +599,12 @@
     "dir_name_win": "DashCore",
     "repo_url": "https://github.com/dashpay/dash",
     "versions": [
-      "v19.2.0"
+      "v22.1.0"
     ],
     "xbridge_conf": "dash--v19.2.0.conf",
     "wallet_conf": "dash--v19.2.0.conf"
   },
+  
   {
     "blockchain": "Denarius",
     "ticker": "D",
@@ -1741,7 +1742,7 @@
   {
     "blockchain": "PIVX",
     "ticker": "PIVX",
-    "ver_id": "pivx--v5.5.0",
+    "ver_id": "pivx--v5.6.1",
     "ver_name": "PIVX",
     "conf_name": "pivx.conf",
     "dir_name_linux": "pivx",
@@ -1749,10 +1750,10 @@
     "dir_name_win": "PIVX",
     "repo_url": "https://github.com/PIVX-Project/PIVX",
     "versions": [
-      "v5.5.0"
+      "v5.6.1"
     ],
-    "xbridge_conf": "pivx--v5.5.0.conf",
-    "wallet_conf": "pivx--v5.5.0.conf"
+    "xbridge_conf": "pivx--v5.6.1.conf",
+    "wallet_conf": "pivx--v5.6.1.conf"
   },
   {
     "blockchain": "Placeholders",
@@ -1769,6 +1770,23 @@
     ],
     "xbridge_conf": "placeh--2.0.30.5.conf",
     "wallet_conf": "placeh--2.0.30.5.conf"
+  },
+  {
+    "blockchain": "Pocketcoin",
+    "ticker": "PKOIN",
+    "ver_id": "pkoin--0.22.13",
+    "ver_name": "pocketcoin",
+    "conf_name": "pocketcoin.conf",
+    "dir_name_linux": "pocketcoin",
+    "dir_name_mac": "Pocketcoin",
+    "dir_name_win": "Pocketcoin",
+    "repo_url": "https://github.com/pocketnetteam/pocketnet.core",
+    "versions": [
+      "0.22.13",
+      "0.22.20"
+    ],
+    "xbridge_conf": "pkoin--0.22.13.conf",
+    "wallet_conf": "pkoin--0.22.13.conf"
   },
   {
     "blockchain": "Pura",
