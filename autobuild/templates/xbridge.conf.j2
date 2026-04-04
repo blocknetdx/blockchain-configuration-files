@@ -14,8 +14,14 @@ TxVersion={{ TxVersion }}
 DustAmount={{ DustAmount }}
 CreateTxMethod={{ CreateTxMethod }}
 GetNewKeySupported={{ GetNewKeySupported }}
-ImportWithNoScanSupported={{ImportWithNoScanSupported }}
-MinTxFee={{MinTxFee }}
+ImportWithNoScanSupported={{ ImportWithNoScanSupported }}
+MinTxFee={{ MinTxFee }}
 BlockTime={{ BlockTime }}
 FeePerByte={{ FeePerByte }}
 Confirmations={{ Confirmations }}
+{% if TxWithTimeField is defined %}TxWithTimeField={{ TxWithTimeField }}
+{% endif %}{% if LockCoinsSupported is defined %}LockCoinsSupported={{ LockCoinsSupported }}
+{% endif %}{% if CashAddrPrefix is defined %}CashAddrPrefix={{ CashAddrPrefix }}
+{% endif %}{% if ContentType is defined %}ContentType={{ ContentType }}
+{% endif %}{% if JSONVersion is defined %}JSONVersion={{ JSONVersion }}
+{% endif %}
