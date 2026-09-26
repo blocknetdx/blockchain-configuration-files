@@ -2290,6 +2290,24 @@
     "wallet_conf": "wagerr--1.5.0.conf"
   },
   {
+    "blockchain": "WAM Coin",
+    "ticker": "WAM",
+    "ver_id": "wam--v0.1.10",
+    "ver_name": "WAM Coin v0.1.x",
+    "conf_name": "wam.conf",
+    "dir_name_linux": "wam",
+    "dir_name_mac": "WAM",
+    "dir_name_win": "WAM",
+    "repo_url": "https://gitlab.com/WAMCoin/wam-coin",
+    "versions": [
+      "v0.1.8",
+      "v0.1.9",
+      "v0.1.10"
+    ],
+    "xbridge_conf": "wam--v0.1.10.conf",
+    "wallet_conf": "wam--v0.1.10.conf"
+  },
+  {
     "blockchain": "Xaya",
     "ticker": "CHI",
     "ver_id": "xaya--v1.4.1",
