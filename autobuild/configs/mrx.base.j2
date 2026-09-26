@@ -1,0 +1,35 @@
+{
+    "MRX": {
+        "Title": "Metrix",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(33831)}}",
+        "p2pPort": "{{ p2pPort|default(33830)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "50",
+        "ScriptPrefix": "85",
+        "SecretPrefix": "153",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "678000000",
+        "BlockTime": "90",
+        "TxVersion": "2",
+        "FeePerByte": "1500000",
+        "Confirmations": "0",
+        "TxWithTimeField": "false",
+        "LockCoinsSupported": "false",
+        "versions": {
+            "4.2.0.1": {
+                "legacy": true,
+                "xbridge_conf": "Metrix--v4.2.0.1.conf",
+                "wallet_conf": "Metrix--v4.2.0.1.conf",
+                "txindex": "1"
+            }
+        }
+    }
+}

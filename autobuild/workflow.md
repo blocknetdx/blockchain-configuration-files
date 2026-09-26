@@ -46,11 +46,8 @@ to identify coins for which there are newer versions available than we currently
 * within your local repo/tools directory:
 ```
   mark@x230:~/src/blockdx-configs/tools$ python3 check-versions.py
-  ABS Version inconsistency. Old: v1.0.0. New: v1.0.0b
-  AEX Version inconsistency. Old: v2.2. New: v2.2.1
-  AUS Version inconsistency. Old: v0.17.4.1. New: v1.17.1
   ...
-  XZC Version inconsistency. Old: v0.14.0.2. New: v0.14.9.2
+  FIRO Version inconsistency. Old: v0.14.0.2. New: v0.14.9.2
 ```
 
 **Output:**
@@ -110,9 +107,8 @@ within your local repo/autobuild/utils directory, for example:
 ```
 mark@x230:~/src/blockdx-configs$ cd autobuild/utils
 mark@x230:~/src/blockdx-configs/autobuild/utils$ python3 create-j2-confs.py
-ABET,ABS,AEX,AGM,APR,ATB,AUS,BAD,BCD,BCH,BCZ,BIT,BITG,BLAST,BLOCK,BSD,BTC,BTDX,BTG,BTX,BZX,CARE,CDZC,CHC,CHI,CHN,CIV,CNMC,COLX,CRAVE,D,DASH,DGB,DIVI,DMD,DOGE,DOGEC,DSR,DVT,DYN,ECA,EMC,EMC2,ENT,FAIR,FGC,FJC,FLO,GALI,GBX,GEEK,GIN,GLC,GMCN,GXX,HASH,HATCH,HLM,HTML,INN,IOP,IXC,JEW,JIYOX,KLKS,KREDS,KYDC,KZC,LBC,LTC,LUX,LYNX,MAC,MLM,MNP,MONA,MRX,MUE,N8V,NIX,NMC,NOR,NORT,NYEX,NYX,ODIN,OHMC,OPCX,ORE,PAC,PART,PHL,PHR,PIVX,POLIS,PURA,QBIC,QTUM,RAP,REEX,RPD,RVN,SCC,SCN,SCRIBE,SEND,SEQ,SIB,SPK,STAK,SUB1X,SWIFT,SYS,TRB,TRC,UFO,UNO,VIA,VITAE,VIVO,VSX,VTC,WAGE,WGR,XC,XMCC,XMY,XN,XP,XVG,XZC,ZNZ
-mark@x230:~/src/blockdx-configs/autobuild/utils$ python3 create-j2-confs.py --coins SYS,MUE
-SYS,MUE
+ AGM,BCH,BLOCK,BTC,BTX,CDZC,CNMC,COLX,DASH,DGB,DIVI,DOGE,DOGEC,EMC,FJC,GLC,IOP,IXC,LBC,LTC,LUX,LYNX,MONA,MRX,NMC,PART,PIVX,POLIS,QTUM,RVN,SCC,SPK,SYS,TRC,UFO,UNO,VIA,VIVO,VTC,WAGE,XMY,XVG,FIRO
+mark@x230:~/src/blockdx-configs/autobuild/utils$ python3 create-j2-confs.py --coins SYS
 ```
 
 **Output:**

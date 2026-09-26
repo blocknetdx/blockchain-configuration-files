@@ -18,8 +18,16 @@ def get_wallet_conf(path):
     wallet_conf_parser = ConfigParser()
     with open(path) as wallet_stream:
         wallet_conf_parser.read_string("[top]\n" + wallet_stream.read())
-         
-    return dict(wallet_conf_parser.items('top'))
+
+    wallet_conf_data = dict(wallet_conf_parser.items('top'))
+    # testnet confs keep port/rpcport (and optionally other overrides) in the
+    # [test] section (standard SelectConfigNetwork behavior); surface those so
+    # the rpcPort/p2pPort defaults resolve for testnet coins
+    if 'testnet' in wallet_conf_data and wallet_conf_parser.has_section('test'):
+        for key, value in wallet_conf_parser.items('test'):
+            wallet_conf_data.setdefault(key, value)
+
+    return wallet_conf_data
 
 def get_xbridge_conf(path, ticker):
     xbridge_conf_parser = ConfigParser()
@@ -89,6 +97,16 @@ with open('../../manifest-latest.json') as json_file:
             template_data['FeePerByte'] = xbridge_conf_data['feeperbyte']
         if 'confirmations' in xbridge_conf_data:
             template_data['Confirmations'] = xbridge_conf_data['confirmations']
+        if 'txwithtimefield' in xbridge_conf_data:
+            template_data['TxWithTimeField'] = xbridge_conf_data['txwithtimefield']
+        if 'lockcoinssupported' in xbridge_conf_data:
+            template_data['LockCoinsSupported'] = xbridge_conf_data['lockcoinssupported']
+        if 'cashaddrprefix' in xbridge_conf_data:
+            template_data['CashAddrPrefix'] = xbridge_conf_data['cashaddrprefix']
+        if 'contenttype' in xbridge_conf_data:
+            template_data['ContentType'] = xbridge_conf_data['contenttype']
+        if 'jsonversion' in xbridge_conf_data:
+            template_data['JSONVersion'] = xbridge_conf_data['jsonversion']
         
         coin_base_j2_data_versions = {}
         for chain in chains:
@@ -98,13 +116,22 @@ with open('../../manifest-latest.json') as json_file:
             # get first of versions list of chain 
             # version = chain['versions'][0]
             for version in chain['versions']:
-                coin_base_j2_data_versions[version] = {
+                version_data = {
                     'legacy': 'addresstype' in wallet_conf_data,
-                    'deprecatedrpc': 'deprecatedrpc' in wallet_conf_data,
                     'xbridge_conf': chain['xbridge_conf'],
-                    'wallet_conf': chain['wallet_conf'],
-                    'GetNewKeySupported': 'GetNewKeySupported' in xbridge_conf_data
+                    'wallet_conf': chain['wallet_conf']
                 }
+                if 'deprecatedrpc' in wallet_conf_data:
+                    version_data['deprecatedrpc'] = wallet_conf_data['deprecatedrpc']
+                if 'testnet' in wallet_conf_data:
+                    version_data['testnet'] = True
+                for wallet_key in ('txindex', 'debug', 'enableaccounts', 'staking',
+                                   'blocksonly', 'walletbroadcast', 'prune', 'daemon'):
+                    if wallet_key in wallet_conf_data:
+                        version_data[wallet_key] = wallet_conf_data[wallet_key]
+                if 'rpcserialversion' in wallet_conf_data:
+                    version_data['rpcserialversion'] = int(wallet_conf_data['rpcserialversion'])
+                coin_base_j2_data_versions[version] = version_data
 
         template_data['versions'] = coin_base_j2_data_versions
 

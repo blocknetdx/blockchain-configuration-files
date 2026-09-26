@@ -1,0 +1,39 @@
+{
+    "FIRO": {
+        "Title": "Firo",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8888)}}",
+        "p2pPort": "{{ p2pPort|default(8168)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "82",
+        "ScriptPrefix": "7",
+        "SecretPrefix": "210",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "678",
+        "BlockTime": "150",
+        "TxVersion": "1",
+        "FeePerByte": "2",
+        "Confirmations": "0",
+        "versions": {
+            "v0.14.18.0": {
+                "legacy": false,
+                "xbridge_conf": "firo--v0.14.18.0.conf",
+                "wallet_conf": "firo--v0.14.18.0.conf",
+                "txindex": "1"
+            },
+            "v0.14.18.1": {
+                "legacy": false,
+                "xbridge_conf": "firo--v0.14.18.0.conf",
+                "wallet_conf": "firo--v0.14.18.0.conf",
+                "txindex": "1"
+            }
+        }
+    }
+}

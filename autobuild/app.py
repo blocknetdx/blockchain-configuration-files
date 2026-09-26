@@ -66,13 +66,23 @@ for chain in data:
         # get version data
         coin_title, p, this_coin_version = chain['ver_id'].partition('--')
         print(this_coin_version)
-        #print(json.dumps(merged_dict['versions'], indent=2))
-        try:
-            version_data = merged_dict['versions'][this_coin_version]
-        except Exception as e:
+        # base.j2 `versions` is keyed by buildable git tags (create-j2-confs.py),
+        # while `ver_id` is the conf-pair identity and may stay at an old version
+        # when confs are shared across upgrades (BTX/AGM/DASH pattern). Resolve by
+        # conf pair as fallback — legacy/deprecatedrpc flags are conf-pair props.
+        version_data = merged_dict['versions'].get(this_coin_version)
+        if version_data is None:
+            for vd in merged_dict['versions'].values():
+                if (vd.get('wallet_conf') == chain['wallet_conf'] and
+                        vd.get('xbridge_conf') == chain['xbridge_conf']):
+                    version_data = vd
+                    break
+        if version_data is None:
             print('error, check manifest: {}'.format(chain['ticker']))
             print(merged_dict['versions'])
-            raise Exception
+            raise Exception(
+                'no version entry for ver_id {} (conf pair {})'.format(
+                    this_coin_version, chain['wallet_conf']))
         # load xb j2
         print(version_data)
         custom_template_fname = 'templates/xbridge.conf.j2'

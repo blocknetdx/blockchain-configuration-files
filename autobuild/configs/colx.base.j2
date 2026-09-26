@@ -3,7 +3,7 @@
         "Title": "ColossusXT",
         "Address": "",
         "Ip": "127.0.0.1",
-        "rpcPort": "{{ rpcPort|default(51573)}}",
+        "rpcPort": "{{ rpcPort|default(51575)}}",
         "p2pPort": "{{ p2pPort|default(51572)}}",
         "Username": "{{ rpcusername }}",
         "Password": "{{ rpcpassword }}",
@@ -16,18 +16,18 @@
         "CreateTxMethod": "BTC",
         "GetNewKeySupported": "true",
         "ImportWithNoScanSupported": "true",
-        "MinTxFee": "200000000",
+        "MinTxFee": "67800000",
         "BlockTime": "60",
         "TxVersion": "1",
-        "FeePerByte": "400000",
+        "FeePerByte": "150000",
         "Confirmations": "0",
         "versions": {
-            "v1.2.3": {
+            "v1.2.5": {
                 "legacy": false,
-                "deprecatedrpc": false,
-                "xbridge_conf": "colossusxt--v1.2.1.conf",
-                "wallet_conf": "colossusxt--v1.2.1.conf",
-                "GetNewKeySupported": false
+                "xbridge_conf": "colossusxt--v1.2.5.conf",
+                "wallet_conf": "colossusxt--v1.2.5.conf",
+                "enableaccounts": "1",
+                "staking": "0"
             }
         }
     }

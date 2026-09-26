@@ -1,0 +1,35 @@
+{
+    "GLC": {
+        "Title": "Goldcoin",
+        "Address": "",
+        "Ip": "127.0.0.1",
+        "rpcPort": "{{ rpcPort|default(8122)}}",
+        "p2pPort": "{{ p2pPort|default(8121)}}",
+        "Username": "{{ rpcusername }}",
+        "Password": "{{ rpcpassword }}",
+        "AddressPrefix": "32",
+        "ScriptPrefix": "50",
+        "SecretPrefix": "160",
+        "COIN": "100000000",
+        "MinimumAmount": "0",
+        "DustAmount": "0",
+        "CreateTxMethod": "BTC",
+        "GetNewKeySupported": "true",
+        "ImportWithNoScanSupported": "true",
+        "MinTxFee": "67800",
+        "BlockTime": "120",
+        "TxVersion": "1",
+        "FeePerByte": "150",
+        "Confirmations": "0",
+        "TxWithTimeField": "false",
+        "LockCoinsSupported": "false",
+        "versions": {
+            "v0.15.0": {
+                "legacy": true,
+                "xbridge_conf": "goldcoin--v0.15.0.conf",
+                "wallet_conf": "goldcoin--v0.15.0.conf",
+                "txindex": "1"
+            }
+        }
+    }
+}

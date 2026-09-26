@@ -3,8 +3,8 @@
         "Title": "DogeCash",
         "Address": "",
         "Ip": "127.0.0.1",
-        "rpcPort": "{{ rpcPort|default(6783)}}",
-        "p2pPort": "{{ p2pPort|default(6740)}}",
+        "rpcPort": "{{ rpcPort|default(51576)}}",
+        "p2pPort": "{{ p2pPort|default(56740)}}",
         "Username": "{{ rpcusername }}",
         "Password": "{{ rpcpassword }}",
         "AddressPrefix": "30",
@@ -16,18 +16,17 @@
         "CreateTxMethod": "BTC",
         "GetNewKeySupported": "true",
         "ImportWithNoScanSupported": "true",
-        "MinTxFee": "2500",
+        "MinTxFee": "6780",
         "BlockTime": "60",
         "TxVersion": "1",
-        "FeePerByte": "25",
+        "FeePerByte": "15",
         "Confirmations": "0",
         "versions": {
-            "5.4.4": {
+            "5.5.1": {
                 "legacy": false,
-                "deprecatedrpc": false,
-                "xbridge_conf": "dogecash--5.4.4.conf",
-                "wallet_conf": "dogecash--5.4.4.conf",
-                "GetNewKeySupported": false
+                "xbridge_conf": "dogecash--5.5.1.conf",
+                "wallet_conf": "dogecash--5.5.1.conf",
+                "txindex": "1"
             }
         }
     }

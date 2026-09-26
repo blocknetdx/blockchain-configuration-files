@@ -3,7 +3,7 @@
         "Title": "VIVO",
         "Address": "",
         "Ip": "127.0.0.1",
-        "rpcPort": "{{ rpcPort|default(12846)}}",
+        "rpcPort": "{{ rpcPort|default(10098)}}",
         "p2pPort": "{{ p2pPort|default(12845)}}",
         "Username": "{{ rpcusername }}",
         "Password": "{{ rpcpassword }}",
@@ -16,18 +16,17 @@
         "CreateTxMethod": "BTC",
         "GetNewKeySupported": "true",
         "ImportWithNoScanSupported": "true",
-        "MinTxFee": "10000",
+        "MinTxFee": "6780",
         "BlockTime": "120",
         "TxVersion": "1",
-        "FeePerByte": "20",
+        "FeePerByte": "15",
         "Confirmations": "0",
         "versions": {
             "v0.12.1.17": {
                 "legacy": false,
-                "deprecatedrpc": false,
-                "xbridge_conf": "vivo--v0.12.1.8.conf",
-                "wallet_conf": "vivo--v0.12.1.8.conf",
-                "GetNewKeySupported": false
+                "xbridge_conf": "vivo--v0.12.1.17.conf",
+                "wallet_conf": "vivo--v0.12.1.17.conf",
+                "txindex": "1"
             }
         }
     }

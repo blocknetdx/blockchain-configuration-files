@@ -3,12 +3,12 @@
         "Title": "Lynx",
         "Address": "",
         "Ip": "127.0.0.1",
-        "rpcPort": "{{ rpcPort|default(22567)}}",
+        "rpcPort": "{{ rpcPort|default(8432)}}",
         "p2pPort": "{{ p2pPort|default(22566)}}",
         "Username": "{{ rpcusername }}",
         "Password": "{{ rpcpassword }}",
         "AddressPrefix": "45",
-        "ScriptPrefix": "50",
+        "ScriptPrefix": "22",
         "SecretPrefix": "173",
         "COIN": "100000000",
         "MinimumAmount": "0",
@@ -16,18 +16,18 @@
         "CreateTxMethod": "BTC",
         "GetNewKeySupported": "true",
         "ImportWithNoScanSupported": "true",
-        "MinTxFee": "100000000",
-        "BlockTime": "30",
+        "MinTxFee": "678",
+        "BlockTime": "300",
         "TxVersion": "1",
-        "FeePerByte": "200000",
+        "FeePerByte": "2",
         "Confirmations": "0",
         "versions": {
-            "v0.16.3.9": {
-                "legacy": false,
-                "deprecatedrpc": false,
-                "xbridge_conf": "lynx--v0.15.1.0.conf",
-                "wallet_conf": "lynx--v0.15.1.0.conf",
-                "GetNewKeySupported": false
+            "v28.0.0": {
+                "legacy": true,
+                "xbridge_conf": "lynx--v28.0.0.conf",
+                "wallet_conf": "lynx--v28.0.0.conf",
+                "txindex": "1",
+                "rpcserialversion": 1
             }
         }
     }

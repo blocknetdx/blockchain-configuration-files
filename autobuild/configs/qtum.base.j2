@@ -16,18 +16,23 @@
         "CreateTxMethod": "BTC",
         "GetNewKeySupported": "false",
         "ImportWithNoScanSupported": "true",
-        "MinTxFee": "625000",
-        "BlockTime": "150",
+        "MinTxFee": "271200",
+        "BlockTime": "32",
         "TxVersion": "1",
-        "FeePerByte": "1250",
+        "FeePerByte": "600",
         "Confirmations": "0",
         "versions": {
-            "mainnet-ignition-v0.19.1": {
+            "v29.1": {
                 "legacy": false,
-                "deprecatedrpc": true,
-                "xbridge_conf": "qtum--mainnet-ignition-v0.15.2.conf",
-                "wallet_conf": "qtum--mainnet-ignition-v0.17.1.conf",
-                "GetNewKeySupported": false
+                "xbridge_conf": "qtum--v29.1.conf",
+                "wallet_conf": "qtum--v29.1.conf",
+                "txindex": "1"
+            },
+            "v30.2": {
+                "legacy": false,
+                "xbridge_conf": "qtum--v29.1.conf",
+                "wallet_conf": "qtum--v29.1.conf",
+                "txindex": "1"
             }
         }
     }

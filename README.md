@@ -361,7 +361,7 @@ ExchangeWallets=
 
 ```
 [MAIN]
-ExchangeWallets=BTC,SYS,BLOCK,DGB,QTUM,DASH,XZC,BITG,LTC,DOGE,PIVX,XSN,MONA,VIA,LBC
+ExchangeWallets=BTC,SYS,BLOCK,DGB,QTUM,DASH,FIRO,LTC,DOGE,PIVX,XSN,MONA,VIA,LBC
 ```
 
 After the heading, the contents of the individual XBridge configuration files of the blockchains listed under `ExchangeWallets` are listed. To find the proper XBridge settings for each blockchain, first find the version group in the `manifest` file for each blockchain that has the wallet version to be used listed in the `"versions"` array (if a version is not listed then it is not yet supported). Copy the contents of each file and paste it into the `xbridge.conf` file. For an example of what a complete and properly formatted `xbridge.conf` file looks like, take a look at the `example-xbridge.conf` file in this repo.
